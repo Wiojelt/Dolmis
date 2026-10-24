@@ -1,0 +1,6362 @@
+[
+  {
+    "stationId": "1",
+    "name": "D0001-Ziraat Fakültesi",
+    "latitude": 37.89252251797005,
+    "longitude": 40.271946760581166
+  },
+  {
+    "stationId": "2",
+    "name": "D0002-FAKÜLTE SON DURAK",
+    "latitude": 37.895117,
+    "longitude": 40.275781
+  },
+  {
+    "stationId": "3",
+    "name": "D0003-MEZARLIK",
+    "latitude": 37.897703,
+    "longitude": 40.276203
+  },
+  {
+    "stationId": "4",
+    "name": "D0004-VETERİNER FAKÜLTESİ",
+    "latitude": 37.899033,
+    "longitude": 40.276145
+  },
+  {
+    "stationId": "5",
+    "name": "D0005-TEKNİK BİLİMLER MYO",
+    "latitude": 37.900918,
+    "longitude": 40.276104
+  },
+  {
+    "stationId": "6",
+    "name": "D0006-KONSERVATUAR",
+    "latitude": 37.9025,
+    "longitude": 40.2763
+  },
+  {
+    "stationId": "7",
+    "name": "D0007-İKTİSADİ VE İDARİ BİLİMLER",
+    "latitude": 37.9054,
+    "longitude": 40.2761
+  },
+  {
+    "stationId": "8",
+    "name": "D0008-HUKUK FAKÜLTESİ",
+    "latitude": 37.9092,
+    "longitude": 40.2758
+  },
+  {
+    "stationId": "9",
+    "name": "D0009-BİLİM VE TEKNOLOJİ MERKEZİ",
+    "latitude": 37.9129,
+    "longitude": 40.2752
+  },
+  {
+    "stationId": "10",
+    "name": "D0010-MÜHENDİSLİK FAKÜLTESİ",
+    "latitude": 37.9167,
+    "longitude": 40.2746
+  },
+  {
+    "stationId": "11",
+    "name": "D0011-KONUKEVİ 2",
+    "latitude": 37.9193,
+    "longitude": 40.2728
+  },
+  {
+    "stationId": "12",
+    "name": "D0012-FAKÜLTE ANA DURAK",
+    "latitude": 37.9211,
+    "longitude": 40.2677
+  },
+  {
+    "stationId": "13",
+    "name": "D0013-KALP HASTAHANESİ",
+    "latitude": 37.9224,
+    "longitude": 40.2565
+  },
+  {
+    "stationId": "14",
+    "name": "D0014-ARITMA TESİSİ",
+    "latitude": 37.921,
+    "longitude": 40.2526
+  },
+  {
+    "stationId": "15",
+    "name": "D0015-FİSKAYA BÜFE",
+    "latitude": 37.9194,
+    "longitude": 40.2432
+  },
+  {
+    "stationId": "16",
+    "name": "D0016-FİSKAYA CEP",
+    "latitude": 37.9196,
+    "longitude": 40.2418
+  },
+  {
+    "stationId": "17",
+    "name": "D0017-DAĞKAPI İMAM HATİP ORTAOKULU",
+    "latitude": 37.9169,
+    "longitude": 40.2385
+  },
+  {
+    "stationId": "18",
+    "name": "D0018-GALERİA",
+    "latitude": 37.9179,
+    "longitude": 40.2339
+  },
+  {
+    "stationId": "19",
+    "name": "D0019-PARK YILDIZ",
+    "latitude": 37.9207,
+    "longitude": 40.229
+  },
+  {
+    "stationId": "20",
+    "name": "D0020-ASKERLİK ŞUBESİ",
+    "latitude": 37.924,
+    "longitude": 40.2199
+  },
+  {
+    "stationId": "21",
+    "name": "D0021-OFİS GEVRAN",
+    "latitude": 37.92203579402086,
+    "longitude": 40.21932793017562
+  },
+  {
+    "stationId": "22",
+    "name": "D0022-TOPRAK MAHSULLERİ OFİSİ",
+    "latitude": 37.9184,
+    "longitude": 40.2184
+  },
+  {
+    "stationId": "23",
+    "name": "D0023-AYHAN DURAĞI",
+    "latitude": 37.916144,
+    "longitude": 40.217778
+  },
+  {
+    "stationId": "24",
+    "name": "D0024-İSTASYON",
+    "latitude": 37.9129,
+    "longitude": 40.2169
+  },
+  {
+    "stationId": "25",
+    "name": "D0025-DEMİROK TESİSLERİ",
+    "latitude": 37.9096,
+    "longitude": 40.2161
+  },
+  {
+    "stationId": "26",
+    "name": "D0026-ALİPINAR KÖPRÜSÜ",
+    "latitude": 37.906689,
+    "longitude": 40.214622
+  },
+  {
+    "stationId": "27",
+    "name": "D0027-ALİPINAR MEZARLIĞI",
+    "latitude": 37.908534,
+    "longitude": 40.211794
+  },
+  {
+    "stationId": "28",
+    "name": "D0028-ALAY",
+    "latitude": 37.9094,
+    "longitude": 40.2097
+  },
+  {
+    "stationId": "29",
+    "name": "D0029-PAZAR DURAĞI",
+    "latitude": 37.9127,
+    "longitude": 40.2084
+  },
+  {
+    "stationId": "30",
+    "name": "D0030-ÜSTGEÇİT",
+    "latitude": 37.914153,
+    "longitude": 40.207216
+  },
+  {
+    "stationId": "31",
+    "name": "D0031-KURUÇEŞME",
+    "latitude": 37.9159,
+    "longitude": 40.2048
+  },
+  {
+    "stationId": "32",
+    "name": "D0032-BURHANETTİN YILDIZ SİTESİ",
+    "latitude": 37.9163,
+    "longitude": 40.2004
+  },
+  {
+    "stationId": "33",
+    "name": "D0033-VEYSEL KARANİ CAMİİ",
+    "latitude": 37.9155,
+    "longitude": 40.1974
+  },
+  {
+    "stationId": "34",
+    "name": "D0034-YENİKÖY MEZARLIĞI İDARİ BİNA",
+    "latitude": 37.9166,
+    "longitude": 40.1936
+  },
+  {
+    "stationId": "35",
+    "name": "D0035-YENİKÖY MEZARLIĞI ARADURAK",
+    "latitude": 37.917,
+    "longitude": 40.1904
+  },
+  {
+    "stationId": "36",
+    "name": "D0036-YENİKÖY İLAÇLAMA",
+    "latitude": 37.9169,
+    "longitude": 40.187
+  },
+  {
+    "stationId": "37",
+    "name": "D0037-SELENİUM SİTESİ",
+    "latitude": 37.9151,
+    "longitude": 40.1832
+  },
+  {
+    "stationId": "38",
+    "name": "D0038-ANZEL SİTESİ",
+    "latitude": 37.913183,
+    "longitude": 40.179774
+  },
+  {
+    "stationId": "39",
+    "name": "D0039-DİCLE FIRAT SİTESİ",
+    "latitude": 37.9128,
+    "longitude": 40.176
+  },
+  {
+    "stationId": "40",
+    "name": "D0040-VESTEL",
+    "latitude": 37.9133,
+    "longitude": 40.1706
+  },
+  {
+    "stationId": "41",
+    "name": "D0041-ÖZAY SİTESİ",
+    "latitude": 37.9143,
+    "longitude": 40.1671
+  },
+  {
+    "stationId": "42",
+    "name": "D0042-HALI SAHA",
+    "latitude": 37.9152,
+    "longitude": 40.1638
+  },
+  {
+    "stationId": "43",
+    "name": "D0043-KAMIŞLO BULVARI ARA DURAK",
+    "latitude": 37.9163,
+    "longitude": 40.1598
+  },
+  {
+    "stationId": "44",
+    "name": "D0044-ARAÇ EMİSYON",
+    "latitude": 37.9173,
+    "longitude": 40.156
+  },
+  {
+    "stationId": "45",
+    "name": "D0045-ARAM TİGRAN BULVARI",
+    "latitude": 37.9174,
+    "longitude": 40.152
+  },
+  {
+    "stationId": "46",
+    "name": "D0046-ARAM TİGRAN HAMRAVAT EVLERİ",
+    "latitude": 37.9147,
+    "longitude": 40.1506
+  },
+  {
+    "stationId": "47",
+    "name": "D0047-ARAM TİGRAN ARÇELİK",
+    "latitude": 37.9111,
+    "longitude": 40.1489
+  },
+  {
+    "stationId": "48",
+    "name": "D0048-ARAM TİGRAN SON DURAK",
+    "latitude": 37.9069,
+    "longitude": 40.1468
+  },
+  {
+    "stationId": "49",
+    "name": "D0049-AYDIN SİTESİ",
+    "latitude": 37.9067,
+    "longitude": 40.1453
+  },
+  {
+    "stationId": "50",
+    "name": "D0050-DİYARKENT SİTESİ",
+    "latitude": 37.908,
+    "longitude": 40.142
+  },
+  {
+    "stationId": "51",
+    "name": "D0051-HESKİF HAMRAVAT EVLERİ",
+    "latitude": 37.9091,
+    "longitude": 40.1401
+  },
+  {
+    "stationId": "52",
+    "name": "D0052-CAMİİ",
+    "latitude": 37.911,
+    "longitude": 40.1373
+  },
+  {
+    "stationId": "53",
+    "name": "D0053-ECZANE",
+    "latitude": 37.9145,
+    "longitude": 40.1375
+  },
+  {
+    "stationId": "54",
+    "name": "D0054-ELVANKENT",
+    "latitude": 37.9173,
+    "longitude": 40.1381
+  },
+  {
+    "stationId": "55",
+    "name": "D0055-OTOGAR",
+    "latitude": 37.918092573371126,
+    "longitude": 40.13501366429215
+  },
+  {
+    "stationId": "56",
+    "name": "D0056-MARKET",
+    "latitude": 37.9174519472179,
+    "longitude": 40.13259305352891
+  },
+  {
+    "stationId": "57",
+    "name": "D0057-TEPEŞEHİR",
+    "latitude": 37.916862441085215,
+    "longitude": 40.13062830133908
+  },
+  {
+    "stationId": "58",
+    "name": "D0058-BELLONA",
+    "latitude": 37.916,
+    "longitude": 40.1266
+  },
+  {
+    "stationId": "59",
+    "name": "D0059-PAPATYA EVLERİ",
+    "latitude": 37.9154,
+    "longitude": 40.1243
+  },
+  {
+    "stationId": "60",
+    "name": "D0060-ÜSTGEÇİT",
+    "latitude": 37.9147,
+    "longitude": 40.1218
+  },
+  {
+    "stationId": "61",
+    "name": "D0061-ANKARA SİTESİ",
+    "latitude": 37.9138,
+    "longitude": 40.1177
+  },
+  {
+    "stationId": "62",
+    "name": "D0062-OTO YIKAMA",
+    "latitude": 37.9136,
+    "longitude": 40.1146
+  },
+  {
+    "stationId": "63",
+    "name": "D0063-500 EVLER AKTARMA MERKEZİ",
+    "latitude": 37.9135,
+    "longitude": 40.1099
+  },
+  {
+    "stationId": "64",
+    "name": "D0064-ÜSTGEÇİT",
+    "latitude": 37.912981,
+    "longitude": 40.110827
+  },
+  {
+    "stationId": "65",
+    "name": "D0065-OTO GALERİ",
+    "latitude": 37.9133,
+    "longitude": 40.1151
+  },
+  {
+    "stationId": "66",
+    "name": "D0066-HURDACI",
+    "latitude": 37.9136,
+    "longitude": 40.1185
+  },
+  {
+    "stationId": "67",
+    "name": "D0067-ÜSTGEÇİT",
+    "latitude": 37.9143,
+    "longitude": 40.1214
+  },
+  {
+    "stationId": "68",
+    "name": "D0068-DÜĞÜN SALONU",
+    "latitude": 37.915,
+    "longitude": 40.1244
+  },
+  {
+    "stationId": "69",
+    "name": "D0069-HALİDİYE CAMİİ",
+    "latitude": 37.9164,
+    "longitude": 40.1296
+  },
+  {
+    "stationId": "70",
+    "name": "D0070-TARIM SANAYİİ",
+    "latitude": 37.9172,
+    "longitude": 40.1333
+  },
+  {
+    "stationId": "71",
+    "name": "D0071-DÜĞÜN SALONLARI",
+    "latitude": 37.91806782555213,
+    "longitude": 40.136431252813345
+  },
+  {
+    "stationId": "72",
+    "name": "D0072-ECZANE",
+    "latitude": 37.9174,
+    "longitude": 40.1378
+  },
+  {
+    "stationId": "73",
+    "name": "D0073-SAĞLIK MERKEZİ",
+    "latitude": 37.9142,
+    "longitude": 40.1371
+  },
+  {
+    "stationId": "74",
+    "name": "D0074-CAMİİ",
+    "latitude": 37.9112,
+    "longitude": 40.1365
+  },
+  {
+    "stationId": "75",
+    "name": "D0075-HALI SAHA",
+    "latitude": 37.9096,
+    "longitude": 40.1389
+  },
+  {
+    "stationId": "76",
+    "name": "D0076-DİYARKENT SİTESİ",
+    "latitude": 37.9079,
+    "longitude": 40.142
+  },
+  {
+    "stationId": "77",
+    "name": "D0077-MANAV",
+    "latitude": 37.9071,
+    "longitude": 40.1448
+  },
+  {
+    "stationId": "78",
+    "name": "D0078-MARKA PARK EVLERİ",
+    "latitude": 37.9073,
+    "longitude": 40.1473
+  },
+  {
+    "stationId": "79",
+    "name": "D0079-HZ.EBUBEKİR CAMİİ",
+    "latitude": 37.9098,
+    "longitude": 40.1486
+  },
+  {
+    "stationId": "80",
+    "name": "D0080-PARK",
+    "latitude": 37.9141,
+    "longitude": 40.1507
+  },
+  {
+    "stationId": "81",
+    "name": "D0081-FENNİ MUAYENE KAVŞAĞI",
+    "latitude": 37.9167,
+    "longitude": 40.1519
+  },
+  {
+    "stationId": "82",
+    "name": "D0082-ARAÇ EMİSYON",
+    "latitude": 37.9171,
+    "longitude": 40.1556
+  },
+  {
+    "stationId": "83",
+    "name": "D0083-KAMIŞLO ARA DURAK",
+    "latitude": 37.9161,
+    "longitude": 40.1592
+  },
+  {
+    "stationId": "84",
+    "name": "D0084-NEWROZ PARK",
+    "latitude": 37.9149,
+    "longitude": 40.1634
+  },
+  {
+    "stationId": "85",
+    "name": "D0085-ECZANE",
+    "latitude": 37.9139,
+    "longitude": 40.1672
+  },
+  {
+    "stationId": "86",
+    "name": "D0086-VESTEL",
+    "latitude": 37.913,
+    "longitude": 40.1705
+  },
+  {
+    "stationId": "87",
+    "name": "D0087-TRAFİK EĞİTİM PARKI",
+    "latitude": 37.912519,
+    "longitude": 40.175907
+  },
+  {
+    "stationId": "88",
+    "name": "D0088-ÇARKANAT SİTESİ",
+    "latitude": 37.91334,
+    "longitude": 40.181344
+  },
+  {
+    "stationId": "89",
+    "name": "D0089-MARKET",
+    "latitude": 37.915085,
+    "longitude": 40.183636
+  },
+  {
+    "stationId": "90",
+    "name": "D0090-YENİKÖY İLAÇLAMA",
+    "latitude": 37.916732,
+    "longitude": 40.186988
+  },
+  {
+    "stationId": "91",
+    "name": "D0091-YENİKÖY ARA DURAK",
+    "latitude": 37.9168,
+    "longitude": 40.1909
+  },
+  {
+    "stationId": "92",
+    "name": "D0092-YENİKÖY İDARİ BİNA",
+    "latitude": 37.916336,
+    "longitude": 40.193756
+  },
+  {
+    "stationId": "93",
+    "name": "D0093-KURUÇEŞME ARA DURAK",
+    "latitude": 37.915477,
+    "longitude": 40.198009
+  },
+  {
+    "stationId": "94",
+    "name": "D0094-CANSU SİTESİ",
+    "latitude": 37.915919,
+    "longitude": 40.200175
+  },
+  {
+    "stationId": "95",
+    "name": "D0095-KURUÇEŞME",
+    "latitude": 37.916073,
+    "longitude": 40.203985
+  },
+  {
+    "stationId": "96",
+    "name": "D0096-ÜSTGEÇİT",
+    "latitude": 37.914288,
+    "longitude": 40.206588
+  },
+  {
+    "stationId": "97",
+    "name": "D0097-PAZAR DURAĞI",
+    "latitude": 37.912392,
+    "longitude": 40.208269
+  },
+  {
+    "stationId": "98",
+    "name": "D0098-ALİPINAR İLKOKULU",
+    "latitude": 37.908851,
+    "longitude": 40.210836
+  },
+  {
+    "stationId": "99",
+    "name": "D0099-ALİPINAR KÖPRÜSÜ",
+    "latitude": 37.906689,
+    "longitude": 40.213264
+  },
+  {
+    "stationId": "100",
+    "name": "D0100-YENİŞEHİR İMAM HATİP",
+    "latitude": 37.907363,
+    "longitude": 40.215852
+  },
+  {
+    "stationId": "101",
+    "name": "D0101-SÜMERPARK",
+    "latitude": 37.910115,
+    "longitude": 40.216498
+  },
+  {
+    "stationId": "102",
+    "name": "D0102-İSTASYON",
+    "latitude": 37.913768,
+    "longitude": 40.217532
+  },
+  {
+    "stationId": "103",
+    "name": "D0103-AYHAN DURAĞI",
+    "latitude": 37.916052,
+    "longitude": 40.218022
+  },
+  {
+    "stationId": "104",
+    "name": "D0104-TOPRAK MAHSULLERİ OFİSİ",
+    "latitude": 37.918338,
+    "longitude": 40.218623
+  },
+  {
+    "stationId": "105",
+    "name": "D0105-OFİS GEVRAN",
+    "latitude": 37.92084,
+    "longitude": 40.219221
+  },
+  {
+    "stationId": "106",
+    "name": "D0106-ASKERLİK  ŞUBESİ",
+    "latitude": 37.924476,
+    "longitude": 40.22019
+  },
+  {
+    "stationId": "107",
+    "name": "D0107-OFİS ASKERİ LOJMANLAR",
+    "latitude": 37.925197,
+    "longitude": 40.221403
+  },
+  {
+    "stationId": "108",
+    "name": "D0108-İÇ TEDARİK BAŞKANLIĞI",
+    "latitude": 37.921991,
+    "longitude": 40.225795
+  },
+  {
+    "stationId": "109",
+    "name": "D0109-ADLİYE",
+    "latitude": 37.919809,
+    "longitude": 40.23015
+  },
+  {
+    "stationId": "110",
+    "name": "D0110-HALK EĞİTİM",
+    "latitude": 37.9176,
+    "longitude": 40.234
+  },
+  {
+    "stationId": "111",
+    "name": "D0111-DAĞKAPI",
+    "latitude": 37.9166,
+    "longitude": 40.2375
+  },
+  {
+    "stationId": "112",
+    "name": "D0112-FİSKAYA1",
+    "latitude": 37.91938543300729,
+    "longitude": 40.241960702099334
+  },
+  {
+    "stationId": "113",
+    "name": "D0113-FİSKAYA KÖPRÜSÜ",
+    "latitude": 37.9192124496289,
+    "longitude": 40.24303543735506
+  },
+  {
+    "stationId": "114",
+    "name": "D0114-ARITMA TESİSİ",
+    "latitude": 37.92092681006379,
+    "longitude": 40.25274535859894
+  },
+  {
+    "stationId": "115",
+    "name": "D0115-ONKOLOJİ",
+    "latitude": 37.922431,
+    "longitude": 40.257366
+  },
+  {
+    "stationId": "116",
+    "name": "D0116-FAKÜLTE HASTAHANESİ",
+    "latitude": 37.921,
+    "longitude": 40.2669
+  },
+  {
+    "stationId": "117",
+    "name": "D0117-DİŞ HEKİMLİĞİ",
+    "latitude": 37.9205,
+    "longitude": 40.2686
+  },
+  {
+    "stationId": "118",
+    "name": "D0118-İLAHİYAT",
+    "latitude": 37.9128,
+    "longitude": 40.2749
+  },
+  {
+    "stationId": "119",
+    "name": "D0119-HUKUK FAKÜLTESİ",
+    "latitude": 37.9094,
+    "longitude": 40.2754
+  },
+  {
+    "stationId": "120",
+    "name": "D0120-EĞİTİM FAKÜLTESİ",
+    "latitude": 37.9062,
+    "longitude": 40.2758
+  },
+  {
+    "stationId": "121",
+    "name": "D0121-KONSERVATUAR",
+    "latitude": 37.903078,
+    "longitude": 40.275813
+  },
+  {
+    "stationId": "122",
+    "name": "D0122-TEKNİK BİLİMLER MYO",
+    "latitude": 37.901102,
+    "longitude": 40.275851
+  },
+  {
+    "stationId": "123",
+    "name": "D0123-VETERİNERLİK FAKÜLTESİ",
+    "latitude": 37.899177,
+    "longitude": 40.27588
+  },
+  {
+    "stationId": "124",
+    "name": "D0124-MEZARLIK",
+    "latitude": 37.89771540320819,
+    "longitude": 40.27591420281919
+  },
+  {
+    "stationId": "125",
+    "name": "D00125-BANKALAR",
+    "latitude": 37.9186,
+    "longitude": 40.1385
+  },
+  {
+    "stationId": "126",
+    "name": "D0126-METRO AVM",
+    "latitude": 37.919306,
+    "longitude": 40.141341
+  },
+  {
+    "stationId": "127",
+    "name": "D0127-KARDEŞLİK PARKI",
+    "latitude": 37.920149,
+    "longitude": 40.144878
+  },
+  {
+    "stationId": "128",
+    "name": "D0128-75 CD KAVŞAĞI",
+    "latitude": 37.9217,
+    "longitude": 40.1505
+  },
+  {
+    "stationId": "129",
+    "name": "D0129-SÜLEYMAN BİN HALİD YURDU",
+    "latitude": 37.92255099605693,
+    "longitude": 40.15367742881289
+  },
+  {
+    "stationId": "130",
+    "name": "D0130-DOĞUM HASTAHANESİ",
+    "latitude": 37.92311109539128,
+    "longitude": 40.15594865560795
+  },
+  {
+    "stationId": "131",
+    "name": "D0131-MEMORİAL DİCLE HASTAHANESİ",
+    "latitude": 37.9248,
+    "longitude": 40.1623
+  },
+  {
+    "stationId": "132",
+    "name": "D0132-MERCEDES BAYİİ",
+    "latitude": 37.9261,
+    "longitude": 40.1672
+  },
+  {
+    "stationId": "133",
+    "name": "D0133-CEYLAN AVM",
+    "latitude": 37.9275,
+    "longitude": 40.1727
+  },
+  {
+    "stationId": "134",
+    "name": "D0134-ÜSTGEÇİT",
+    "latitude": 37.9281,
+    "longitude": 40.1753
+  },
+  {
+    "stationId": "135",
+    "name": "D0135-TEDAŞ ÜSTGEÇİDİ",
+    "latitude": 37.9291,
+    "longitude": 40.1786
+  },
+  {
+    "stationId": "136",
+    "name": "D0136-KANTAR KAVŞAĞI",
+    "latitude": 37.929951108503474,
+    "longitude": 40.18197832280878
+  },
+  {
+    "stationId": "137",
+    "name": "D0137-BAĞLAR İTFAİYESİ",
+    "latitude": 37.9309,
+    "longitude": 40.1859
+  },
+  {
+    "stationId": "138",
+    "name": "D0138-ELİF SİTESİ",
+    "latitude": 37.9317,
+    "longitude": 40.1888
+  },
+  {
+    "stationId": "139",
+    "name": "D0139-MEGACENTER AVM",
+    "latitude": 37.9324,
+    "longitude": 40.1916
+  },
+  {
+    "stationId": "140",
+    "name": "D0140-TESİSLER",
+    "latitude": 37.9329,
+    "longitude": 40.1966
+  },
+  {
+    "stationId": "141",
+    "name": "D0141-ZİRAAT BANKASI",
+    "latitude": 37.931,
+    "longitude": 40.2005
+  },
+  {
+    "stationId": "142",
+    "name": "D0142-T.ÖZAL BULV.PARK",
+    "latitude": 37.92981,
+    "longitude": 40.202823
+  },
+  {
+    "stationId": "143",
+    "name": "D0143-BAYRAMOĞLU",
+    "latitude": 37.9293,
+    "longitude": 40.2064
+  },
+  {
+    "stationId": "144",
+    "name": "D0144-BATIKENT KAVŞAĞI",
+    "latitude": 37.927428,
+    "longitude": 40.210917
+  },
+  {
+    "stationId": "145",
+    "name": "D0145-KOŞUYOLU LİSESİ",
+    "latitude": 37.9245,
+    "longitude": 40.2115
+  },
+  {
+    "stationId": "146",
+    "name": "D0146-KOŞUYOLU PARKI",
+    "latitude": 37.9233,
+    "longitude": 40.2134
+  },
+  {
+    "stationId": "147",
+    "name": "D0147-OFİS ALTGEÇİDİ",
+    "latitude": 37.9222,
+    "longitude": 40.2152
+  },
+  {
+    "stationId": "148",
+    "name": "D0148-KOŞUYOLU ORTAOKULU",
+    "latitude": 37.9224,
+    "longitude": 40.215
+  },
+  {
+    "stationId": "149",
+    "name": "D0149-KOŞUYOLU PARKI",
+    "latitude": 37.924034,
+    "longitude": 40.212607
+  },
+  {
+    "stationId": "150",
+    "name": "D0150-TURGUT ÖZAL BULVARI",
+    "latitude": 37.9274,
+    "longitude": 40.2114
+  },
+  {
+    "stationId": "151",
+    "name": "D0151-BAYRAMOĞLU",
+    "latitude": 37.9293,
+    "longitude": 40.2074
+  },
+  {
+    "stationId": "152",
+    "name": "D0152-İMAR VE ŞEHİRCİLİK",
+    "latitude": 37.9299,
+    "longitude": 40.2038
+  },
+  {
+    "stationId": "153",
+    "name": "D0153-ZİRAAT BANKASI",
+    "latitude": 37.9312,
+    "longitude": 40.2006
+  },
+  {
+    "stationId": "154",
+    "name": "D0154-ZİRAAT BANKASI",
+    "latitude": 37.9321,
+    "longitude": 40.1981
+  },
+  {
+    "stationId": "155",
+    "name": "D0155-PETROL OFİSİ",
+    "latitude": 37.9335,
+    "longitude": 40.1943
+  },
+  {
+    "stationId": "156",
+    "name": "D0156-PARKORMAN",
+    "latitude": 37.93329,
+    "longitude": 40.193438
+  },
+  {
+    "stationId": "157",
+    "name": "D0157-URFAYOLU ARA DURAK",
+    "latitude": 37.93164529241365,
+    "longitude": 40.187124141073475
+  },
+  {
+    "stationId": "158",
+    "name": "D0158-ESKİ POLİS LOJMANLARI",
+    "latitude": 37.9312,
+    "longitude": 40.1852
+  },
+  {
+    "stationId": "159",
+    "name": "D0159-GO PETROL",
+    "latitude": 37.9303,
+    "longitude": 40.1819
+  },
+  {
+    "stationId": "160",
+    "name": "D0160-TEDAŞ",
+    "latitude": 37.9295,
+    "longitude": 40.1788
+  },
+  {
+    "stationId": "161",
+    "name": "D0161-ÜSTGEÇİT",
+    "latitude": 37.92863959427292,
+    "longitude": 40.17556956979384
+  },
+  {
+    "stationId": "162",
+    "name": "D0162-CEYLAN AVM",
+    "latitude": 37.9275,
+    "longitude": 40.1712
+  },
+  {
+    "stationId": "163",
+    "name": "D0163-ÜSTGEÇİT",
+    "latitude": 37.9263,
+    "longitude": 40.1665
+  },
+  {
+    "stationId": "164",
+    "name": "D0164-MEMORİAL DİCLE HASTAHANESİ",
+    "latitude": 37.9251,
+    "longitude": 40.1622
+  },
+  {
+    "stationId": "165",
+    "name": "D0165-DOĞUM HASTAHANESİ",
+    "latitude": 37.92375,
+    "longitude": 40.155932
+  },
+  {
+    "stationId": "166",
+    "name": "D0166-PTT KAYAPINAR",
+    "latitude": 37.9225,
+    "longitude": 40.1518
+  },
+  {
+    "stationId": "167",
+    "name": "D0167-KARDEŞLİK PARKI ÜSTGEÇİDİ",
+    "latitude": 37.9206,
+    "longitude": 40.1446
+  },
+  {
+    "stationId": "168",
+    "name": "D0168-3. SANAYİİ",
+    "latitude": 37.9199,
+    "longitude": 40.1416
+  },
+  {
+    "stationId": "169",
+    "name": "D0169-ECZA DEPOSU",
+    "latitude": 37.919,
+    "longitude": 40.1384
+  },
+  {
+    "stationId": "170",
+    "name": "D0170-STADYUM",
+    "latitude": 37.9422,
+    "longitude": 40.125
+  },
+  {
+    "stationId": "171",
+    "name": "D0171-A2 BAŞLANGIÇ",
+    "latitude": 37.9415,
+    "longitude": 40.1276
+  },
+  {
+    "stationId": "172",
+    "name": "D0172-CAMİİ",
+    "latitude": 37.94,
+    "longitude": 40.1328
+  },
+  {
+    "stationId": "173",
+    "name": "D0173-BARAN SİTESİ",
+    "latitude": 37.93874436649418,
+    "longitude": 40.1367482111701
+  },
+  {
+    "stationId": "174",
+    "name": "D0174-TAŞKIRAN SİTESİ",
+    "latitude": 37.9373,
+    "longitude": 40.141
+  },
+  {
+    "stationId": "175",
+    "name": "D0175-SİPAN SİTESİ",
+    "latitude": 37.936,
+    "longitude": 40.1457
+  },
+  {
+    "stationId": "176",
+    "name": "D0176-ADNAN MENDERES LİSESİ",
+    "latitude": 37.9349,
+    "longitude": 40.1493
+  },
+  {
+    "stationId": "177",
+    "name": "D0177-FİDAN SİTESİ",
+    "latitude": 37.9332,
+    "longitude": 40.1566
+  },
+  {
+    "stationId": "178",
+    "name": "D0178-NU JİYAN SİTESİ",
+    "latitude": 37.9331,
+    "longitude": 40.1603
+  },
+  {
+    "stationId": "179",
+    "name": "D0179-DOWN SENDROMLULAR DERNEĞİ",
+    "latitude": 37.933078568131734,
+    "longitude": 40.16239860029161
+  },
+  {
+    "stationId": "180",
+    "name": "D0180-DİYARBAKIR KOLEJİ",
+    "latitude": 37.9329,
+    "longitude": 40.1651
+  },
+  {
+    "stationId": "181",
+    "name": "D0181-MUTLUKENT SİTESİ",
+    "latitude": 37.9333,
+    "longitude": 40.169
+  },
+  {
+    "stationId": "182",
+    "name": "D0182-İSTİKBAL",
+    "latitude": 37.9336,
+    "longitude": 40.1724
+  },
+  {
+    "stationId": "183",
+    "name": "D0183-TUNÇ SİTESİ",
+    "latitude": 37.9335,
+    "longitude": 40.1758
+  },
+  {
+    "stationId": "184",
+    "name": "D0184-PEYAS MUHTARLIĞI",
+    "latitude": 37.9341,
+    "longitude": 40.1798
+  },
+  {
+    "stationId": "185",
+    "name": "D0185-VESEL",
+    "latitude": 37.9353,
+    "longitude": 40.1855
+  },
+  {
+    "stationId": "186",
+    "name": "D0186-MEMORİAL HASTAHANESİ",
+    "latitude": 37.93577985000233,
+    "longitude": 40.18820807805673
+  },
+  {
+    "stationId": "187",
+    "name": "D0187-KAYAPINAR HALK EĞİTİM",
+    "latitude": 37.9361,
+    "longitude": 40.1929
+  },
+  {
+    "stationId": "188",
+    "name": "D0188-ECZANE",
+    "latitude": 37.9347,
+    "longitude": 40.1945
+  },
+  {
+    "stationId": "189",
+    "name": "D0189-KASAPLAR",
+    "latitude": 37.9187,
+    "longitude": 40.2203
+  },
+  {
+    "stationId": "190",
+    "name": "D0190-ESMA OCAK",
+    "latitude": 37.9152,
+    "longitude": 40.2274
+  },
+  {
+    "stationId": "191",
+    "name": "D0191-SOSYAL GÜVENLİK KURUMU",
+    "latitude": 37.9149,
+    "longitude": 40.2297
+  },
+  {
+    "stationId": "192",
+    "name": "D0192- TEK KAPI",
+    "latitude": 37.9153,
+    "longitude": 40.231
+  },
+  {
+    "stationId": "193",
+    "name": "D0193-ALİ EMİRİ ORTAOKULU",
+    "latitude": 37.916,
+    "longitude": 40.2331
+  },
+  {
+    "stationId": "194",
+    "name": "D0194-MERKEZ BANKASI",
+    "latitude": 37.915521920836945,
+    "longitude": 40.23438702127598
+  },
+  {
+    "stationId": "195",
+    "name": "D0195-HİNTLİBABA TÜRBESİ",
+    "latitude": 37.914091,
+    "longitude": 40.230002
+  },
+  {
+    "stationId": "196",
+    "name": "D0196-ESMA OCAK",
+    "latitude": 37.915209,
+    "longitude": 40.227598
+  },
+  {
+    "stationId": "197",
+    "name": "D0197-OFİS İŞ BANKASI",
+    "latitude": 37.919046,
+    "longitude": 40.219968
+  },
+  {
+    "stationId": "198",
+    "name": "D0198-ECZANE",
+    "latitude": 37.9346,
+    "longitude": 40.1949
+  },
+  {
+    "stationId": "199",
+    "name": "D0199-KAYAPINAR HALK EĞİTİM",
+    "latitude": 37.9364,
+    "longitude": 40.193
+  },
+  {
+    "stationId": "200",
+    "name": "D0200-MEMORİAL HASTAHANESİ",
+    "latitude": 37.9359,
+    "longitude": 40.1887
+  },
+  {
+    "stationId": "201",
+    "name": "D0201-POLATLAR SİTESİ",
+    "latitude": 37.9354,
+    "longitude": 40.1859
+  },
+  {
+    "stationId": "202",
+    "name": "D0202-HALİL AKGÜN SİTESİ",
+    "latitude": 37.9345,
+    "longitude": 40.1806
+  },
+  {
+    "stationId": "203",
+    "name": "D0203-FIRAT BULVARI",
+    "latitude": 37.9341,
+    "longitude": 40.1765
+  },
+  {
+    "stationId": "204",
+    "name": "D0204-PTT GAZİLER",
+    "latitude": 37.933847410267944,
+    "longitude": 40.17331184356357
+  },
+  {
+    "stationId": "205",
+    "name": "D0205-ECZANE",
+    "latitude": 37.933532772981536,
+    "longitude": 40.169811386277566
+  },
+  {
+    "stationId": "206",
+    "name": "D0206-VİLLALAR",
+    "latitude": 37.93335336420725,
+    "longitude": 40.16760633761097
+  },
+  {
+    "stationId": "207",
+    "name": "D0207-FURKAN SİTESİ",
+    "latitude": 37.9331,
+    "longitude": 40.1648
+  },
+  {
+    "stationId": "208",
+    "name": "D0208-MİR YAPI",
+    "latitude": 37.9332,
+    "longitude": 40.1607
+  },
+  {
+    "stationId": "209",
+    "name": "D0209-KARTAL SİTESİ",
+    "latitude": 37.93331077534977,
+    "longitude": 40.15858164386858
+  },
+  {
+    "stationId": "210",
+    "name": "D0210-BENZİNLİK",
+    "latitude": 37.9313,
+    "longitude": 40.1582
+  },
+  {
+    "stationId": "211",
+    "name": "D0211-LUNAPARK",
+    "latitude": 37.93461338007677,
+    "longitude": 40.15105221216558
+  },
+  {
+    "stationId": "212",
+    "name": "D0212-ÇOCUK PARKI",
+    "latitude": 37.9356,
+    "longitude": 40.148
+  },
+  {
+    "stationId": "213",
+    "name": "D0213-DİŞ POLİKLİNİĞİ",
+    "latitude": 37.9369,
+    "longitude": 40.1436
+  },
+  {
+    "stationId": "214",
+    "name": "D0214-AMERİKAN KOLEJİ",
+    "latitude": 37.938,
+    "longitude": 40.1401
+  },
+  {
+    "stationId": "215",
+    "name": "D0215-BARAN SİTESİ",
+    "latitude": 37.9393,
+    "longitude": 40.1358
+  },
+  {
+    "stationId": "216",
+    "name": "D0216-ÖZAY SİTESİ",
+    "latitude": 37.9405,
+    "longitude": 40.1318
+  },
+  {
+    "stationId": "217",
+    "name": "D0217-PARKLAR MÜDÜRLÜĞÜ",
+    "latitude": 37.9421,
+    "longitude": 40.1266
+  },
+  {
+    "stationId": "218",
+    "name": "D0218-DİŞ HASTAHANESİ",
+    "latitude": 37.986676002811535,
+    "longitude": 40.13133910309671
+  },
+  {
+    "stationId": "219",
+    "name": "D0219-ARAŞTIRMA HASTAHANESİ",
+    "latitude": 37.9858,
+    "longitude": 40.1336
+  },
+  {
+    "stationId": "220",
+    "name": "D0220-MEMURSEN TOKİ",
+    "latitude": 37.982,
+    "longitude": 40.1376
+  },
+  {
+    "stationId": "221",
+    "name": "D0221-MEMURSAN ARAŞTIRMA",
+    "latitude": 37.9823,
+    "longitude": 40.1341
+  },
+  {
+    "stationId": "222",
+    "name": "D0222-ANDOK SİTESİ",
+    "latitude": 37.9814,
+    "longitude": 40.1293
+  },
+  {
+    "stationId": "223",
+    "name": "D0223-DOĞA EVLERİ",
+    "latitude": 37.9804,
+    "longitude": 40.1319
+  },
+  {
+    "stationId": "224",
+    "name": "D0224-YÜKSEL 4 SİTESİ",
+    "latitude": 37.9801,
+    "longitude": 40.134
+  },
+  {
+    "stationId": "225",
+    "name": "D0225-MEMURSEN TOKİ ARA DURAK",
+    "latitude": 37.98,
+    "longitude": 40.1357
+  },
+  {
+    "stationId": "226",
+    "name": "D0226-MEMURSEN TOKİ ÇIKIŞ",
+    "latitude": 37.9801,
+    "longitude": 40.1377
+  },
+  {
+    "stationId": "227",
+    "name": "D0227-LALEŞ BULVARI",
+    "latitude": 37.9808,
+    "longitude": 40.1394
+  },
+  {
+    "stationId": "228",
+    "name": "D0228-ZÜMRÜTKENT GİRİŞ",
+    "latitude": 37.9759,
+    "longitude": 40.1386
+  },
+  {
+    "stationId": "229",
+    "name": "D0229-TALAYTEPE ANADOLU LİSESİ",
+    "latitude": 37.967391836351666,
+    "longitude": 40.13727988099845
+  },
+  {
+    "stationId": "230",
+    "name": "D0230-SOSYAL KONUTLAR",
+    "latitude": 37.961287557972526,
+    "longitude": 40.14486318179456
+  },
+  {
+    "stationId": "231",
+    "name": "D0231-STADYUM KAVŞAĞI",
+    "latitude": 37.9593,
+    "longitude": 40.1514
+  },
+  {
+    "stationId": "232",
+    "name": "D0232-DİCLEKENT BULVARI",
+    "latitude": 37.9582,
+    "longitude": 40.1542
+  },
+  {
+    "stationId": "233",
+    "name": "D0233-AZEL SİTESİ",
+    "latitude": 37.9574,
+    "longitude": 40.1565
+  },
+  {
+    "stationId": "234",
+    "name": "D0234-FOUR İŞ MERKEZİ",
+    "latitude": 37.9561,
+    "longitude": 40.1601
+  },
+  {
+    "stationId": "235",
+    "name": "D0235-UMUT YAPI",
+    "latitude": 37.9545,
+    "longitude": 40.1644
+  },
+  {
+    "stationId": "236",
+    "name": "D0236-DİCLEKENT GİRİŞ",
+    "latitude": 37.9522,
+    "longitude": 40.1704
+  },
+  {
+    "stationId": "237",
+    "name": "D0237-DİCLEKENT BANKALAR",
+    "latitude": 37.9507,
+    "longitude": 40.1737
+  },
+  {
+    "stationId": "238",
+    "name": "D0238-MERAM SİTESİ",
+    "latitude": 37.9493,
+    "longitude": 40.1768
+  },
+  {
+    "stationId": "239",
+    "name": "D0239-MEDYA KAVŞAĞI",
+    "latitude": 37.9481,
+    "longitude": 40.1791
+  },
+  {
+    "stationId": "240",
+    "name": "D0240-KAFELER",
+    "latitude": 37.9467,
+    "longitude": 40.1813
+  },
+  {
+    "stationId": "241",
+    "name": "D0241-7. NOTER",
+    "latitude": 37.9449,
+    "longitude": 40.1832
+  },
+  {
+    "stationId": "242",
+    "name": "D0242-MİNİKLER ANAOKULU",
+    "latitude": 37.9419,
+    "longitude": 40.1866
+  },
+  {
+    "stationId": "243",
+    "name": "D0243-KAYAPINAR MESLEKİ EĞİTİM",
+    "latitude": 37.9393,
+    "longitude": 40.1895
+  },
+  {
+    "stationId": "244",
+    "name": "D0244-PARKORMAN ALT GEÇİDİ",
+    "latitude": 37.935,
+    "longitude": 40.1899
+  },
+  {
+    "stationId": "245",
+    "name": "D0245-RIHAN PARKI",
+    "latitude": 37.9302,
+    "longitude": 40.1913
+  },
+  {
+    "stationId": "246",
+    "name": "D0246-CEZAEVİ ÜST KÖŞE",
+    "latitude": 37.92844319533591,
+    "longitude": 40.19507377510992
+  },
+  {
+    "stationId": "247",
+    "name": "D0247-ESKİ POLİS OKULU",
+    "latitude": 37.92662149772603,
+    "longitude": 40.20103098179538
+  },
+  {
+    "stationId": "248",
+    "name": "D0248-POLİS OKULU CAMİİ",
+    "latitude": 37.927,
+    "longitude": 40.2031
+  },
+  {
+    "stationId": "249",
+    "name": "D0249-HATBOYU GİRİŞ",
+    "latitude": 37.9275,
+    "longitude": 40.2058
+  },
+  {
+    "stationId": "250",
+    "name": "D0250-HATBOYU",
+    "latitude": 37.9265,
+    "longitude": 40.2084
+  },
+  {
+    "stationId": "251",
+    "name": "D0251-HATBOYU",
+    "latitude": 37.926456928991044,
+    "longitude": 40.209144802054034
+  },
+  {
+    "stationId": "252",
+    "name": "D0252-BEKO",
+    "latitude": 37.92729990518832,
+    "longitude": 40.20669878355524
+  },
+  {
+    "stationId": "253",
+    "name": "D0253-POLİS OKULU ALT KÖŞE",
+    "latitude": 37.9281,
+    "longitude": 40.2049
+  },
+  {
+    "stationId": "254",
+    "name": "D0254-ESKİ POLİS OKULU",
+    "latitude": 37.9266,
+    "longitude": 40.2007
+  },
+  {
+    "stationId": "255",
+    "name": "D0255-CEZAEVİ ALTKÖŞE",
+    "latitude": 37.92743894001123,
+    "longitude": 40.19826089201631
+  },
+  {
+    "stationId": "256",
+    "name": "D0256-EMEK CADDESİ",
+    "latitude": 37.929,
+    "longitude": 40.194
+  },
+  {
+    "stationId": "257",
+    "name": "D0257-RIHAN PARKI",
+    "latitude": 37.9305,
+    "longitude": 40.1912
+  },
+  {
+    "stationId": "258",
+    "name": "D0258-ÇOCUK PARKI",
+    "latitude": 37.9382,
+    "longitude": 40.191
+  },
+  {
+    "stationId": "259",
+    "name": "D0259-ÜSTGEÇİT",
+    "latitude": 37.94,
+    "longitude": 40.189
+  },
+  {
+    "stationId": "260",
+    "name": "D0260-MİLLET İLKOKULU",
+    "latitude": 37.9416,
+    "longitude": 40.1873
+  },
+  {
+    "stationId": "261",
+    "name": "D0261-KAYAPINAR EVLENDİRME SALONU",
+    "latitude": 37.9429,
+    "longitude": 40.1858
+  },
+  {
+    "stationId": "262",
+    "name": "D0262-7. NOTER",
+    "latitude": 37.9446,
+    "longitude": 40.1839
+  },
+  {
+    "stationId": "263",
+    "name": "D0263-KAFELER",
+    "latitude": 37.9464,
+    "longitude": 40.1819
+  },
+  {
+    "stationId": "264",
+    "name": "D0264-DİCLEKENT CAMİİ",
+    "latitude": 37.9479,
+    "longitude": 40.1801
+  },
+  {
+    "stationId": "265",
+    "name": "D0265-KARDELEN",
+    "latitude": 37.9492,
+    "longitude": 40.1773
+  },
+  {
+    "stationId": "266",
+    "name": "D0266-DİCLEKENT BANKALAR",
+    "latitude": 37.951,
+    "longitude": 40.1736
+  },
+  {
+    "stationId": "267",
+    "name": "D0267-DÜNYA KAVŞAĞI",
+    "latitude": 37.9524,
+    "longitude": 40.1706
+  },
+  {
+    "stationId": "268",
+    "name": "D0268-GÜVENEL SİTESİ",
+    "latitude": 37.954,
+    "longitude": 40.1671
+  },
+  {
+    "stationId": "269",
+    "name": "D0269-FLOWER SİTESİ",
+    "latitude": 37.9554,
+    "longitude": 40.1632
+  },
+  {
+    "stationId": "270",
+    "name": "D0270-ORGANİK PARK ALANI",
+    "latitude": 37.956373,
+    "longitude": 40.160455
+  },
+  {
+    "stationId": "271",
+    "name": "D0271-AZEL SİTESİ",
+    "latitude": 37.9575,
+    "longitude": 40.1574
+  },
+  {
+    "stationId": "272",
+    "name": "D0272-YAZ YAPI",
+    "latitude": 37.9584,
+    "longitude": 40.1547
+  },
+  {
+    "stationId": "273",
+    "name": "D0273-STADYUM KAVŞAĞI",
+    "latitude": 37.9594,
+    "longitude": 40.1518
+  },
+  {
+    "stationId": "274",
+    "name": "D0274-GÖKKUŞAĞI ANAOKULU",
+    "latitude": 37.9611,
+    "longitude": 40.1468
+  },
+  {
+    "stationId": "275",
+    "name": "D0275-",
+    "latitude": 37.961058,
+    "longitude": 40.1514
+  },
+  {
+    "stationId": "276",
+    "name": "D0276-",
+    "latitude": 37.964883,
+    "longitude": 40.153587
+  },
+  {
+    "stationId": "277",
+    "name": "D0277",
+    "latitude": 37.96836,
+    "longitude": 40.150675
+  },
+  {
+    "stationId": "278",
+    "name": "D0278-",
+    "latitude": 38.044574,
+    "longitude": 40.077837
+  },
+  {
+    "stationId": "279",
+    "name": "D0279",
+    "latitude": 38.044742,
+    "longitude": 40.078089
+  },
+  {
+    "stationId": "280",
+    "name": "D0280-SOSYAL KONUTLAR ARA DURAK 2",
+    "latitude": 37.9661,
+    "longitude": 40.1488
+  },
+  {
+    "stationId": "281",
+    "name": "D0281-CAMİİ",
+    "latitude": 37.965332,
+    "longitude": 40.14609
+  },
+  {
+    "stationId": "282",
+    "name": "D0282-SOSYAL KONUTLAR ÇIKIŞ",
+    "latitude": 37.9658,
+    "longitude": 40.1448
+  },
+  {
+    "stationId": "283",
+    "name": "D0283-VALİ GÖKHAN AYDINER LİSESİ",
+    "latitude": 37.967219,
+    "longitude": 40.140068
+  },
+  {
+    "stationId": "284",
+    "name": "D0284-ZÜMRÜTKENT KAVŞAĞI",
+    "latitude": 37.976,
+    "longitude": 40.139
+  },
+  {
+    "stationId": "285",
+    "name": "D0285-AİLE SAĞLIĞI MERKEZİ",
+    "latitude": 37.978,
+    "longitude": 40.1393
+  },
+  {
+    "stationId": "286",
+    "name": "D0286-BALIKEVİ",
+    "latitude": 37.9822,
+    "longitude": 40.14
+  },
+  {
+    "stationId": "287",
+    "name": "D0287ARAŞTIRMA HASTAHANESİ KAVŞAĞI",
+    "latitude": 37.984462,
+    "longitude": 40.140373
+  },
+  {
+    "stationId": "288",
+    "name": "D0288-ARAŞTIRMA HASTAHANESİ",
+    "latitude": 37.986,
+    "longitude": 40.1337
+  },
+  {
+    "stationId": "289",
+    "name": "D0289-FARABİ MESLEK LİSESİ",
+    "latitude": 37.985,
+    "longitude": 40.1444
+  },
+  {
+    "stationId": "290",
+    "name": "D0290-UYGULAMA OTELİ",
+    "latitude": 37.9836,
+    "longitude": 40.1465
+  },
+  {
+    "stationId": "291",
+    "name": "D0291-FUAR VE KONGRE MERKEZİ",
+    "latitude": 37.9817,
+    "longitude": 40.1495
+  },
+  {
+    "stationId": "292",
+    "name": "D0292-ELAZIĞ BULVARI ÜÇKUYU",
+    "latitude": 37.980123,
+    "longitude": 40.152183
+  },
+  {
+    "stationId": "293",
+    "name": "D0293-GÜNDOĞDU",
+    "latitude": 37.976257269228924,
+    "longitude": 40.15946136211702
+  },
+  {
+    "stationId": "294",
+    "name": "D0294-YILDIZ",
+    "latitude": 37.9723,
+    "longitude": 40.1665
+  },
+  {
+    "stationId": "295",
+    "name": "D0295-ELAZIĞ BULVARI ARA DURAK",
+    "latitude": 37.9705,
+    "longitude": 40.1698
+  },
+  {
+    "stationId": "296",
+    "name": "D0296-OPET",
+    "latitude": 37.969093692566744,
+    "longitude": 40.17224859396314
+  },
+  {
+    "stationId": "297",
+    "name": "D0297-OTO GALERİCİLER SİTESİ",
+    "latitude": 37.9662,
+    "longitude": 40.1758
+  },
+  {
+    "stationId": "298",
+    "name": "D0298-ÜSTGEÇİT",
+    "latitude": 37.9616,
+    "longitude": 40.181
+  },
+  {
+    "stationId": "299",
+    "name": "D0299-FORUM AVM",
+    "latitude": 37.958,
+    "longitude": 40.1851
+  },
+  {
+    "stationId": "300",
+    "name": "D0300-KAPALI SPOR SALONU",
+    "latitude": 37.9562,
+    "longitude": 40.1872
+  },
+  {
+    "stationId": "301",
+    "name": "D0301-TAPU KADASTRO ÜSTGEÇİDİ",
+    "latitude": 37.9517,
+    "longitude": 40.1924
+  },
+  {
+    "stationId": "302",
+    "name": "D0302-ÖĞRETMEN EVİ",
+    "latitude": 37.948425284620065,
+    "longitude": 40.1959756221229
+  },
+  {
+    "stationId": "303",
+    "name": "D0303-2.SANAYİİ",
+    "latitude": 37.9460955244778,
+    "longitude": 40.19810880085474
+  },
+  {
+    "stationId": "304",
+    "name": "D0304-SANAYİİ CAMİİ",
+    "latitude": 37.94255422498776,
+    "longitude": 40.20147327435447
+  },
+  {
+    "stationId": "305",
+    "name": "D0305-SEYRANTEPE İŞ MERKEZLERİ",
+    "latitude": 37.93774986318839,
+    "longitude": 40.20638381821179
+  },
+  {
+    "stationId": "306",
+    "name": "D0306-SEYRANTEPE PETROL",
+    "latitude": 37.936,
+    "longitude": 40.2082
+  },
+  {
+    "stationId": "307",
+    "name": "D0307-ŞEHİTLER ANITI",
+    "latitude": 37.9264,
+    "longitude": 40.2203
+  },
+  {
+    "stationId": "308",
+    "name": "D0308-SEYRANTEPE ÜSTGEÇİT",
+    "latitude": 37.9341,
+    "longitude": 40.2107
+  },
+  {
+    "stationId": "309",
+    "name": "D0309-SEYRANTEPE",
+    "latitude": 37.9357,
+    "longitude": 40.2091
+  },
+  {
+    "stationId": "310",
+    "name": "D0310-KARAYOLLARI MAKİNE İKMAL",
+    "latitude": 37.938,
+    "longitude": 40.2067
+  },
+  {
+    "stationId": "311",
+    "name": "D0311-KARAYOLLARI ŞEFLİĞİ",
+    "latitude": 37.9408,
+    "longitude": 40.2036
+  },
+  {
+    "stationId": "312",
+    "name": "D0312-SANAYİİ SİTESİ",
+    "latitude": 37.9434,
+    "longitude": 40.201
+  },
+  {
+    "stationId": "313",
+    "name": "D0313-İL SAĞLIK MÜDÜRLÜĞÜ",
+    "latitude": 37.9458,
+    "longitude": 40.1987
+  },
+  {
+    "stationId": "314",
+    "name": "D0314-YENİŞEHİR BELEDİYESİ MAKİNA İKMAL",
+    "latitude": 37.9482,
+    "longitude": 40.1965
+  },
+  {
+    "stationId": "315",
+    "name": "D0315-ÖĞRETMENEVİ",
+    "latitude": 37.9496,
+    "longitude": 40.1952
+  },
+  {
+    "stationId": "316",
+    "name": "D0316-ŞİLBE ÜSTGEÇİDİ",
+    "latitude": 37.9515,
+    "longitude": 40.1931
+  },
+  {
+    "stationId": "317",
+    "name": "D0317-SEYRANTEPE SPOR SALONU",
+    "latitude": 37.9563,
+    "longitude": 40.1877
+  },
+  {
+    "stationId": "318",
+    "name": "D0318-FORUM AVM ÜSTGEÇİDİ",
+    "latitude": 37.9579,
+    "longitude": 40.1858
+  },
+  {
+    "stationId": "319",
+    "name": "D0319-AZİZ SANCAR PARKI",
+    "latitude": 37.9613,
+    "longitude": 40.1819
+  },
+  {
+    "stationId": "320",
+    "name": "D0320-OTO PAZARI",
+    "latitude": 37.9633,
+    "longitude": 40.1796
+  },
+  {
+    "stationId": "321",
+    "name": "D0321-OTOGALERİCİLER ÜSTGEÇİDİ",
+    "latitude": 37.9661,
+    "longitude": 40.1763
+  },
+  {
+    "stationId": "322",
+    "name": "D0322-OPET",
+    "latitude": 37.9688,
+    "longitude": 40.1732
+  },
+  {
+    "stationId": "323",
+    "name": "D0323-LALE YAPI",
+    "latitude": 37.9715,
+    "longitude": 40.1751
+  },
+  {
+    "stationId": "324",
+    "name": "D0324-DOKUZÇELTİK ANAOKULU",
+    "latitude": 37.9728,
+    "longitude": 40.1759
+  },
+  {
+    "stationId": "325",
+    "name": "D0325-ECZANE",
+    "latitude": 37.9747,
+    "longitude": 40.177
+  },
+  {
+    "stationId": "326",
+    "name": "D0326-EVRİM SİTESİ",
+    "latitude": 37.9769,
+    "longitude": 40.1761
+  },
+  {
+    "stationId": "327",
+    "name": "D0327-AHMED ARİF ANADOLU LİSESİ",
+    "latitude": 37.9783,
+    "longitude": 40.1727
+  },
+  {
+    "stationId": "328",
+    "name": "D0328-ARA DURAK",
+    "latitude": 37.98,
+    "longitude": 40.1686
+  },
+  {
+    "stationId": "329",
+    "name": "D0329-KAVŞAK",
+    "latitude": 37.9811,
+    "longitude": 40.1662
+  },
+  {
+    "stationId": "330",
+    "name": "D0330-AİLE SAĞLIĞI MERKEZİ",
+    "latitude": 37.9869,
+    "longitude": 40.1615
+  },
+  {
+    "stationId": "331",
+    "name": "D0331-FİYAK GOLD SİTESİ",
+    "latitude": 37.989,
+    "longitude": 40.1604
+  },
+  {
+    "stationId": "332",
+    "name": "D0332-ÜÇKUYU CAMİİ",
+    "latitude": 37.9909,
+    "longitude": 40.1595
+  },
+  {
+    "stationId": "333",
+    "name": "D0333-BİLİM KOLEJİ",
+    "latitude": 37.9916,
+    "longitude": 40.1579
+  },
+  {
+    "stationId": "334",
+    "name": "D0334-HAMRAVAT İLKOKULU",
+    "latitude": 37.9913,
+    "longitude": 40.1552
+  },
+  {
+    "stationId": "335",
+    "name": "D0335-TOKİ DÖRTYOL",
+    "latitude": 37.9917,
+    "longitude": 40.152
+  },
+  {
+    "stationId": "336",
+    "name": "D0336-HALK PAZARI",
+    "latitude": 37.9935,
+    "longitude": 40.1517
+  },
+  {
+    "stationId": "337",
+    "name": "D0337-TOKİ LOJMANLAR",
+    "latitude": 37.9955,
+    "longitude": 40.1515
+  },
+  {
+    "stationId": "338",
+    "name": "D0338-ADAKENT",
+    "latitude": 37.9964,
+    "longitude": 40.1499
+  },
+  {
+    "stationId": "339",
+    "name": "D0339-HEBUN KONUTLARI",
+    "latitude": 37.996,
+    "longitude": 40.1469
+  },
+  {
+    "stationId": "340",
+    "name": "D0340-546 KONUTLAR YÖNETİMİ",
+    "latitude": 37.9953,
+    "longitude": 40.1448
+  },
+  {
+    "stationId": "341",
+    "name": "D0341-ÜÇKUYU TOKİ ÇIKIŞ",
+    "latitude": 37.9901,
+    "longitude": 40.1452
+  },
+  {
+    "stationId": "342",
+    "name": "D0342-ARAŞTIRMA HASTAHANESİ GİRİŞ",
+    "latitude": 37.9864,
+    "longitude": 40.1415
+  },
+  {
+    "stationId": "343",
+    "name": "D0343-TESİSLER",
+    "latitude": 37.9337,
+    "longitude": 40.197
+  },
+  {
+    "stationId": "344",
+    "name": "D0344-NİNOVA AVM",
+    "latitude": 37.9351,
+    "longitude": 40.2022
+  },
+  {
+    "stationId": "345",
+    "name": "D0345-SEYRANTEPE",
+    "latitude": 37.936876032170986,
+    "longitude": 40.209275072090165
+  },
+  {
+    "stationId": "346",
+    "name": "D0346-SİLVAN YOLU",
+    "latitude": 37.9373,
+    "longitude": 40.212
+  },
+  {
+    "stationId": "347",
+    "name": "D0347-ÜSTGEÇİT",
+    "latitude": 37.9377,
+    "longitude": 40.2144
+  },
+  {
+    "stationId": "348",
+    "name": "D0348-TEDAŞ TRAFO",
+    "latitude": 37.9387,
+    "longitude": 40.2181
+  },
+  {
+    "stationId": "349",
+    "name": "D0349-UN FABRİKASI",
+    "latitude": 37.94154492317884,
+    "longitude": 40.22276542661064
+  },
+  {
+    "stationId": "350",
+    "name": "D0350-MARKET",
+    "latitude": 37.9469,
+    "longitude": 40.2317
+  },
+  {
+    "stationId": "351",
+    "name": "D0351-TARIMSAL ARAŞTIRMA",
+    "latitude": 37.94123978977129,
+    "longitude": 40.253694103753226
+  },
+  {
+    "stationId": "352",
+    "name": "D0352-ZİYA GÖKALP YURDU",
+    "latitude": 37.928836,
+    "longitude": 40.258685
+  },
+  {
+    "stationId": "353",
+    "name": "D0353-SELAHADDİNİ EYYUBİ KIZ YURDU",
+    "latitude": 37.927502,
+    "longitude": 40.258767
+  },
+  {
+    "stationId": "354",
+    "name": "D0354-ÜNİVERSİTE GİRİŞ KAVŞAĞI",
+    "latitude": 37.923595,
+    "longitude": 40.259158
+  },
+  {
+    "stationId": "355",
+    "name": "D0355-SELAHADDİNİ EYYUBİ KIZ YURDU",
+    "latitude": 37.927849,
+    "longitude": 40.258987
+  },
+  {
+    "stationId": "356",
+    "name": "D0356-ZİYA GÖKALP YURDU",
+    "latitude": 37.929157,
+    "longitude": 40.258913
+  },
+  {
+    "stationId": "357",
+    "name": "D0357-TARIMSAL ARAŞTIRMA",
+    "latitude": 37.941342,
+    "longitude": 40.254275
+  },
+  {
+    "stationId": "358",
+    "name": "D0358-KENT ORMANI",
+    "latitude": 37.944003,
+    "longitude": 40.246953
+  },
+  {
+    "stationId": "359",
+    "name": "D0359-PEŞMERGE KONUTLARI",
+    "latitude": 37.946512,
+    "longitude": 40.230544
+  },
+  {
+    "stationId": "360",
+    "name": "D0360-ARA DURAK",
+    "latitude": 37.943758,
+    "longitude": 40.226086
+  },
+  {
+    "stationId": "361",
+    "name": "D0361-KÜTAHYA SERAMİK",
+    "latitude": 37.942339,
+    "longitude": 40.22374
+  },
+  {
+    "stationId": "362",
+    "name": "D0362-2.ARA DURAK",
+    "latitude": 37.939964,
+    "longitude": 40.219763
+  },
+  {
+    "stationId": "363",
+    "name": "D0363-TEDAŞ TRAFO",
+    "latitude": 37.938544,
+    "longitude": 40.21738
+  },
+  {
+    "stationId": "364",
+    "name": "D0364-ÜSTGEÇİT",
+    "latitude": 37.93784,
+    "longitude": 40.214309
+  },
+  {
+    "stationId": "365",
+    "name": "D0365-SEYRANTEPE",
+    "latitude": 37.937219,
+    "longitude": 40.208978
+  },
+  {
+    "stationId": "366",
+    "name": "D0366-HUZUREVLERİ KAVŞAĞI",
+    "latitude": 37.935152,
+    "longitude": 40.200803
+  },
+  {
+    "stationId": "367",
+    "name": "D0367-DİCLEKENT KAVŞAĞI",
+    "latitude": 37.934139,
+    "longitude": 40.196969
+  },
+  {
+    "stationId": "368",
+    "name": "D0368-PALADYUM KONUTLARI",
+    "latitude": 37.9345,
+    "longitude": 40.1354
+  },
+  {
+    "stationId": "369",
+    "name": "D0369-ASUR YAPI",
+    "latitude": 37.9357,
+    "longitude": 40.1313
+  },
+  {
+    "stationId": "370",
+    "name": "D0370-YILDIZ YAPI",
+    "latitude": 37.93680874768337,
+    "longitude": 40.127445757015664
+  },
+  {
+    "stationId": "371",
+    "name": "D0371-ŞEHİR HASTAHANESİ BÖLGESİ",
+    "latitude": 37.9334,
+    "longitude": 40.1238
+  },
+  {
+    "stationId": "372",
+    "name": "D0372-DORŞİN PARK SİTESİ",
+    "latitude": 37.9303,
+    "longitude": 40.1237
+  },
+  {
+    "stationId": "373",
+    "name": "D0373-KAPİTOL PARK EVLERİ",
+    "latitude": 37.9319,
+    "longitude": 40.1254
+  },
+  {
+    "stationId": "374",
+    "name": "D0374-YEDİ İKLİM OKULLARI",
+    "latitude": 37.9318,
+    "longitude": 40.1276
+  },
+  {
+    "stationId": "375",
+    "name": "D0375-ÇEM 5 SİTESİ",
+    "latitude": 37.9318,
+    "longitude": 40.1305
+  },
+  {
+    "stationId": "376",
+    "name": "D0376-MEZOPOTAMYA PARK EVLERİ",
+    "latitude": 37.9313,
+    "longitude": 40.1336
+  },
+  {
+    "stationId": "377",
+    "name": "D0377-OTOGAR KAVŞAĞI",
+    "latitude": 37.9286,
+    "longitude": 40.1336
+  },
+  {
+    "stationId": "378",
+    "name": "D0378-ARÇEL YAPI",
+    "latitude": 37.9255,
+    "longitude": 40.1344
+  },
+  {
+    "stationId": "379",
+    "name": "D0379-ŞEHİRLER ARASI OTOBÜS TERMİNALİ",
+    "latitude": 37.9217,
+    "longitude": 40.1361
+  },
+  {
+    "stationId": "380",
+    "name": "D0380-OTOGAR",
+    "latitude": 37.9225,
+    "longitude": 40.1362
+  },
+  {
+    "stationId": "381",
+    "name": "D0381-OYUNCAKÇI",
+    "latitude": 37.926075,
+    "longitude": 40.134478
+  },
+  {
+    "stationId": "382",
+    "name": "D0382-POLAT EVLER",
+    "latitude": 37.9286,
+    "longitude": 40.1344
+  },
+  {
+    "stationId": "383",
+    "name": "D0383-KAYAPINAR SPOR PARKI",
+    "latitude": 37.9305,
+    "longitude": 40.1353
+  },
+  {
+    "stationId": "384",
+    "name": "D0384-NAZIM HİKMET KAVŞAĞI",
+    "latitude": 37.933,
+    "longitude": 40.1363
+  },
+  {
+    "stationId": "385",
+    "name": "D0385-MER SİTESİ",
+    "latitude": 37.933452,
+    "longitude": 40.137755
+  },
+  {
+    "stationId": "386",
+    "name": "D0386-ÇARKANAT SİTESİ",
+    "latitude": 37.9324,
+    "longitude": 40.1408
+  },
+  {
+    "stationId": "387",
+    "name": "D0387-ECZANE",
+    "latitude": 37.9311,
+    "longitude": 40.1443
+  },
+  {
+    "stationId": "388",
+    "name": "D0388-ERGUVAN PARKI",
+    "latitude": 37.93015291445394,
+    "longitude": 40.146493366103265
+  },
+  {
+    "stationId": "389",
+    "name": "D0389-AŞKAR YAPI",
+    "latitude": 37.929146225072444,
+    "longitude": 40.14908559571172
+  },
+  {
+    "stationId": "390",
+    "name": "D0390-GEN KOLEJİ",
+    "latitude": 37.9276,
+    "longitude": 40.1541
+  },
+  {
+    "stationId": "391",
+    "name": "D0391-KÜLTÜR DERSHANESİ",
+    "latitude": 37.9263,
+    "longitude": 40.1574
+  },
+  {
+    "stationId": "392",
+    "name": "D0392-TÜRK TELEKOM",
+    "latitude": 37.9235,
+    "longitude": 40.1643
+  },
+  {
+    "stationId": "393",
+    "name": "D0393-ATAŞ ŞEHİR SİTESİ",
+    "latitude": 37.922578170244876,
+    "longitude": 40.16845088760711
+  },
+  {
+    "stationId": "394",
+    "name": "D0394-YENİHAL KAVŞAĞI",
+    "latitude": 37.9219,
+    "longitude": 40.1712
+  },
+  {
+    "stationId": "395",
+    "name": "D0395-GÖLETLİ PARK",
+    "latitude": 37.9211,
+    "longitude": 40.1742
+  },
+  {
+    "stationId": "396",
+    "name": "D0396-ÖĞRETMENİM OKULLARI",
+    "latitude": 37.919491,
+    "longitude": 40.177761
+  },
+  {
+    "stationId": "397",
+    "name": "D0397-KARDELEN 2 SİTESİ",
+    "latitude": 37.91834842612898,
+    "longitude": 40.180723805144936
+  },
+  {
+    "stationId": "398",
+    "name": "D0398-BENZİN İSTASYONU",
+    "latitude": 37.91728859783069,
+    "longitude": 40.18331472472382
+  },
+  {
+    "stationId": "399",
+    "name": "D0399-BAĞLAR DÖRTYOL",
+    "latitude": 37.91722753896958,
+    "longitude": 40.207695618915565
+  },
+  {
+    "stationId": "400",
+    "name": "D0400-BAĞLAR HASTAHANESİ",
+    "latitude": 37.9179,
+    "longitude": 40.2084
+  },
+  {
+    "stationId": "401",
+    "name": "D0401-SAKARYA CADDESİ GİRİŞ",
+    "latitude": 37.9218,
+    "longitude": 40.2097
+  },
+  {
+    "stationId": "402",
+    "name": "D0402-KAHVE ÖNÜ",
+    "latitude": 37.91992349505543,
+    "longitude": 40.2164626121521
+  },
+  {
+    "stationId": "403",
+    "name": "D0403-YANIK KÖŞK",
+    "latitude": 37.9183,
+    "longitude": 40.2127
+  },
+  {
+    "stationId": "404",
+    "name": "D0404-BAĞLAR DÖRTYOL",
+    "latitude": 37.917567035412375,
+    "longitude": 40.20787836490966
+  },
+  {
+    "stationId": "405",
+    "name": "D0405-GİRNE CADDESİ",
+    "latitude": 37.918517,
+    "longitude": 40.203924
+  },
+  {
+    "stationId": "406",
+    "name": "D0406-BELEDİYE KOOPERATİFİ",
+    "latitude": 37.919034,
+    "longitude": 40.198834
+  },
+  {
+    "stationId": "407",
+    "name": "D0407-ECZACILAR ORTAOKULU",
+    "latitude": 37.918412,
+    "longitude": 40.196081
+  },
+  {
+    "stationId": "408",
+    "name": "D0408-ADAKÇILAR",
+    "latitude": 37.917112,
+    "longitude": 40.195139
+  },
+  {
+    "stationId": "409",
+    "name": "D0409-BENZİN İSTASTONU",
+    "latitude": 37.917535,
+    "longitude": 40.183295
+  },
+  {
+    "stationId": "410",
+    "name": "D0410-HİVA SİTESİ",
+    "latitude": 37.918555,
+    "longitude": 40.180837
+  },
+  {
+    "stationId": "411",
+    "name": "D0411-ÖĞRETMENİM OKULLARI",
+    "latitude": 37.919734,
+    "longitude": 40.177955
+  },
+  {
+    "stationId": "412",
+    "name": "D0412-ŞEYH SAİD CAMİİ",
+    "latitude": 37.921,
+    "longitude": 40.1748
+  },
+  {
+    "stationId": "413",
+    "name": "D0413-ATAŞ ŞEHİR SİTESİ",
+    "latitude": 37.9226,
+    "longitude": 40.1693
+  },
+  {
+    "stationId": "414",
+    "name": "D0414-TÜRK TELEKOM",
+    "latitude": 37.923735,
+    "longitude": 40.164666
+  },
+  {
+    "stationId": "415",
+    "name": "D0415-KÜLTÜR DERSHANESİ",
+    "latitude": 37.9264,
+    "longitude": 40.1579
+  },
+  {
+    "stationId": "416",
+    "name": "D0416-FIRAT MAHALLESİ MUHTARLIĞI",
+    "latitude": 37.9276,
+    "longitude": 40.1541
+  },
+  {
+    "stationId": "417",
+    "name": "D0417-MAHABAD EVLER",
+    "latitude": 37.929,
+    "longitude": 40.1502
+  },
+  {
+    "stationId": "418",
+    "name": "D0418-ERGUVAN PARKI",
+    "latitude": 37.9302,
+    "longitude": 40.1472
+  },
+  {
+    "stationId": "419",
+    "name": "D0419-ECZANE",
+    "latitude": 37.931,
+    "longitude": 40.145
+  },
+  {
+    "stationId": "420",
+    "name": "D0420-SAFİR PARK EVLERİ",
+    "latitude": 37.9324,
+    "longitude": 40.1415
+  },
+  {
+    "stationId": "421",
+    "name": "D0421-NAZIM HİKMET CADDESİ",
+    "latitude": 37.9338,
+    "longitude": 40.1379
+  },
+  {
+    "stationId": "422",
+    "name": "D0422-PTT",
+    "latitude": 37.9239,
+    "longitude": 40.1504
+  },
+  {
+    "stationId": "423",
+    "name": "D0423-CADDE75 İŞ MERKEZİ",
+    "latitude": 37.9265,
+    "longitude": 40.1514
+  },
+  {
+    "stationId": "424",
+    "name": "D0424-LUNAPARK KAVŞAĞI",
+    "latitude": 37.9312,
+    "longitude": 40.1533
+  },
+  {
+    "stationId": "425",
+    "name": "D0425-KAPLAN DÜĞÜN SALONU",
+    "latitude": 37.9349,
+    "longitude": 40.1621
+  },
+  {
+    "stationId": "426",
+    "name": "D0426-SARYA PARKI",
+    "latitude": 37.9381,
+    "longitude": 40.1631
+  },
+  {
+    "stationId": "427",
+    "name": "D0427-TUBA2 SİTESİ",
+    "latitude": 37.9378,
+    "longitude": 40.1655
+  },
+  {
+    "stationId": "428",
+    "name": "D0428-DOSTLAR2 SİTESİ",
+    "latitude": 37.9379,
+    "longitude": 40.1676
+  },
+  {
+    "stationId": "429",
+    "name": "D0429-SÜRÜCÜ KURSU",
+    "latitude": 37.9378,
+    "longitude": 40.1705
+  },
+  {
+    "stationId": "430",
+    "name": "D0430-ECZANE",
+    "latitude": 37.937,
+    "longitude": 40.1715
+  },
+  {
+    "stationId": "431",
+    "name": "D0431-ZAHİROĞLU SİTESİ",
+    "latitude": 37.93460705132679,
+    "longitude": 40.17126025205385
+  },
+  {
+    "stationId": "432",
+    "name": "D0432-SİMİTÇİ",
+    "latitude": 37.9344,
+    "longitude": 40.1714
+  },
+  {
+    "stationId": "433",
+    "name": "D0433-BORSA İSTANBUL KIZ LİSESİ",
+    "latitude": 37.9369,
+    "longitude": 40.1717
+  },
+  {
+    "stationId": "434",
+    "name": "D0434-TEKGÜL SİTESİ",
+    "latitude": 37.938,
+    "longitude": 40.1686
+  },
+  {
+    "stationId": "435",
+    "name": "D0435-KARACADAĞ SİTESİ",
+    "latitude": 37.9381,
+    "longitude": 40.1667
+  },
+  {
+    "stationId": "436",
+    "name": "D0436-SARYA PARKI",
+    "latitude": 37.9382,
+    "longitude": 40.1629
+  },
+  {
+    "stationId": "437",
+    "name": "D0437-IŞIK SİTESİ",
+    "latitude": 37.9363,
+    "longitude": 40.1622
+  },
+  {
+    "stationId": "438",
+    "name": "D0438-ÖZÇELİK SİTESİ",
+    "latitude": 37.9343,
+    "longitude": 40.1619
+  },
+  {
+    "stationId": "439",
+    "name": "D0439-75 ARA DURAK",
+    "latitude": 37.93,
+    "longitude": 40.1522
+  },
+  {
+    "stationId": "440",
+    "name": "D0440-İKİZLER SİTESİ",
+    "latitude": 37.9269,
+    "longitude": 40.151
+  },
+  {
+    "stationId": "441",
+    "name": "D0441-ARÇEL YAPI",
+    "latitude": 37.924,
+    "longitude": 40.1335
+  },
+  {
+    "stationId": "442",
+    "name": "D0442-KOLEJLER",
+    "latitude": 37.9232,
+    "longitude": 40.1309
+  },
+  {
+    "stationId": "443",
+    "name": "D0443-AY YAPI",
+    "latitude": 37.9224,
+    "longitude": 40.128
+  },
+  {
+    "stationId": "444",
+    "name": "D0445-ORTADOĞU KOLEJİ",
+    "latitude": 37.9194,
+    "longitude": 40.1251
+  },
+  {
+    "stationId": "445",
+    "name": "D0445-DOĞA KOLEJİ",
+    "latitude": 37.9178,
+    "longitude": 40.1268
+  },
+  {
+    "stationId": "446",
+    "name": "D0446-STADYUM",
+    "latitude": 37.9419,
+    "longitude": 40.1235
+  },
+  {
+    "stationId": "447",
+    "name": "D0447-AİLE SAĞLIĞI MERKEZİ",
+    "latitude": 37.9273,
+    "longitude": 40.128
+  },
+  {
+    "stationId": "448",
+    "name": "D0448-DÖKER LİFE SİTESİ",
+    "latitude": 37.9274,
+    "longitude": 40.1313
+  },
+  {
+    "stationId": "449",
+    "name": "D0449-AİLE DESTEK MERKEZİ",
+    "latitude": 37.9366,
+    "longitude": 40.138
+  },
+  {
+    "stationId": "450",
+    "name": "D0450-PROF.FUAT SEZGİN KÜTÜPHANESİ",
+    "latitude": 37.9361,
+    "longitude": 40.1554
+  },
+  {
+    "stationId": "451",
+    "name": "D0451-İŞ MERKEZİ",
+    "latitude": 37.9382,
+    "longitude": 40.1561
+  },
+  {
+    "stationId": "452",
+    "name": "D0452-PARK 75",
+    "latitude": 37.942,
+    "longitude": 40.1579
+  },
+  {
+    "stationId": "453",
+    "name": "D0453-AZEL SİTESİ",
+    "latitude": 37.9453,
+    "longitude": 40.1607
+  },
+  {
+    "stationId": "454",
+    "name": "D0454-SELAHADDİNİ EYYUBİ BULVARI",
+    "latitude": 37.9464,
+    "longitude": 40.1642
+  },
+  {
+    "stationId": "455",
+    "name": "D0455-KENT MEYDANI",
+    "latitude": 37.9447,
+    "longitude": 40.1683
+  },
+  {
+    "stationId": "456",
+    "name": "D0456-MEZOPOTAMYA OKULLARI",
+    "latitude": 37.9437,
+    "longitude": 40.1706
+  },
+  {
+    "stationId": "457",
+    "name": "D0457-YILDIRIM SİTESİ",
+    "latitude": 37.9432,
+    "longitude": 40.1724
+  },
+  {
+    "stationId": "458",
+    "name": "D0458-MİMARLIK SİTESİ",
+    "latitude": 37.9422,
+    "longitude": 40.1745
+  },
+  {
+    "stationId": "459",
+    "name": "D0459-LASTİKÇİ",
+    "latitude": 37.9412,
+    "longitude": 40.177
+  },
+  {
+    "stationId": "460",
+    "name": "D0460-ÇOCUK PARKI",
+    "latitude": 37.94104115691633,
+    "longitude": 40.18210252113335
+  },
+  {
+    "stationId": "461",
+    "name": "D0461-ROJAVA PARKI",
+    "latitude": 37.9427,
+    "longitude": 40.1836
+  },
+  {
+    "stationId": "462",
+    "name": "D0462-ROJAVA PARKI",
+    "latitude": 37.943,
+    "longitude": 40.1836
+  },
+  {
+    "stationId": "463",
+    "name": "D0463-ECZANE",
+    "latitude": 37.9412,
+    "longitude": 40.1819
+  },
+  {
+    "stationId": "464",
+    "name": "D0464-SELAHADDİNİ EYYUBİ BULVARI",
+    "latitude": 37.9403,
+    "longitude": 40.1799
+  },
+  {
+    "stationId": "465",
+    "name": "D0465-DİŞ POLİKLİNİĞİ",
+    "latitude": 37.9433,
+    "longitude": 40.1727
+  },
+  {
+    "stationId": "466",
+    "name": "D0466-MEZOPOTAMYA OKULLARI",
+    "latitude": 37.9443,
+    "longitude": 40.1704
+  },
+  {
+    "stationId": "467",
+    "name": "D0467-KENT MEYDANI",
+    "latitude": 37.9452,
+    "longitude": 40.1679
+  },
+  {
+    "stationId": "468",
+    "name": "D0468-ÇEYSA YAPI",
+    "latitude": 37.9466,
+    "longitude": 40.1646
+  },
+  {
+    "stationId": "469",
+    "name": "D0469-PARK 75",
+    "latitude": 37.9428,
+    "longitude": 40.1578
+  },
+  {
+    "stationId": "470",
+    "name": "D0470-İSTANBUL SİTESİ",
+    "latitude": 37.9383,
+    "longitude": 40.1555
+  },
+  {
+    "stationId": "471",
+    "name": "D0471-AZİZ SANCAR ÇOCUK KÜTÜPHANESİ",
+    "latitude": 37.9365,
+    "longitude": 40.1548
+  },
+  {
+    "stationId": "472",
+    "name": "D0472-HAYVAN BORSASI",
+    "latitude": 37.8374,
+    "longitude": 40.238
+  },
+  {
+    "stationId": "473",
+    "name": "D0473-ON GÖZLÜ KÖPRÜ",
+    "latitude": 37.888,
+    "longitude": 40.228
+  },
+  {
+    "stationId": "474",
+    "name": "D0474-GAZİ KÖŞKÜ",
+    "latitude": 37.8971,
+    "longitude": 40.2321
+  },
+  {
+    "stationId": "475",
+    "name": "D0475-HATUN KASTALI",
+    "latitude": 37.9031,
+    "longitude": 40.2339
+  },
+  {
+    "stationId": "476",
+    "name": "D0476-ŞEHİTLİK ÜÇYOL",
+    "latitude": 37.9056,
+    "longitude": 40.2201
+  },
+  {
+    "stationId": "477",
+    "name": "D0477-ŞEHİTLİK CAMİİ",
+    "latitude": 37.9059,
+    "longitude": 40.218
+  },
+  {
+    "stationId": "478",
+    "name": "D0478-ŞEHİT ALİ GAFFAR OKKAN",
+    "latitude": 37.9059,
+    "longitude": 40.2176
+  },
+  {
+    "stationId": "479",
+    "name": "D0479-ŞEHİTLİK ÜÇYOL",
+    "latitude": 37.9055,
+    "longitude": 40.22
+  },
+  {
+    "stationId": "480",
+    "name": "D0480-GAZİ KÖŞKÜ",
+    "latitude": 37.8967,
+    "longitude": 40.2317
+  },
+  {
+    "stationId": "481",
+    "name": "D0481-ON GÖZLÜ KÖPRÜ",
+    "latitude": 37.8876,
+    "longitude": 40.2277
+  },
+  {
+    "stationId": "482",
+    "name": "D0482-VADİPARK",
+    "latitude": 37.8691,
+    "longitude": 40.2274
+  },
+  {
+    "stationId": "483",
+    "name": "D0483-HAYVAN BORSASI",
+    "latitude": 37.8374,
+    "longitude": 40.2378
+  },
+  {
+    "stationId": "484",
+    "name": "D0484-KÜME EVLER",
+    "latitude": 37.8912,
+    "longitude": 40.2218
+  },
+  {
+    "stationId": "485",
+    "name": "D0485-DİNİ YÜKSEK İHTİSAS MERKEZİ",
+    "latitude": 37.8965,
+    "longitude": 40.224
+  },
+  {
+    "stationId": "486",
+    "name": "D0486-İLÇE SAĞLIK MÜDÜRLÜĞÜ",
+    "latitude": 37.9103,
+    "longitude": 40.2151
+  },
+  {
+    "stationId": "487",
+    "name": "D0487-OLİMPİYAT DÜĞÜN SALONU",
+    "latitude": 37.9158,
+    "longitude": 40.2154
+  },
+  {
+    "stationId": "488",
+    "name": "D0488-BAĞLAR TEDAŞ",
+    "latitude": 37.9194,
+    "longitude": 40.2164
+  },
+  {
+    "stationId": "489",
+    "name": "D0489-BAĞLAR SOSYAL YARDIMLAŞMA VAKFI",
+    "latitude": 37.9226,
+    "longitude": 40.2165
+  },
+  {
+    "stationId": "490",
+    "name": "D0490-BATIKENT",
+    "latitude": 37.9257,
+    "longitude": 40.2139
+  },
+  {
+    "stationId": "491",
+    "name": "D0491-BATIKENT",
+    "latitude": 37.9265,
+    "longitude": 40.2155
+  },
+  {
+    "stationId": "492",
+    "name": "D0492-BAĞLAR SOSYAL YARDIMLAŞMA VAKFI",
+    "latitude": 37.9234,
+    "longitude": 40.2182
+  },
+  {
+    "stationId": "493",
+    "name": "D0493-OLİMPİYAT DÜĞÜN SALONU",
+    "latitude": 37.9161,
+    "longitude": 40.2152
+  },
+  {
+    "stationId": "494",
+    "name": "D0494-MEZARLIK CADDESİ",
+    "latitude": 37.9042,
+    "longitude": 40.2203
+  },
+  {
+    "stationId": "495",
+    "name": "D0495-MEHMET UZUN PARKI",
+    "latitude": 37.9016,
+    "longitude": 40.2197
+  },
+  {
+    "stationId": "496",
+    "name": "D0496-ŞEHİT ALİ GAFFAR OKKAN AKADEMİSİ",
+    "latitude": 37.9008,
+    "longitude": 40.2221
+  },
+  {
+    "stationId": "497",
+    "name": "D0497-TELEKOM SANTRALİ",
+    "latitude": 37.9005,
+    "longitude": 40.223
+  },
+  {
+    "stationId": "498",
+    "name": "D0498-ALİYA İZZET BEGOVİÇ",
+    "latitude": 37.8986,
+    "longitude": 40.2239
+  },
+  {
+    "stationId": "499",
+    "name": "D0499-DİNİ YÜKSEK İHTİSAS MERKEZİ",
+    "latitude": 37.8964,
+    "longitude": 40.2239
+  },
+  {
+    "stationId": "500",
+    "name": "D500-FIRIN",
+    "latitude": 37.8938,
+    "longitude": 40.223
+  },
+  {
+    "stationId": "501",
+    "name": "D0501-GÖKKUŞAĞI",
+    "latitude": 37.9896,
+    "longitude": 40.1449
+  },
+  {
+    "stationId": "502",
+    "name": "D0502-HEBUN KONUTLARI",
+    "latitude": 37.9959,
+    "longitude": 40.1466
+  },
+  {
+    "stationId": "503",
+    "name": "D0503-LOJMANLAR",
+    "latitude": 37.9961,
+    "longitude": 40.1489
+  },
+  {
+    "stationId": "504",
+    "name": "D0504-ŞEHİT ALİ GAFFAR OKKAN BULVARI",
+    "latitude": 37.9956,
+    "longitude": 40.1509
+  },
+  {
+    "stationId": "505",
+    "name": "D0505-ZENGİ PARKI",
+    "latitude": 37.9936,
+    "longitude": 40.1511
+  },
+  {
+    "stationId": "506",
+    "name": "D0506-ÜÇKUYU DÖRTYOL",
+    "latitude": 37.9916,
+    "longitude": 40.1515
+  },
+  {
+    "stationId": "507",
+    "name": "D0507-ÜÇKUYU CADDESİ",
+    "latitude": 37.991,
+    "longitude": 40.1535
+  },
+  {
+    "stationId": "508",
+    "name": "D0508-BİLİM KOLEJİ",
+    "latitude": 37.9914,
+    "longitude": 40.1577
+  },
+  {
+    "stationId": "509",
+    "name": "D0509-ÜÇKUYU CAMİİ",
+    "latitude": 37.9911,
+    "longitude": 40.1592
+  },
+  {
+    "stationId": "510",
+    "name": "D0510-FİYAK GOLD EVLERİ",
+    "latitude": 37.9891,
+    "longitude": 40.1601
+  },
+  {
+    "stationId": "511",
+    "name": "D0511-AİLE SAĞLIĞI MERKEZİ",
+    "latitude": 37.9864,
+    "longitude": 40.1614
+  },
+  {
+    "stationId": "512",
+    "name": "D0512-KAVŞAK",
+    "latitude": 37.9811,
+    "longitude": 40.1659
+  },
+  {
+    "stationId": "513",
+    "name": "D0513-PARK EVLERİ",
+    "latitude": 37.9787,
+    "longitude": 40.1651
+  },
+  {
+    "stationId": "514",
+    "name": "D0514-ELAZIĞ BULVARI GİRİŞİ",
+    "latitude": 37.9758,
+    "longitude": 40.1628
+  },
+  {
+    "stationId": "515",
+    "name": "D0515-ADLİ TIP KURUMU",
+    "latitude": 37.9624,
+    "longitude": 40.1758
+  },
+  {
+    "stationId": "516",
+    "name": "D0516-KAYAPINAR İLÇE EMNİYET MÜDÜRLÜĞÜ",
+    "latitude": 37.9607,
+    "longitude": 40.1744
+  },
+  {
+    "stationId": "517",
+    "name": "D0517-UĞUR DERSHANALERİ",
+    "latitude": 37.9561,
+    "longitude": 40.1707
+  },
+  {
+    "stationId": "518",
+    "name": "D518-BENZİN İSTASYONU",
+    "latitude": 37.9517,
+    "longitude": 40.1668
+  },
+  {
+    "stationId": "519",
+    "name": "D0519-NURÇAY SİTESİ",
+    "latitude": 37.9494,
+    "longitude": 40.1644
+  },
+  {
+    "stationId": "520",
+    "name": "D0520-ALFEM SİTESİ",
+    "latitude": 37.9416,
+    "longitude": 40.1725
+  },
+  {
+    "stationId": "521",
+    "name": "D0521-KAYAPINAR BELEDİYESİ",
+    "latitude": 37.93938,
+    "longitude": 40.171785
+  },
+  {
+    "stationId": "522",
+    "name": "D0522-ÇEŞME DURAĞI",
+    "latitude": 37.9288,
+    "longitude": 40.1717
+  },
+  {
+    "stationId": "523",
+    "name": "D0523-CEYLAN AVM",
+    "latitude": 37.9257,
+    "longitude": 40.1721
+  },
+  {
+    "stationId": "524",
+    "name": "D0524-YENİHAL PTT ŞUBESİ",
+    "latitude": 37.925697,
+    "longitude": 40.172077
+  },
+  {
+    "stationId": "525",
+    "name": "D0525-KARAVİL SİTESİ",
+    "latitude": 37.9241,
+    "longitude": 40.1768
+  },
+  {
+    "stationId": "526",
+    "name": "D0526-ALİ KUŞÇU ORTAOKULU",
+    "latitude": 37.9245,
+    "longitude": 40.1795
+  },
+  {
+    "stationId": "527",
+    "name": "D0527-ARÇELİK",
+    "latitude": 37.9256,
+    "longitude": 40.1821
+  },
+  {
+    "stationId": "528",
+    "name": "D0528-BAĞLAR ZAROKİSTAN",
+    "latitude": 37.9262,
+    "longitude": 40.1851
+  },
+  {
+    "stationId": "529",
+    "name": "D0529-MEM U ZİN DÜĞÜN SALONU",
+    "latitude": 37.925973,
+    "longitude": 40.185141
+  },
+  {
+    "stationId": "530",
+    "name": "D0530-DİSKİ",
+    "latitude": 37.926564,
+    "longitude": 40.188602
+  },
+  {
+    "stationId": "531",
+    "name": "D0531-LASTİKÇİ",
+    "latitude": 37.923791,
+    "longitude": 40.192702
+  },
+  {
+    "stationId": "532",
+    "name": "D0532-ECZANE",
+    "latitude": 37.922829,
+    "longitude": 40.194194
+  },
+  {
+    "stationId": "533",
+    "name": "D0533-ÜSTGEÇİT",
+    "latitude": 37.921546,
+    "longitude": 40.195997
+  },
+  {
+    "stationId": "534",
+    "name": "D0534-SENTO TEDAŞ TRAFO",
+    "latitude": 37.918887,
+    "longitude": 40.19989
+  },
+  {
+    "stationId": "535",
+    "name": "D0535-KURUÇEŞME ÇIKIŞ",
+    "latitude": 37.917221,
+    "longitude": 40.202888
+  },
+  {
+    "stationId": "536",
+    "name": "D0536-İSKANEVLERİ",
+    "latitude": 37.919771,
+    "longitude": 40.19934
+  },
+  {
+    "stationId": "537",
+    "name": "D0537-BAĞLAR KAYMAKAMLIĞI",
+    "latitude": 37.920909,
+    "longitude": 40.19747
+  },
+  {
+    "stationId": "538",
+    "name": "D0538-SENTO CD.",
+    "latitude": 37.9225,
+    "longitude": 40.1952
+  },
+  {
+    "stationId": "539",
+    "name": "D0539-LASTİKÇİ",
+    "latitude": 37.9238,
+    "longitude": 40.1932
+  },
+  {
+    "stationId": "540",
+    "name": "D0540-RIHAN PARKI",
+    "latitude": 37.9252,
+    "longitude": 40.1913
+  },
+  {
+    "stationId": "541",
+    "name": "D0541-TOPTANCILAR SİTESİ",
+    "latitude": 37.926241,
+    "longitude": 40.185666
+  },
+  {
+    "stationId": "542",
+    "name": "D0542-BAĞLAR ZAROKİSTAN",
+    "latitude": 37.92545642851567,
+    "longitude": 40.18274251840071
+  },
+  {
+    "stationId": "543",
+    "name": "D0543-FIRIN",
+    "latitude": 37.92474,
+    "longitude": 40.179874
+  },
+  {
+    "stationId": "544",
+    "name": "D0544-BEKO",
+    "latitude": 37.924342,
+    "longitude": 40.176595
+  },
+  {
+    "stationId": "545",
+    "name": "D0545-KARAVİL SİTESİ",
+    "latitude": 37.924657,
+    "longitude": 40.173872
+  },
+  {
+    "stationId": "546",
+    "name": "D0546-YENİHAL PTT",
+    "latitude": 37.925815,
+    "longitude": 40.17241
+  },
+  {
+    "stationId": "547",
+    "name": "D0547-CEYLAN AVM",
+    "latitude": 37.92847668537952,
+    "longitude": 40.171952875397004
+  },
+  {
+    "stationId": "548",
+    "name": "D0548-ÇEŞME DURAĞI",
+    "latitude": 37.9306,
+    "longitude": 40.1717
+  },
+  {
+    "stationId": "549",
+    "name": "D0549-KAYAPINAR BELEDİYESİ",
+    "latitude": 37.9386,
+    "longitude": 40.172
+  },
+  {
+    "stationId": "550",
+    "name": "D0550-MİS FIRIN",
+    "latitude": 37.9415,
+    "longitude": 40.1728
+  },
+  {
+    "stationId": "551",
+    "name": "D0551-75 BULVARI",
+    "latitude": 37.9484,
+    "longitude": 40.164
+  },
+  {
+    "stationId": "552",
+    "name": "D0552-RÜYAKENT SİTESİ",
+    "latitude": 37.9505,
+    "longitude": 40.1664
+  },
+  {
+    "stationId": "553",
+    "name": "D0553-DİCLEKENT DİŞ HASTAHANESİ",
+    "latitude": 37.9545,
+    "longitude": 40.1701
+  },
+  {
+    "stationId": "554",
+    "name": "D0554-IŞIK SİTESİ",
+    "latitude": 37.9559,
+    "longitude": 40.1713
+  },
+  {
+    "stationId": "555",
+    "name": "D0555-KAYAPINAR SPOR TESİSLERİ",
+    "latitude": 37.9601,
+    "longitude": 40.1746
+  },
+  {
+    "stationId": "556",
+    "name": "D0556-ADLİ TIP KURUMU",
+    "latitude": 37.9622,
+    "longitude": 40.1763
+  },
+  {
+    "stationId": "557",
+    "name": "D0557-ELAZIĞ BULVARI ARA DURAK",
+    "latitude": 37.9712,
+    "longitude": 40.1693
+  },
+  {
+    "stationId": "558",
+    "name": "D0558-YILDIZ",
+    "latitude": 37.9729,
+    "longitude": 40.1664
+  },
+  {
+    "stationId": "559",
+    "name": "D0559-GÜNDOĞDU",
+    "latitude": 37.9762,
+    "longitude": 40.1601
+  },
+  {
+    "stationId": "560",
+    "name": "D0560-ÜÇKUYU TOKİ GİRİŞ",
+    "latitude": 37.9795,
+    "longitude": 40.1541
+  },
+  {
+    "stationId": "561",
+    "name": "D0561-MEZOPOTAMYA FUAR VE KONGRE MERKEZİ",
+    "latitude": 37.982121,
+    "longitude": 40.149554
+  },
+  {
+    "stationId": "562",
+    "name": "D0562-UYGULAMA OTELİ",
+    "latitude": 37.9838,
+    "longitude": 40.147
+  },
+  {
+    "stationId": "563",
+    "name": "D0563-FARABİ MESLEK LİSEESİ",
+    "latitude": 37.98526205014939,
+    "longitude": 40.14453594856573
+  },
+  {
+    "stationId": "564",
+    "name": "D0564-CEBELİ NUR",
+    "latitude": 37.95085669457339,
+    "longitude": 40.17479006220478
+  },
+  {
+    "stationId": "565",
+    "name": "D0565-METROPOL",
+    "latitude": 37.953572049077806,
+    "longitude": 40.1767360467476
+  },
+  {
+    "stationId": "566",
+    "name": "D0566-GAVSI GEYLANİ",
+    "latitude": 37.9551,
+    "longitude": 40.1774
+  },
+  {
+    "stationId": "567",
+    "name": "D0567-PARK",
+    "latitude": 37.9561492755017,
+    "longitude": 40.176151992163064
+  },
+  {
+    "stationId": "568",
+    "name": "D0568-YEDİRENK EĞİTİM KURUMLARI",
+    "latitude": 37.957,
+    "longitude": 40.1737
+  },
+  {
+    "stationId": "569",
+    "name": "D0569-MİRAÇ SİTESİ",
+    "latitude": 37.9829,
+    "longitude": 40.1533
+  },
+  {
+    "stationId": "570",
+    "name": "D0570-YETİMLER VAKFI",
+    "latitude": 37.9379,
+    "longitude": 40.1812
+  },
+  {
+    "stationId": "571",
+    "name": "D0571-BENZİNLİK",
+    "latitude": 37.936722884701155,
+    "longitude": 40.18190553984642
+  },
+  {
+    "stationId": "572",
+    "name": "D0572-BEKO",
+    "latitude": 37.9387,
+    "longitude": 40.1813
+  },
+  {
+    "stationId": "573",
+    "name": "D0573-SON DURAK (ÇAKIŞMALAR İÇİN)",
+    "latitude": 37.924345,
+    "longitude": 40.135069
+  },
+  {
+    "stationId": "574",
+    "name": "D0574-BATI İLÇE OTOGARI",
+    "latitude": 37.9215966,
+    "longitude": 40.134502
+  },
+  {
+    "stationId": "575",
+    "name": "D0575-TED KOLEJİ",
+    "latitude": 37.9383,
+    "longitude": 40.1291
+  },
+  {
+    "stationId": "576",
+    "name": "D0576-MİLLİ EGEMENLİK ANADOLU LİSESİ",
+    "latitude": 37.9013,
+    "longitude": 40.2232
+  },
+  {
+    "stationId": "577",
+    "name": "D0577-DİYARBAKIR ANADOLU LİSESİ",
+    "latitude": 37.9029,
+    "longitude": 40.2231
+  },
+  {
+    "stationId": "578",
+    "name": "D0578-BAĞLAR İTFAİYESİ",
+    "latitude": 37.929086374435045,
+    "longitude": 40.18555726008415
+  },
+  {
+    "stationId": "579",
+    "name": "D0579-MEDYA PARKI",
+    "latitude": 37.9339,
+    "longitude": 40.1824
+  },
+  {
+    "stationId": "580",
+    "name": "D0580-GIDA TOPTANCILAR SİTESİ",
+    "latitude": 37.9294,
+    "longitude": 40.1846
+  },
+  {
+    "stationId": "581",
+    "name": "D0581-ŞANTİYE DEPOSU",
+    "latitude": 37.971,
+    "longitude": 40.1702
+  },
+  {
+    "stationId": "582",
+    "name": "D0582-NUR SİTESİ",
+    "latitude": 37.9727,
+    "longitude": 40.1711
+  },
+  {
+    "stationId": "583",
+    "name": "D0583-YUNUS EMRE PARKI",
+    "latitude": 37.9742,
+    "longitude": 40.1683
+  },
+  {
+    "stationId": "584",
+    "name": "D0584-EMİRHAN KONUTLARI",
+    "latitude": 37.9751,
+    "longitude": 40.1663
+  },
+  {
+    "stationId": "585",
+    "name": "D0585-EKMEK FIRINI",
+    "latitude": 37.9783,
+    "longitude": 40.1652
+  },
+  {
+    "stationId": "586",
+    "name": "D0586-BATI HASTAHANESİ",
+    "latitude": 37.9453,
+    "longitude": 40.1756
+  },
+  {
+    "stationId": "587",
+    "name": "D0587-RECESA KONUTLARI",
+    "latitude": 37.9446,
+    "longitude": 40.175
+  },
+  {
+    "stationId": "588",
+    "name": "D0588-TOPLUKONUT SPOR SAHASI",
+    "latitude": 37.94581269732565,
+    "longitude": 40.209255267761755
+  },
+  {
+    "stationId": "589",
+    "name": "D0589-ŞEHİTBAŞKOMİSER FATİH ÖZDİL ORTAOKULU",
+    "latitude": 37.94632335,
+    "longitude": 40.20718429
+  },
+  {
+    "stationId": "590",
+    "name": "D0590-214 ADA",
+    "latitude": 37.947260402128904,
+    "longitude": 40.20615080736257
+  },
+  {
+    "stationId": "591",
+    "name": "D0591-223 ADA",
+    "latitude": 37.9477,
+    "longitude": 40.2052
+  },
+  {
+    "stationId": "592",
+    "name": "D0592-227 ADA",
+    "latitude": 37.9487,
+    "longitude": 40.2041
+  },
+  {
+    "stationId": "593",
+    "name": "D0593- AGE 232",
+    "latitude": 37.9508984104376,
+    "longitude": 40.20425677715828
+  },
+  {
+    "stationId": "594",
+    "name": "D0594-ŞİLBE YOLU",
+    "latitude": 37.951396256307135,
+    "longitude": 40.20429099386879
+  },
+  {
+    "stationId": "595",
+    "name": "D0595-DİCLE MESLEK LİSESİ",
+    "latitude": 37.9536,
+    "longitude": 40.2037
+  },
+  {
+    "stationId": "596",
+    "name": "D0596-HALISAHA",
+    "latitude": 37.95439559175945,
+    "longitude": 40.20434402348811
+  },
+  {
+    "stationId": "597",
+    "name": "D0597-TOKİ PARK",
+    "latitude": 37.955,
+    "longitude": 40.2059
+  },
+  {
+    "stationId": "598",
+    "name": "D0598-TOKİ PARK SPOR KOMPLEKSİ",
+    "latitude": 37.9552,
+    "longitude": 40.2067
+  },
+  {
+    "stationId": "599",
+    "name": "D0599-D15 KONUTLARI",
+    "latitude": 37.9538,
+    "longitude": 40.2077
+  },
+  {
+    "stationId": "600",
+    "name": "D0600-REHABİLİTASYON MERKEZİ",
+    "latitude": 37.9529,
+    "longitude": 40.2115
+  },
+  {
+    "stationId": "601",
+    "name": "D0601-277 3 ADA",
+    "latitude": 37.9516,
+    "longitude": 40.2092
+  },
+  {
+    "stationId": "602",
+    "name": "D0602-TOPLUKONUT MİGROS",
+    "latitude": 37.9504,
+    "longitude": 40.21
+  },
+  {
+    "stationId": "603",
+    "name": "D0603-258 ADA",
+    "latitude": 37.949,
+    "longitude": 40.2106
+  },
+  {
+    "stationId": "604",
+    "name": "D0604-SAĞLIK MERKEZİ",
+    "latitude": 37.9483,
+    "longitude": 40.2096
+  },
+  {
+    "stationId": "605",
+    "name": "D0605-TOPLUKONUT ÇEŞME DURAĞI",
+    "latitude": 37.947797,
+    "longitude": 40.20797
+  },
+  {
+    "stationId": "606",
+    "name": "D0606-ÖZGÜR PARK",
+    "latitude": 37.9466,
+    "longitude": 40.2088
+  },
+  {
+    "stationId": "607",
+    "name": "D0607-ŞEHİT SÜLEYMAN SORKUT LİSESİ",
+    "latitude": 37.9455066361913,
+    "longitude": 40.20994938350623
+  },
+  {
+    "stationId": "608",
+    "name": "D0608-ALTINAY SİTESİ",
+    "latitude": 37.9455,
+    "longitude": 40.212
+  },
+  {
+    "stationId": "609",
+    "name": "D0609-VADİ EVLERİ",
+    "latitude": 37.9432,
+    "longitude": 40.2134
+  },
+  {
+    "stationId": "610",
+    "name": "D0610-GÜNDOĞAN MAHALLESİ YASEVİ",
+    "latitude": 37.9408,
+    "longitude": 40.2151
+  },
+  {
+    "stationId": "611",
+    "name": "D0611-TOPLUKONUT GİRİŞİ",
+    "latitude": 37.943,
+    "longitude": 40.202131
+  },
+  {
+    "stationId": "612",
+    "name": "D0612-SEYRANPLUS",
+    "latitude": 37.9452,
+    "longitude": 40.206018
+  },
+  {
+    "stationId": "613",
+    "name": "D0613-TRAFİK ZABITA AMİRLİĞİ",
+    "latitude": 37.9208,
+    "longitude": 40.133
+  },
+  {
+    "stationId": "614",
+    "name": "D0614-ŞEHİTLİK DÖRTYOL",
+    "latitude": 37.9085,
+    "longitude": 40.222
+  },
+  {
+    "stationId": "615",
+    "name": "D0615-TÜRKİYE RADYO KURUMU",
+    "latitude": 37.912194,
+    "longitude": 40.222447
+  },
+  {
+    "stationId": "616",
+    "name": "D0616-YENİŞEHİR MİLLETBAHÇESİ",
+    "latitude": 37.9132,
+    "longitude": 40.2192
+  },
+  {
+    "stationId": "617",
+    "name": "D0617-BALIKÇILARBAŞI",
+    "latitude": 37.911,
+    "longitude": 40.2364
+  },
+  {
+    "stationId": "618",
+    "name": "D0618-VURAN PASAJI",
+    "latitude": 37.911,
+    "longitude": 40.2343
+  },
+  {
+    "stationId": "619",
+    "name": "D0619-ECZANE",
+    "latitude": 37.9108,
+    "longitude": 40.2315
+  },
+  {
+    "stationId": "620",
+    "name": "D0620-MELİK AHMET LİSESİ",
+    "latitude": 37.9109,
+    "longitude": 40.2292
+  },
+  {
+    "stationId": "621",
+    "name": "D0621-ESKİ HAL",
+    "latitude": 37.9114,
+    "longitude": 40.226
+  },
+  {
+    "stationId": "622",
+    "name": "D0622-GÜMRÜK MÜDÜRLÜĞÜ",
+    "latitude": 37.9583,
+    "longitude": 40.1713
+  },
+  {
+    "stationId": "623",
+    "name": "D0623-VİP75 KONUTLARI",
+    "latitude": 37.95865483233857,
+    "longitude": 40.168295753601235
+  },
+  {
+    "stationId": "624",
+    "name": "D0624-MEVLANA İLKÖĞRETİM OKULU",
+    "latitude": 37.9587,
+    "longitude": 40.1655
+  },
+  {
+    "stationId": "625",
+    "name": "D0625-KAYAPINAR KIZ İMAM HATİP LİSESİ",
+    "latitude": 37.958755135616215,
+    "longitude": 40.163096112175424
+  },
+  {
+    "stationId": "626",
+    "name": "D0626-MASTFROŞ CADDESİ",
+    "latitude": 37.95988144378771,
+    "longitude": 40.16154145695189
+  },
+  {
+    "stationId": "627",
+    "name": "D0627-MİNA KURAN KURSU",
+    "latitude": 37.9621,
+    "longitude": 40.1612
+  },
+  {
+    "stationId": "628",
+    "name": "D0628-MEVLANA ORTAOKULU",
+    "latitude": 37.964844485291124,
+    "longitude": 40.15901025052415
+  },
+  {
+    "stationId": "629",
+    "name": "D0629-WİNSTOWN AVM",
+    "latitude": 37.967617426112795,
+    "longitude": 40.15438599537302
+  },
+  {
+    "stationId": "630",
+    "name": "D0630-MALİYE KONUTLARI",
+    "latitude": 37.969566472679844,
+    "longitude": 40.15025955118616
+  },
+  {
+    "stationId": "631",
+    "name": "D0631-RAMADA EVLERİ",
+    "latitude": 37.971,
+    "longitude": 40.1474
+  },
+  {
+    "stationId": "632",
+    "name": "D0632-ECZANE",
+    "latitude": 37.972191,
+    "longitude": 40.144923
+  },
+  {
+    "stationId": "633",
+    "name": "D0633-GLORİA SİTESİ",
+    "latitude": 37.97561849568024,
+    "longitude": 40.14493100118759
+  },
+  {
+    "stationId": "634",
+    "name": "D0634-KULE SİTESİ",
+    "latitude": 37.9786,
+    "longitude": 40.1473
+  },
+  {
+    "stationId": "635",
+    "name": "D0635-ARAŞTIRMA CADDESİ",
+    "latitude": 37.98006856603524,
+    "longitude": 40.14628744375859
+  },
+  {
+    "stationId": "636",
+    "name": "D0636-OZAN NEŞET ERTAŞ ANADOLU LİSESİ",
+    "latitude": 37.981406342436266,
+    "longitude": 40.14135947833061
+  },
+  {
+    "stationId": "637",
+    "name": "D0637-GÜNEYDOĞU YAPI",
+    "latitude": 37.9794,
+    "longitude": 40.1471
+  },
+  {
+    "stationId": "638",
+    "name": "D0638-MARKET",
+    "latitude": 37.97831620681225,
+    "longitude": 40.14674979749984
+  },
+  {
+    "stationId": "639",
+    "name": "D0639-MALİYE LOJMANLARI",
+    "latitude": 37.976434,
+    "longitude": 40.145257
+  },
+  {
+    "stationId": "640",
+    "name": "D0640-ECZANE",
+    "latitude": 37.9721,
+    "longitude": 40.1446
+  },
+  {
+    "stationId": "641",
+    "name": "D0641-RAMADA EVLERİ",
+    "latitude": 37.9708,
+    "longitude": 40.1472
+  },
+  {
+    "stationId": "642",
+    "name": "D0642-MALİYE KONUTLARI",
+    "latitude": 37.9695,
+    "longitude": 40.15
+  },
+  {
+    "stationId": "643",
+    "name": "D0643-POSİTİVE İŞ MERKEZİ",
+    "latitude": 37.9675,
+    "longitude": 40.1542
+  },
+  {
+    "stationId": "644",
+    "name": "D0644-AŞIK VEYSEL BİLİM OKULU",
+    "latitude": 37.9643,
+    "longitude": 40.1595
+  },
+  {
+    "stationId": "645",
+    "name": "D0645-MİNA KURAN KURSU",
+    "latitude": 37.9621,
+    "longitude": 40.1609
+  },
+  {
+    "stationId": "646",
+    "name": "D0646-KOM ELİTE SİTESİ",
+    "latitude": 37.9597,
+    "longitude": 40.1614
+  },
+  {
+    "stationId": "647",
+    "name": "D0647-KAYAPINAR KIZ İMAM HATİP LİSESİ",
+    "latitude": 37.9586,
+    "longitude": 40.1628
+  },
+  {
+    "stationId": "648",
+    "name": "D0648-MEVLANA İLKÖĞRETİM OKULU",
+    "latitude": 37.9585,
+    "longitude": 40.1653
+  },
+  {
+    "stationId": "649",
+    "name": "D0649-ÇEM3 SİTESİ",
+    "latitude": 37.958496427062414,
+    "longitude": 40.16790086270607
+  },
+  {
+    "stationId": "650",
+    "name": "D0650-GÜMRÜK MÜDÜRLÜĞÜ",
+    "latitude": 37.958393691532905,
+    "longitude": 40.170635282992606
+  },
+  {
+    "stationId": "651",
+    "name": "D0651-SÜMERPARK",
+    "latitude": 37.913,
+    "longitude": 40.2183
+  },
+  {
+    "stationId": "652",
+    "name": "D0652-İL MÜFTÜLÜĞÜ",
+    "latitude": 37.9123,
+    "longitude": 40.2213
+  },
+  {
+    "stationId": "653",
+    "name": "D0653-ESKİ HAL",
+    "latitude": 37.9111,
+    "longitude": 40.2259
+  },
+  {
+    "stationId": "654",
+    "name": "D0654-MELİK AHMET",
+    "latitude": 37.9103,
+    "longitude": 40.228
+  },
+  {
+    "stationId": "655",
+    "name": "D0655-EVLİ BEDEN BURCU",
+    "latitude": 37.9068,
+    "longitude": 40.2282
+  },
+  {
+    "stationId": "656",
+    "name": "D0656-ALİPAŞA CAMİİ",
+    "latitude": 37.9053,
+    "longitude": 40.2302
+  },
+  {
+    "stationId": "657",
+    "name": "D0657-FERİTKÖŞK",
+    "latitude": 37.9289,
+    "longitude": 40.2364
+  },
+  {
+    "stationId": "658",
+    "name": "D0658-KARAYOLLARI KOOPERATİFİ",
+    "latitude": 37.929,
+    "longitude": 40.2357
+  },
+  {
+    "stationId": "659",
+    "name": "D0659-FİDANLIK",
+    "latitude": 37.9277,
+    "longitude": 40.2357
+  },
+  {
+    "stationId": "660",
+    "name": "D0660-TRAFO",
+    "latitude": 37.9269,
+    "longitude": 40.2364
+  },
+  {
+    "stationId": "661",
+    "name": "D0661-FERİTKÖŞK ÇIKIŞ",
+    "latitude": 37.9252,
+    "longitude": 40.2369
+  },
+  {
+    "stationId": "662",
+    "name": "D0662-SUR İLÇE SAĞLIK MÜDÜRLÜĞÜ",
+    "latitude": 37.9216,
+    "longitude": 40.2366
+  },
+  {
+    "stationId": "663",
+    "name": "D0663-SELAHADDİNİ EYYUBİ DEVLET HASTAHANESİ",
+    "latitude": 37.9182,
+    "longitude": 40.2385
+  },
+  {
+    "stationId": "664",
+    "name": "D0664-ARAŞTIRMA HASTAHANESİ KAVŞAĞI",
+    "latitude": 37.9876,
+    "longitude": 40.1408
+  },
+  {
+    "stationId": "665",
+    "name": "D0665-DÖKMETAŞ MAHALLESİ",
+    "latitude": 38.0004,
+    "longitude": 40.1242
+  },
+  {
+    "stationId": "666",
+    "name": "D0666-TEMSAN EVLERİ",
+    "latitude": 38.006,
+    "longitude": 40.1174
+  },
+  {
+    "stationId": "667",
+    "name": "D0667-TEMSAN",
+    "latitude": 38.0089,
+    "longitude": 40.1144
+  },
+  {
+    "stationId": "668",
+    "name": "D0668-ARA DURAK",
+    "latitude": 38.0141,
+    "longitude": 40.1092
+  },
+  {
+    "stationId": "669",
+    "name": "D0669-TOPRAK EVLER",
+    "latitude": 38.0176,
+    "longitude": 40.1057
+  },
+  {
+    "stationId": "670",
+    "name": "D0670-ÇİMENLER",
+    "latitude": 38.0201,
+    "longitude": 40.1032
+  },
+  {
+    "stationId": "671",
+    "name": "D0671-ÇELİKEVLER",
+    "latitude": 38.0268,
+    "longitude": 40.0963
+  },
+  {
+    "stationId": "672",
+    "name": "D0672-VETERİNERLİK",
+    "latitude": 38.0295,
+    "longitude": 40.0936
+  },
+  {
+    "stationId": "673",
+    "name": "D0673-ASFALT PLENT ŞANTİYESİ",
+    "latitude": 38.0406,
+    "longitude": 40.0822
+  },
+  {
+    "stationId": "674",
+    "name": "D0674-BOZEK",
+    "latitude": 38.0677,
+    "longitude": 40.0536
+  },
+  {
+    "stationId": "675",
+    "name": "D0675-ORGANİZE SANAYİİ 1. DURAK",
+    "latitude": 38.0717,
+    "longitude": 40.0507
+  },
+  {
+    "stationId": "676",
+    "name": "D0676-ORGANİZE SANAYİİ 2. DURAK",
+    "latitude": 38.0734,
+    "longitude": 40.0528
+  },
+  {
+    "stationId": "677",
+    "name": "D0677-ORGANİZE SANAYİİ 3. DURAK",
+    "latitude": 38.0746,
+    "longitude": 40.0543
+  },
+  {
+    "stationId": "678",
+    "name": "D0678-ORGANİZE SANAYİİ 4. DURAK",
+    "latitude": 38.0759,
+    "longitude": 40.0559
+  },
+  {
+    "stationId": "679",
+    "name": "D0679-ORGANİZE SANAYİİ 5. DURAK",
+    "latitude": 38.0774,
+    "longitude": 40.0579
+  },
+  {
+    "stationId": "680",
+    "name": "D0680-ORGANİZE SANAYİİ 6. DURAK",
+    "latitude": 38.0803,
+    "longitude": 40.0584
+  },
+  {
+    "stationId": "681",
+    "name": "D0681-ORGANİZE SANAYİİ 7.DURAK",
+    "latitude": 38.0817,
+    "longitude": 40.0569
+  },
+  {
+    "stationId": "682",
+    "name": "D0682-ORANİZE SANAYİİ 8. DURAK",
+    "latitude": 38.0823,
+    "longitude": 40.0553
+  },
+  {
+    "stationId": "683",
+    "name": "D0683-ORGANİZE SANAYİİ 9. DURAK",
+    "latitude": 38.081,
+    "longitude": 40.0534
+  },
+  {
+    "stationId": "684",
+    "name": "D0684-ORGANİZE SANAYİİ 10. DURAK",
+    "latitude": 38.0797,
+    "longitude": 40.0515
+  },
+  {
+    "stationId": "685",
+    "name": "D0685- GÜVENLİK KONTROL NOKTASI",
+    "latitude": 38.0726,
+    "longitude": 40.0472
+  },
+  {
+    "stationId": "686",
+    "name": "D0686-ORGANİZE SANAYİİ 2. ETAP",
+    "latitude": 38.0765,
+    "longitude": 40.0414
+  },
+  {
+    "stationId": "687",
+    "name": "D0687-EYÜP SULTAN CAMİİ",
+    "latitude": 38.0732,
+    "longitude": 40.0458
+  },
+  {
+    "stationId": "688",
+    "name": "D0688-EKMEK FIRINI",
+    "latitude": 38.0723,
+    "longitude": 40.047
+  },
+  {
+    "stationId": "689",
+    "name": "D0689-ORGANİZE SANAYİİ 1. ETAP",
+    "latitude": 38.0704,
+    "longitude": 40.0493
+  },
+  {
+    "stationId": "690",
+    "name": "D0690-ASFALT PLENT ŞANTİYESİ",
+    "latitude": 38.0398,
+    "longitude": 40.0826
+  },
+  {
+    "stationId": "691",
+    "name": "D0691-NASIRİ",
+    "latitude": 38.0356,
+    "longitude": 40.0868
+  },
+  {
+    "stationId": "692",
+    "name": "D0692-ÇELİK EVLER",
+    "latitude": 38.029,
+    "longitude": 40.0935
+  },
+  {
+    "stationId": "693",
+    "name": "D0693-ÇELİK EVLER ÇIKIŞ",
+    "latitude": 38.0262,
+    "longitude": 40.0964
+  },
+  {
+    "stationId": "694",
+    "name": "D0694-BENEKLİTAŞ",
+    "latitude": 38.0226,
+    "longitude": 40.1001
+  },
+  {
+    "stationId": "695",
+    "name": "D0695-ÇİMENLER",
+    "latitude": 38.0199,
+    "longitude": 40.1028
+  },
+  {
+    "stationId": "696",
+    "name": "D0696-TOPRAKEVLER",
+    "latitude": 38.0175,
+    "longitude": 40.1052
+  },
+  {
+    "stationId": "697",
+    "name": "D0697-EMSAN",
+    "latitude": 38.0057,
+    "longitude": 40.1175
+  },
+  {
+    "stationId": "698",
+    "name": "D0698-TEMSAN EVLERİ",
+    "latitude": 38.0057,
+    "longitude": 40.1175
+  },
+  {
+    "stationId": "699",
+    "name": "D0699-DÖKMETAŞ",
+    "latitude": 37.999,
+    "longitude": 40.1256
+  },
+  {
+    "stationId": "700",
+    "name": "D0700-ARAŞTIRMA ÇIKIŞI",
+    "latitude": 37.986507,
+    "longitude": 40.14188
+  },
+  {
+    "stationId": "701",
+    "name": "D0701-SELAHADDİNİ EYYUBİ DEVLET HASTAHANESİ",
+    "latitude": 37.9182,
+    "longitude": 40.2387
+  },
+  {
+    "stationId": "702",
+    "name": "D0702-FERİTKÖŞK GİRİŞ",
+    "latitude": 37.924,
+    "longitude": 40.2385
+  },
+  {
+    "stationId": "703",
+    "name": "D0703-ORGANİZE SANAYİİ 11. DURAK",
+    "latitude": 38.0694,
+    "longitude": 40.0476
+  },
+  {
+    "stationId": "704",
+    "name": "D0704-ORGANİZE SANAYİİ 12. DURAK",
+    "latitude": 38.068,
+    "longitude": 40.0454
+  },
+  {
+    "stationId": "705",
+    "name": "D0705-ORGANİZE SANAYİİ 13. DURAK",
+    "latitude": 38.0673,
+    "longitude": 40.0428
+  },
+  {
+    "stationId": "706",
+    "name": "D0706-ORGANİZE SANAYİİ 14. DURAK",
+    "latitude": 38.0687,
+    "longitude": 40.0408
+  },
+  {
+    "stationId": "707",
+    "name": "D0707-ORGANİZE SANAYİİ 15. DURAK",
+    "latitude": 38.0706,
+    "longitude": 40.0382
+  },
+  {
+    "stationId": "708",
+    "name": "D0708-ORGANİZE SANAYİİ 16. DURAK",
+    "latitude": 38.0725,
+    "longitude": 40.0362
+  },
+  {
+    "stationId": "709",
+    "name": "D0709-ORGANİZE SANAYİİ 17. DURAK",
+    "latitude": 38.074,
+    "longitude": 40.0381
+  },
+  {
+    "stationId": "710",
+    "name": "D0710-ORGANİZE SANAYİİ 18. DURAK",
+    "latitude": 38.0754,
+    "longitude": 40.0396
+  },
+  {
+    "stationId": "711",
+    "name": "D0711-AMBULANS İSTASYONU",
+    "latitude": 37.9022,
+    "longitude": 40.0067
+  },
+  {
+    "stationId": "712",
+    "name": "D0712-VETERİNER",
+    "latitude": 37.9023,
+    "longitude": 40.0089
+  },
+  {
+    "stationId": "713",
+    "name": "D0713-KARAKOL",
+    "latitude": 37.902,
+    "longitude": 40.0033
+  },
+  {
+    "stationId": "714",
+    "name": "D0714-PİRİNÇLİK ÇIKIŞ",
+    "latitude": 37.8939,
+    "longitude": 40.0035
+  },
+  {
+    "stationId": "715",
+    "name": "D0715-SERAP GÖZELİ",
+    "latitude": 37.9114,
+    "longitude": 40.0827
+  },
+  {
+    "stationId": "716",
+    "name": "D0716-FEN VE TEKNOLOJİ KOLEJİ",
+    "latitude": 37.9118,
+    "longitude": 40.09
+  },
+  {
+    "stationId": "717",
+    "name": "D0717-HAVALİMANI",
+    "latitude": 37.901,
+    "longitude": 40.1832
+  },
+  {
+    "stationId": "718",
+    "name": "D0718-KAMIŞLO BULVARI",
+    "latitude": 37.908,
+    "longitude": 40.1748
+  },
+  {
+    "stationId": "719",
+    "name": "D0719-TATLICILAR",
+    "latitude": 37.9104,
+    "longitude": 40.1739
+  },
+  {
+    "stationId": "720",
+    "name": "D0720-SELAHADDİNİ EYYUBİ PARKI",
+    "latitude": 37.9117,
+    "longitude": 40.1735
+  },
+  {
+    "stationId": "721",
+    "name": "D0721-TATLICILAR",
+    "latitude": 37.9109,
+    "longitude": 40.1734
+  },
+  {
+    "stationId": "722",
+    "name": "D0722-KAMIŞLO BULVARI",
+    "latitude": 37.908,
+    "longitude": 40.1743
+  },
+  {
+    "stationId": "723",
+    "name": "D0723-ONUR SİTESİ",
+    "latitude": 37.911,
+    "longitude": 40.1144
+  },
+  {
+    "stationId": "724",
+    "name": "D0724-ATATÜRK ANADOLU LİSESİ",
+    "latitude": 37.9109,
+    "longitude": 40.1183
+  },
+  {
+    "stationId": "725",
+    "name": "D0725-BUBYA SİTESİ",
+    "latitude": 37.9112,
+    "longitude": 40.123
+  },
+  {
+    "stationId": "726",
+    "name": "D0726-DÜĞÜN SALONU",
+    "latitude": 37.9114,
+    "longitude": 40.1277
+  },
+  {
+    "stationId": "727",
+    "name": "D0727-REHABİLİTASYON MERKEZİ",
+    "latitude": 37.9117,
+    "longitude": 40.1316
+  },
+  {
+    "stationId": "728",
+    "name": "D0728-KAPİTOL PARK SİTESİ",
+    "latitude": 37.9119,
+    "longitude": 40.1345
+  },
+  {
+    "stationId": "729",
+    "name": "D0729-SOSYAL SPOR TESİSLERİ",
+    "latitude": 37.9124,
+    "longitude": 40.1522
+  },
+  {
+    "stationId": "730",
+    "name": "D0730-EVİN EĞİTİM KURUMU",
+    "latitude": 37.9106,
+    "longitude": 40.1568
+  },
+  {
+    "stationId": "731",
+    "name": "D0731-NEVROZ PARK",
+    "latitude": 37.9095,
+    "longitude": 40.1612
+  },
+  {
+    "stationId": "732",
+    "name": "D0732-DÜĞÜN SALONU",
+    "latitude": 37.9095,
+    "longitude": 40.1648
+  },
+  {
+    "stationId": "733",
+    "name": "D0733-MOLLA GÜRANİ CADDESİ",
+    "latitude": 37.9108,
+    "longitude": 40.1669
+  },
+  {
+    "stationId": "734",
+    "name": "D0734-ECZANE",
+    "latitude": 37.9128,
+    "longitude": 40.1676
+  },
+  {
+    "stationId": "735",
+    "name": "D0735-DATA EĞİTİM KURUMU",
+    "latitude": 37.913201,
+    "longitude": 40.173285
+  },
+  {
+    "stationId": "736",
+    "name": "D0736-PARK EVLERİ",
+    "latitude": 37.9163,
+    "longitude": 40.1735
+  },
+  {
+    "stationId": "737",
+    "name": "D0737-GÖLETLİ PARK",
+    "latitude": 37.9207,
+    "longitude": 40.173
+  },
+  {
+    "stationId": "738",
+    "name": "D0738-YENİKÖY FUTBOL SAHASI",
+    "latitude": 37.9182,
+    "longitude": 40.1954
+  },
+  {
+    "stationId": "739",
+    "name": "D0739-MEDİNE AİLE SAĞLIĞI MERKEZİ",
+    "latitude": 37.9211,
+    "longitude": 40.2003
+  },
+  {
+    "stationId": "740",
+    "name": "D0740-NAMIK KEMAL LİSESİ",
+    "latitude": 37.9229,
+    "longitude": 40.2011
+  },
+  {
+    "stationId": "741",
+    "name": "D0741-YAHYA KEMAL BEYATLI İLKOKULU",
+    "latitude": 37.9246,
+    "longitude": 40.2018
+  },
+  {
+    "stationId": "742",
+    "name": "D0742-MEDİNE BULVARI",
+    "latitude": 37.925654,
+    "longitude": 40.202224
+  },
+  {
+    "stationId": "743",
+    "name": "D0743-ŞEFİK EFENDİ CAMİİ",
+    "latitude": 37.92141,
+    "longitude": 40.200141
+  },
+  {
+    "stationId": "744",
+    "name": "D0744-GÖLETLİ PARK",
+    "latitude": 37.9204,
+    "longitude": 40.1727
+  },
+  {
+    "stationId": "745",
+    "name": "D0745-ANZEL SİTESİ",
+    "latitude": 37.916388,
+    "longitude": 40.17309
+  },
+  {
+    "stationId": "746",
+    "name": "D0746-DATA EĞİTİM KURUMLARI",
+    "latitude": 37.913835,
+    "longitude": 40.172967
+  },
+  {
+    "stationId": "747",
+    "name": "D0747-SOSYAL SPOR TESİSLERİ",
+    "latitude": 37.906566,
+    "longitude": 40.172009
+  },
+  {
+    "stationId": "748",
+    "name": "D0748-ANA OKULU",
+    "latitude": 37.90649,
+    "longitude": 40.170956
+  },
+  {
+    "stationId": "749",
+    "name": "D0749-EKMEK FIRINI",
+    "latitude": 37.906256,
+    "longitude": 40.168138
+  },
+  {
+    "stationId": "750",
+    "name": "D0750-KARACADAĞ ANADOLU LİSESİ",
+    "latitude": 37.9077,
+    "longitude": 40.1667
+  },
+  {
+    "stationId": "751",
+    "name": "D0751-DÜĞÜN SALONU",
+    "latitude": 37.9096,
+    "longitude": 40.1642
+  },
+  {
+    "stationId": "752",
+    "name": "D0752-NEVRUZ PARK",
+    "latitude": 37.9097,
+    "longitude": 40.1605
+  },
+  {
+    "stationId": "753",
+    "name": "D0753-ATAŞEHİR SİTESİ",
+    "latitude": 37.9103,
+    "longitude": 40.158
+  },
+  {
+    "stationId": "754",
+    "name": "D0754-EVRİM ALATAŞ CADDESİ",
+    "latitude": 37.9102,
+    "longitude": 40.158
+  },
+  {
+    "stationId": "755",
+    "name": "D0755-SOSYAL SPOR TESİSLERİ",
+    "latitude": 37.9128,
+    "longitude": 40.1518
+  },
+  {
+    "stationId": "756",
+    "name": "D0756-AHMET KAYA CADDESİ",
+    "latitude": 37.912,
+    "longitude": 40.1345
+  },
+  {
+    "stationId": "757",
+    "name": "D0757-REHABİLİTASYON MERKEZLERİ",
+    "latitude": 37.9118,
+    "longitude": 40.1316
+  },
+  {
+    "stationId": "758",
+    "name": "D0758-DÜĞÜN SALONU",
+    "latitude": 37.9116,
+    "longitude": 40.1278
+  },
+  {
+    "stationId": "759",
+    "name": "D0759-İPEKYOLU İLKOKULU",
+    "latitude": 37.9114,
+    "longitude": 40.1236
+  },
+  {
+    "stationId": "760",
+    "name": "D0760-ATATÜRK ANADOLU MESLEK LİSESİ",
+    "latitude": 37.9111,
+    "longitude": 40.1175
+  },
+  {
+    "stationId": "761",
+    "name": "D0761-BARIŞ SİTESİ",
+    "latitude": 37.9113,
+    "longitude": 40.1146
+  },
+  {
+    "stationId": "762",
+    "name": "D0762-ŞEHRİ EMİN SİTESİ",
+    "latitude": 37.937455790171626,
+    "longitude": 40.1381129668155
+  },
+  {
+    "stationId": "763",
+    "name": "D0763-ECZANE",
+    "latitude": 37.93552742807459,
+    "longitude": 40.13715791364656
+  },
+  {
+    "stationId": "764",
+    "name": "D0764-KAYAPINAR SPOR PARKI",
+    "latitude": 37.932,
+    "longitude": 40.1359
+  },
+  {
+    "stationId": "765",
+    "name": "D0765-Tekstil Kent1",
+    "latitude": 38.0156,
+    "longitude": 40.1204
+  },
+  {
+    "stationId": "766",
+    "name": "D0766-Tekstil Kent2",
+    "latitude": 38.018,
+    "longitude": 40.124
+  },
+  {
+    "stationId": "767",
+    "name": "D0767-Tekstil Kent3",
+    "latitude": 38.0209,
+    "longitude": 40.1284
+  },
+  {
+    "stationId": "768",
+    "name": "D0768-Tekstil Kent4",
+    "latitude": 38.022,
+    "longitude": 40.1264
+  },
+  {
+    "stationId": "769",
+    "name": "D0769-Tekstil Kent5",
+    "latitude": 38.0201,
+    "longitude": 40.1232
+  },
+  {
+    "stationId": "770",
+    "name": "D0770-Tekstil Kent6",
+    "latitude": 38.0185,
+    "longitude": 40.1206
+  },
+  {
+    "stationId": "771",
+    "name": "D0771-Tekstil Kent7",
+    "latitude": 38.0141,
+    "longitude": 40.1176
+  },
+  {
+    "stationId": "772",
+    "name": "D0772-Kayapınar İlçe Sağlık Md.",
+    "latitude": 37.9148,
+    "longitude": 40.1097
+  },
+  {
+    "stationId": "773",
+    "name": "D0773-Barış Mah. Muhtarlık",
+    "latitude": 37.9168,
+    "longitude": 40.1096
+  },
+  {
+    "stationId": "774",
+    "name": "D0774-Beşyüzevler Toki b163",
+    "latitude": 37.9199,
+    "longitude": 40.114
+  },
+  {
+    "stationId": "775",
+    "name": "D0775-FİNAL OKULLARI",
+    "latitude": 37.9213,
+    "longitude": 40.1139
+  },
+  {
+    "stationId": "776",
+    "name": "D0776-Kayapınar Sosyal Hizmetler Müdürlüğü",
+    "latitude": 37.9246,
+    "longitude": 40.114
+  },
+  {
+    "stationId": "777",
+    "name": "D0777-Çölgüzeli Toki Tip1-3",
+    "latitude": 37.9263,
+    "longitude": 40.1134
+  },
+  {
+    "stationId": "778",
+    "name": "D0778-Kayapınar Toplum Sağlığı Merkezi",
+    "latitude": 37.9252,
+    "longitude": 40.1115
+  },
+  {
+    "stationId": "779",
+    "name": "D0779-Çölgüzeli Toki Çıkış",
+    "latitude": 37.9219,
+    "longitude": 40.1112
+  },
+  {
+    "stationId": "780",
+    "name": "D0780-Beşyüz Evler Lisesi",
+    "latitude": 37.9209,
+    "longitude": 40.1088
+  },
+  {
+    "stationId": "781",
+    "name": "D0781-Çölgüzeli Toki Tip1-36",
+    "latitude": 37.9209,
+    "longitude": 40.1059
+  },
+  {
+    "stationId": "782",
+    "name": "D0782-Çölgüzeli Toki Tip3-6",
+    "latitude": 37.9211,
+    "longitude": 40.1035
+  },
+  {
+    "stationId": "783",
+    "name": "D0783-Aile Destek Merkezi 3",
+    "latitude": 37.9234,
+    "longitude": 40.1033
+  },
+  {
+    "stationId": "784",
+    "name": "D0784-Beşyüz Evler Ortaokulu",
+    "latitude": 37.9252,
+    "longitude": 40.1037
+  },
+  {
+    "stationId": "785",
+    "name": "D0785-Afet EVler",
+    "latitude": 37.9277,
+    "longitude": 40.1047
+  },
+  {
+    "stationId": "786",
+    "name": "D0786-BEşyüz Evler ORtaokulu",
+    "latitude": 37.9255,
+    "longitude": 40.1038
+  },
+  {
+    "stationId": "787",
+    "name": "D0787- Aile Destek Merkezi",
+    "latitude": 37.9234,
+    "longitude": 40.1031
+  },
+  {
+    "stationId": "788",
+    "name": "D0788-Afet EVler Çıkış",
+    "latitude": 37.9212,
+    "longitude": 40.1034
+  },
+  {
+    "stationId": "789",
+    "name": "D0789-Yeni Afet Konutları",
+    "latitude": 37.9207,
+    "longitude": 40.1057
+  },
+  {
+    "stationId": "790",
+    "name": "D0790-BEşyüz Evler Lisesi",
+    "latitude": 37.9208,
+    "longitude": 40.1088
+  },
+  {
+    "stationId": "791",
+    "name": "D0791-Odalar Ve Borsalar Birliği İlkokulu",
+    "latitude": 37.918,
+    "longitude": 40.1094
+  },
+  {
+    "stationId": "792",
+    "name": "D0792-Barış Mahallesi Muhtarlığı",
+    "latitude": 37.9163,
+    "longitude": 40.1095
+  },
+  {
+    "stationId": "793",
+    "name": "D0793-Kayapınar İlçe Sağlık Müdürlüğü",
+    "latitude": 37.9149,
+    "longitude": 40.1096
+  },
+  {
+    "stationId": "794",
+    "name": "D0794-Kayapınar YErleşkesi",
+    "latitude": 37.98,
+    "longitude": 40.1684
+  },
+  {
+    "stationId": "795",
+    "name": "D0795-Ahmet ARif Anadolu Lisesi",
+    "latitude": 37.9783,
+    "longitude": 40.1723
+  },
+  {
+    "stationId": "796",
+    "name": "D0796-EVrim Sitesi",
+    "latitude": 37.9765,
+    "longitude": 40.1765
+  },
+  {
+    "stationId": "797",
+    "name": "D0797-Opet",
+    "latitude": 37.9696,
+    "longitude": 40.1732
+  },
+  {
+    "stationId": "798",
+    "name": "D0798-ŞEHİT ALİ GAFFAR OKKAN SPOR KOMPLEKSİ",
+    "latitude": 37.918373,
+    "longitude": 40.110368
+  },
+  {
+    "stationId": "799",
+    "name": "D0799-ŞArküteri",
+    "latitude": 37.9186,
+    "longitude": 40.1138
+  },
+  {
+    "stationId": "800",
+    "name": "D0800-CEngizler CAddesi",
+    "latitude": 37.924355041568575,
+    "longitude": 40.19401551748023
+  },
+  {
+    "stationId": "801",
+    "name": "D0801-BAğlar PEynir PAzarı",
+    "latitude": 37.9257,
+    "longitude": 40.1941
+  },
+  {
+    "stationId": "802",
+    "name": "D0802-SEbze Meyve Hali",
+    "latitude": 37.9234,
+    "longitude": 40.1725
+  },
+  {
+    "stationId": "803",
+    "name": "D0803-Orhan Doğan Caddesi",
+    "latitude": 37.9219,
+    "longitude": 40.1717
+  },
+  {
+    "stationId": "804",
+    "name": "D0804-Türk Telekom",
+    "latitude": 37.9227,
+    "longitude": 40.1647
+  },
+  {
+    "stationId": "805",
+    "name": "D0805-Yıldız2 Sitesi",
+    "latitude": 37.921,
+    "longitude": 40.1634
+  },
+  {
+    "stationId": "806",
+    "name": "D0806-Gençlik ve Spor İl Müdürlüğü",
+    "latitude": 37.9214,
+    "longitude": 40.1608
+  },
+  {
+    "stationId": "807",
+    "name": "D0807-KAdın Doğum Hastanesi",
+    "latitude": 37.9221,
+    "longitude": 40.1574
+  },
+  {
+    "stationId": "808",
+    "name": "D0808-Erencan Sitesi",
+    "latitude": 37.9211,
+    "longitude": 40.1563
+  },
+  {
+    "stationId": "809",
+    "name": "D0809-Seçkin Sitesi",
+    "latitude": 37.9186,
+    "longitude": 40.1552
+  },
+  {
+    "stationId": "810",
+    "name": "D0810-Ekmek Fırını",
+    "latitude": 37.9153,
+    "longitude": 40.1191
+  },
+  {
+    "stationId": "811",
+    "name": "D0811-Babil Sitesi",
+    "latitude": 37.917,
+    "longitude": 40.1183
+  },
+  {
+    "stationId": "812",
+    "name": "D0812-Leyla KAsım Caddesi Ana Durak",
+    "latitude": 37.9185,
+    "longitude": 40.1178
+  },
+  {
+    "stationId": "813",
+    "name": "D0813-Toplu Konut Kavşağı",
+    "latitude": 37.9205,
+    "longitude": 40.1171
+  },
+  {
+    "stationId": "814",
+    "name": "D0814-Feritcan Sitesi",
+    "latitude": 37.9173,
+    "longitude": 40.16
+  },
+  {
+    "stationId": "815",
+    "name": "D0815-30 Nolu Aile SAğlığı Merkezi",
+    "latitude": 37.9191,
+    "longitude": 40.1617
+  },
+  {
+    "stationId": "816",
+    "name": "D816-Jiyan Sitesi",
+    "latitude": 37.9203,
+    "longitude": 40.1627
+  },
+  {
+    "stationId": "817",
+    "name": "D817-Türk Telekom",
+    "latitude": 37.9224,
+    "longitude": 40.1646
+  },
+  {
+    "stationId": "818",
+    "name": "D0818-SEbze Meyve Hali",
+    "latitude": 37.9233,
+    "longitude": 40.1728
+  },
+  {
+    "stationId": "819",
+    "name": "D0819-Bağlar Peynir PAzarı",
+    "latitude": 37.9251,
+    "longitude": 40.194
+  },
+  {
+    "stationId": "820",
+    "name": "D0820-Bediüzzaman Camii",
+    "latitude": 37.9479,
+    "longitude": 40.1724
+  },
+  {
+    "stationId": "821",
+    "name": "D0821-Ada Sitesi",
+    "latitude": 37.9462,
+    "longitude": 40.171
+  },
+  {
+    "stationId": "822",
+    "name": "D0822-Çelebi Sitesi",
+    "latitude": 37.9324,
+    "longitude": 40.1616
+  },
+  {
+    "stationId": "823",
+    "name": "D0823-Akkoyunlu İlkokulu",
+    "latitude": 37.9297,
+    "longitude": 40.161
+  },
+  {
+    "stationId": "824",
+    "name": "D0824-ÇArkanat Sitesi",
+    "latitude": 37.9317,
+    "longitude": 40.1617
+  },
+  {
+    "stationId": "825",
+    "name": "D0825-Dönmez Sitesi",
+    "latitude": 37.9366,
+    "longitude": 40.1621
+  },
+  {
+    "stationId": "826",
+    "name": "D0826-Tanlar Sitesi",
+    "latitude": 37.9457,
+    "longitude": 40.1707
+  },
+  {
+    "stationId": "827",
+    "name": "D0827-Toki Dörtyol",
+    "latitude": 37.9898,
+    "longitude": 40.1523
+  },
+  {
+    "stationId": "828",
+    "name": "D0828-Nevruz  Caddesi",
+    "latitude": 37.9165,
+    "longitude": 40.1627
+  },
+  {
+    "stationId": "829",
+    "name": "D0829-Paladyum Konutları",
+    "latitude": 37.9347,
+    "longitude": 40.1346
+  },
+  {
+    "stationId": "830",
+    "name": "D0830-Bağlar Millet Caddesi",
+    "latitude": 37.9188,
+    "longitude": 40.1712
+  },
+  {
+    "stationId": "831",
+    "name": "D0831-Nevruz CAddesi Halı Saha",
+    "latitude": 37.9182,
+    "longitude": 40.1678
+  },
+  {
+    "stationId": "832",
+    "name": "D0832-Nevruz Caddesi",
+    "latitude": 37.9174,
+    "longitude": 40.1649
+  },
+  {
+    "stationId": "833",
+    "name": "D0833-Ataşehir Sitesi",
+    "latitude": 37.9107,
+    "longitude": 40.1596
+  },
+  {
+    "stationId": "834",
+    "name": "D0834-Tarım Kredi Kooperatifi",
+    "latitude": 37.9134,
+    "longitude": 40.1609
+  },
+  {
+    "stationId": "835",
+    "name": "D0835-Nevruz Park",
+    "latitude": 37.9146,
+    "longitude": 40.1612
+  },
+  {
+    "stationId": "836",
+    "name": "D0836-Evrim Alataş",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "stationId": "837",
+    "name": "D0837-Jiyan Caddesi",
+    "latitude": 37.9277,
+    "longitude": 40.1324
+  },
+  {
+    "stationId": "838",
+    "name": "D0838-Aile Sağlığı Merkezi",
+    "latitude": 37.9277,
+    "longitude": 40.1284
+  },
+  {
+    "stationId": "839",
+    "name": "D0839-Eren Şahin Eronat Lisesi",
+    "latitude": 37.9265,
+    "longitude": 40.1251
+  },
+  {
+    "stationId": "840",
+    "name": "D0840-PArk Pannorama EVleri",
+    "latitude": 37.9232,
+    "longitude": 40.1267
+  },
+  {
+    "stationId": "841",
+    "name": "D0841-Ataşehir Sitesi",
+    "latitude": 37.9223,
+    "longitude": 40.1278
+  },
+  {
+    "stationId": "842",
+    "name": "D0842-MEtropol Sitesi",
+    "latitude": 37.9235,
+    "longitude": 40.1318
+  },
+  {
+    "stationId": "843",
+    "name": "D0843-YAHYA KEMAL BEYATLI İLKOKULU",
+    "latitude": 37.923519,
+    "longitude": 40.201145
+  },
+  {
+    "stationId": "844",
+    "name": "D0844-NAMIK KEMAL LİSESİ",
+    "latitude": 37.9228,
+    "longitude": 40.2002
+  },
+  {
+    "stationId": "845",
+    "name": "D0845-SERİN KONUTLARI",
+    "latitude": 37.96945,
+    "longitude": 40.157595
+  },
+  {
+    "stationId": "846",
+    "name": "D0846-SAİD PAŞA ORTAOKULU",
+    "latitude": 37.97071796355633,
+    "longitude": 40.14117987842833
+  },
+  {
+    "stationId": "847",
+    "name": "D0847-NEV BAHÇE",
+    "latitude": 37.98744345620792,
+    "longitude": 40.15719166810204
+  },
+  {
+    "stationId": "848",
+    "name": "D0848-NEV BAHÇE",
+    "latitude": 37.98757707391453,
+    "longitude": 40.15707045575812
+  },
+  {
+    "stationId": "849",
+    "name": "D0849-ARAŞTIRMA HASTANESİ KAVŞAĞI",
+    "latitude": 37.9846206051878,
+    "longitude": 40.139987057184314
+  },
+  {
+    "stationId": "850",
+    "name": "D0850-ÇİFTLİKLER",
+    "latitude": 38.09797002025332,
+    "longitude": 40.01289227308723
+  },
+  {
+    "stationId": "851",
+    "name": "D0851-ÇİFTLİKLER",
+    "latitude": 38.09874678421227,
+    "longitude": 40.013793495316236
+  },
+  {
+    "stationId": "852",
+    "name": "D0852-DÜĞÜN SALONU",
+    "latitude": 37.91096521265258,
+    "longitude": 40.12088085205322
+  },
+  {
+    "stationId": "853",
+    "name": "D0853-DÜĞÜN SALONU",
+    "latitude": 37.91119164282403,
+    "longitude": 40.12086073548561
+  },
+  {
+    "stationId": "854",
+    "name": "D0854-KILIÇ SİTESİ",
+    "latitude": 37.98156701730527,
+    "longitude": 40.142205715274805
+  },
+  {
+    "stationId": "855",
+    "name": "D0855-İLÇELER DURAĞI",
+    "latitude": 37.906143974754364,
+    "longitude": 40.21035122206139
+  },
+  {
+    "stationId": "856",
+    "name": "D0856-FLORA PARK STESİ",
+    "latitude": 37.97107953989898,
+    "longitude": 40.15924808402297
+  },
+  {
+    "stationId": "857",
+    "name": "D0857-ARA DURAK",
+    "latitude": 37.972549128400196,
+    "longitude": 40.14247987863917
+  },
+  {
+    "stationId": "858",
+    "name": "D0858-MEZOPOTAMYA CADDESİ",
+    "latitude": 37.96105028178395,
+    "longitude": 40.15124616233436
+  },
+  {
+    "stationId": "859",
+    "name": "D0859-SANAYİ CAMİİ",
+    "latitude": 37.920233,
+    "longitude": 40.137101
+  },
+  {
+    "stationId": "860",
+    "name": "D0860-SANAYİİ CAMİİ",
+    "latitude": 37.919886850522474,
+    "longitude": 40.13673212878059
+  },
+  {
+    "stationId": "861",
+    "name": "D0861-CENNET EVLERİ",
+    "latitude": 37.981085,
+    "longitude": 40.144233
+  },
+  {
+    "stationId": "862",
+    "name": "D0862-CENNET EVLERİ",
+    "latitude": 37.98076389577475,
+    "longitude": 40.14437569006318
+  },
+  {
+    "stationId": "864",
+    "name": "D0864-ÇEVRE YOLU VİYADÜĞÜ",
+    "latitude": 37.99365859730292,
+    "longitude": 40.13198842251767
+  },
+  {
+    "stationId": "865",
+    "name": "D0865-ÇEVRE YOLU VİYADÜĞÜ",
+    "latitude": 37.993261203273875,
+    "longitude": 40.133442179803744
+  },
+  {
+    "stationId": "866",
+    "name": "D0866-SOSYAL KONUTLAR GİRİŞ",
+    "latitude": 37.96848255265215,
+    "longitude": 40.15077665644739
+  },
+  {
+    "stationId": "867",
+    "name": "D0867-PALAZZO SİTESİ",
+    "latitude": 37.964939892033854,
+    "longitude": 40.153574200449924
+  },
+  {
+    "stationId": "868",
+    "name": "D0868- KÖY GRUP YOLU",
+    "latitude": 38.04456389794634,
+    "longitude": 40.07784909046194
+  },
+  {
+    "stationId": "869",
+    "name": "D0869-KÖY GRUP YOLU",
+    "latitude": 38.04472654675398,
+    "longitude": 40.07811597025892
+  },
+  {
+    "stationId": "870",
+    "name": "D0870-635 TOKİLER",
+    "latitude": 37.97169760609314,
+    "longitude": 40.13790028840794
+  },
+  {
+    "stationId": "871",
+    "name": "D0871-635 TOKİLER",
+    "latitude": 37.97160034247879,
+    "longitude": 40.13831066638722
+  },
+  {
+    "stationId": "872",
+    "name": "D0872-BÜYÜKŞEHİR BELEDİYESİ PİKNİK ALANI",
+    "latitude": 38.04965752088053,
+    "longitude": 40.07527928323385
+  },
+  {
+    "stationId": "873",
+    "name": "D0873-BÜYÜKŞEHİR BELEDİYESİ PİKNİK ALANI",
+    "latitude": 38.04965540870294,
+    "longitude": 40.07561858267423
+  },
+  {
+    "stationId": "874",
+    "name": "D0874-FİDEL SİTESİ",
+    "latitude": 37.9539843,
+    "longitude": 40.214336
+  },
+  {
+    "stationId": "875",
+    "name": "D0875-YENİYOL SON DURAK",
+    "latitude": 37.939073086872305,
+    "longitude": 40.1806976800114
+  },
+  {
+    "stationId": "876",
+    "name": "D0876-4. ORGANİZE SANAYİİ",
+    "latitude": 37.98647239704212,
+    "longitude": 40.12707804018368
+  },
+  {
+    "stationId": "877",
+    "name": "D0877-4 ORGANİZE SANAYİİ KAVŞAĞI",
+    "latitude": 37.9828615972746,
+    "longitude": 40.12860153490414
+  },
+  {
+    "stationId": "878",
+    "name": "D0878-D TİPİ CEZAEVİ",
+    "latitude": 37.968568,
+    "longitude": 40.121185
+  },
+  {
+    "stationId": "879",
+    "name": "D0879-15 TEMMUZ ŞEHİTLER PARKI",
+    "latitude": 37.936500398728974,
+    "longitude": 40.190818843253105
+  },
+  {
+    "stationId": "880",
+    "name": "D0880-CEZAEVİ KAVŞAĞI",
+    "latitude": 37.96718906032969,
+    "longitude": 40.12546596794806
+  },
+  {
+    "stationId": "881",
+    "name": "D0881-KARAYIL SİTESİ",
+    "latitude": 37.96599635405665,
+    "longitude": 40.12934878612192
+  },
+  {
+    "stationId": "882",
+    "name": "D0882-PARK EVLERİ",
+    "latitude": 37.96433003885938,
+    "longitude": 40.134563000446875
+  },
+  {
+    "stationId": "883",
+    "name": "D0883-PİA SİTESİ",
+    "latitude": 37.963156707510734,
+    "longitude": 40.136274163931276
+  },
+  {
+    "stationId": "884",
+    "name": "D0884-GORDİON SİTESİ",
+    "latitude": 37.95993992083012,
+    "longitude": 40.135077984577734
+  },
+  {
+    "stationId": "885",
+    "name": "D0885-STAR YAPI SİTESİ",
+    "latitude": 37.95811274234232,
+    "longitude": 40.13417676234873
+  },
+  {
+    "stationId": "886",
+    "name": "D0886-ABI HAYAT SİTESİ",
+    "latitude": 37.95582493906758,
+    "longitude": 40.13299823137739
+  },
+  {
+    "stationId": "887",
+    "name": "D0887-KÜME EVLER",
+    "latitude": 37.952067310610175,
+    "longitude": 40.130998154731415
+  },
+  {
+    "stationId": "888",
+    "name": "D0888-CEYLAN YAPI SİTESİ",
+    "latitude": 37.94672825215528,
+    "longitude": 40.128057319444494
+  },
+  {
+    "stationId": "889",
+    "name": "D0889-LİVA PARK SİTESİ",
+    "latitude": 37.94377309578833,
+    "longitude": 40.12566352703459
+  },
+  {
+    "stationId": "890",
+    "name": "D0890-LİVAPARK SİTESİ2",
+    "latitude": 37.94381625094061,
+    "longitude": 40.12355665185339
+  },
+  {
+    "stationId": "891",
+    "name": "D0891-KAYAPINAR TOKİ",
+    "latitude": 37.94597180577025,
+    "longitude": 40.12025843361347
+  },
+  {
+    "stationId": "892",
+    "name": "D0892-CEZAEVİ TOKİ",
+    "latitude": 37.95709776385629,
+    "longitude": 40.11807080515197
+  },
+  {
+    "stationId": "893",
+    "name": "D0893-AFAD DURAĞI",
+    "latitude": 37.922896,
+    "longitude": 40.100002
+  },
+  {
+    "stationId": "894",
+    "name": "D0894-AFED EVLER 2",
+    "latitude": 37.92694,
+    "longitude": 40.09989
+  },
+  {
+    "stationId": "895",
+    "name": "D0895-AFED EVLER 3",
+    "latitude": 37.92665,
+    "longitude": 40.0999
+  },
+  {
+    "stationId": "896",
+    "name": "D0896-DAĞKAPI MEYDAN",
+    "latitude": 37.915753,
+    "longitude": 40.234858
+  },
+  {
+    "stationId": "897",
+    "name": "D0897-ÖZGÜR PARK KARŞISI",
+    "latitude": 37.946755,
+    "longitude": 40.208809
+  },
+  {
+    "stationId": "898",
+    "name": "D0898-ÇOCUK PARKI DURAĞI",
+    "latitude": 37.946938,
+    "longitude": 40.188443
+  },
+  {
+    "stationId": "899",
+    "name": "D0899-MEZOPOTAMYA DURAĞI",
+    "latitude": 37.945212,
+    "longitude": 40.185832
+  },
+  {
+    "stationId": "900",
+    "name": "D0900-MİR REKLAM DURAĞI",
+    "latitude": 37.944975,
+    "longitude": 40.185845
+  },
+  {
+    "stationId": "901",
+    "name": "D0901-ÇOCUK PARKI",
+    "latitude": 37.946773,
+    "longitude": 40.188605
+  },
+  {
+    "stationId": "902",
+    "name": "D0902-BİM KARŞISI",
+    "latitude": 37.948923,
+    "longitude": 40.191098
+  },
+  {
+    "stationId": "903",
+    "name": "D0903-YILMAZ GÜNEY CADDESİ",
+    "latitude": 37.942875,
+    "longitude": 40.168438
+  },
+  {
+    "stationId": "904",
+    "name": "D0904-BEGONYA PARK",
+    "latitude": 37.142768,
+    "longitude": 40.168432
+  },
+  {
+    "stationId": "905",
+    "name": "D0905-YILMAZ GÜNEY CADDESİ BEYRUT PAZARI",
+    "latitude": 37.940775,
+    "longitude": 40.166257
+  },
+  {
+    "stationId": "906",
+    "name": "D0906-AYŞENUR ZARUKOĞLU CADDESİ SAĞLIK OCAĞI",
+    "latitude": 37.938755,
+    "longitude": 40.166257
+  },
+  {
+    "stationId": "907",
+    "name": "D0907-AYŞENUR ZARUKOĞLU CADDESİ BİM ÖNÜ",
+    "latitude": 37.931232,
+    "longitude": 40.161298
+  },
+  {
+    "stationId": "908",
+    "name": "D0908-AYŞENUR ZARUKOĞLU CADDESİ ALTINKALPLER ANAOKULU",
+    "latitude": 37.92857,
+    "longitude": 40.160233
+  },
+  {
+    "stationId": "909",
+    "name": "D0909-HAYATİ AVŞAR CADDESİ",
+    "latitude": 37.931657,
+    "longitude": 40.258903
+  },
+  {
+    "stationId": "910",
+    "name": "D0910-HAYATİ AVŞAR İYAZBİN KAVŞAĞI",
+    "latitude": 37.931955,
+    "longitude": 40.258535
+  },
+  {
+    "stationId": "911",
+    "name": "D0911-KARANFİL 6 CADDESİ",
+    "latitude": 37.021822,
+    "longitude": 40.19387
+  },
+  {
+    "stationId": "912",
+    "name": "D0912-KARANFİL CADDESİ HUZUR SİTESİ",
+    "latitude": 37.92179,
+    "longitude": 40.194112
+  },
+  {
+    "stationId": "913",
+    "name": "D0913-KARANFİL CADDESİ HUZUR KOOPERATİFİ",
+    "latitude": 37.920243,
+    "longitude": 40.191108
+  },
+  {
+    "stationId": "914",
+    "name": "D0914-KARANFİL 6 CADDESİ MEZARLIK",
+    "latitude": 37.920183,
+    "longitude": 40.191365
+  },
+  {
+    "stationId": "915",
+    "name": "D0915-KARANFİL CADDESİ HUZUR KENT",
+    "latitude": 37.919357,
+    "longitude": 40.188692
+  },
+  {
+    "stationId": "916",
+    "name": "D0916-HUZUR KENT SİTESİ KARŞISI",
+    "latitude": 37.919297,
+    "longitude": 40.16887
+  },
+  {
+    "stationId": "917",
+    "name": "D0917-KARANFİL CADDESİ ULAŞ YAPI ÖNÜ",
+    "latitude": 37.917623,
+    "longitude": 40.1855
+  },
+  {
+    "stationId": "918",
+    "name": "D0918-KARANFİL CADDESİ ULAŞ YAPI KARŞISI",
+    "latitude": 37.9174,
+    "longitude": 40.185573
+  },
+  {
+    "stationId": "919",
+    "name": "D0919-SİVEREK CADDESİ ANKA YAPI",
+    "latitude": 37.90528,
+    "longitude": 40.145573
+  },
+  {
+    "stationId": "920",
+    "name": "D0920-SİVEREK CADDESİ CTC BAYRAM SİTESİ",
+    "latitude": 37.905528,
+    "longitude": 40.150372
+  },
+  {
+    "stationId": "921",
+    "name": "D0921-SİVEREK CADDESİ NURKA ENC PARK EVLERİ",
+    "latitude": 37.905603,
+    "longitude": 40.154327
+  },
+  {
+    "stationId": "922",
+    "name": "D0922-SİVEREK CADDESİ ZANA MİLANO PARKI",
+    "latitude": 37.906627,
+    "longitude": 40.177798
+  },
+  {
+    "stationId": "923",
+    "name": "D0923-ERSİN TATAR PARKI",
+    "latitude": 37.90646,
+    "longitude": 40.172907
+  },
+  {
+    "stationId": "924",
+    "name": "D0924-ABDULKADİR AKSU CADDESİ",
+    "latitude": 37.925147,
+    "longitude": 40.136915
+  },
+  {
+    "stationId": "925",
+    "name": "D0925-DORŞİN CADDESİ MNC YAPI",
+    "latitude": 37.92516,
+    "longitude": 40.125895
+  },
+  {
+    "stationId": "926",
+    "name": "D0926-DORŞİN CADDESİ DORŞİN PARK",
+    "latitude": 37.928437,
+    "longitude": 40.124567
+  },
+  {
+    "stationId": "927",
+    "name": "D0927-DORŞİN CADDESİ ANATOLİA PARK",
+    "latitude": 37.931407,
+    "longitude": 40.123952
+  },
+  {
+    "stationId": "928",
+    "name": "D0928-DORŞİN CADDESİ CEYLANPARK SİTESİ",
+    "latitude": 37.933213,
+    "longitude": 40.124082
+  },
+  {
+    "stationId": "929",
+    "name": "D0929-DORŞİN CADDESİ AMED TESİSLERİ",
+    "latitude": 37.935368,
+    "longitude": 40.124822
+  },
+  {
+    "stationId": "930",
+    "name": "D0930-AHMET ARİF CADDESİ",
+    "latitude": 37.948877,
+    "longitude": 40.190658
+  },
+  {
+    "stationId": "931",
+    "name": "D0931-NAZIM HİKMET CADDESİ",
+    "latitude": 37.936458,
+    "longitude": 40.12792
+  },
+  {
+    "stationId": "932",
+    "name": "D0932-NAZIM HİKMET CADDESİ GÜNEŞ DÜGÜN SALONU",
+    "latitude": 37.935570575580414,
+    "longitude": 40.13105955804456
+  },
+  {
+    "stationId": "933",
+    "name": "D0933-MEZOPOTAMYA BULVARI AHMET HANE OKULU",
+    "latitude": 37.939723,
+    "longitude": 40.139193
+  },
+  {
+    "stationId": "934",
+    "name": "D0934-MEZOPOTAMYA BULVARI",
+    "latitude": 37.942658,
+    "longitude": 40.140542
+  },
+  {
+    "stationId": "935",
+    "name": "D0935-MEZOPOTAMYA BULVARI TARIM MÜDÜRLÜGÜ",
+    "latitude": 37.94818,
+    "longitude": 40.144198
+  },
+  {
+    "stationId": "936",
+    "name": "D0936-DİSKİ SU ARITMA",
+    "latitude": 37.95375,
+    "longitude": 40.147447
+  },
+  {
+    "stationId": "937",
+    "name": "D0937-DİCLEKENT BULVARI",
+    "latitude": 37.960907,
+    "longitude": 40.150712
+  },
+  {
+    "stationId": "938",
+    "name": "D0938-MEZOPOTAMYA BULVARI ALINAK SİTESİ",
+    "latitude": 37.958183,
+    "longitude": 40.14979
+  },
+  {
+    "stationId": "939",
+    "name": "D0939-MEZOPOTAMYA BULVARI",
+    "latitude": 37.96472,
+    "longitude": 40.156992
+  },
+  {
+    "stationId": "940",
+    "name": "D0940-WİNSTOWN AVM",
+    "latitude": 37.969172,
+    "longitude": 40.156992
+  },
+  {
+    "stationId": "941",
+    "name": "D0941-MERVAN YAPI NİRVANA PARK",
+    "latitude": 37.971532,
+    "longitude": 40.159178
+  },
+  {
+    "stationId": "942",
+    "name": "D0942-MEZOPOTAMYA BULVARI VEGA 50 YAPI",
+    "latitude": 37.97379,
+    "longitude": 40.161212
+  },
+  {
+    "stationId": "943",
+    "name": "D0943-İÇ KALE GOLD SİTESİ",
+    "latitude": 37.971832,
+    "longitude": 40.157893
+  },
+  {
+    "stationId": "944",
+    "name": "D0944-SİTELER",
+    "latitude": 37.975178,
+    "longitude": 40.154172
+  },
+  {
+    "stationId": "945",
+    "name": "D0945-ZİLANLİFE 1 SİTESİ",
+    "latitude": 37.970305,
+    "longitude": 40.152807
+  },
+  {
+    "stationId": "946",
+    "name": "D0946-4007 SOKAK",
+    "latitude": 37.976965,
+    "longitude": 40.151687
+  },
+  {
+    "stationId": "947",
+    "name": "D0947-SERİN MİLANO SİTESİ",
+    "latitude": 37.97825,
+    "longitude": 40.149578
+  },
+  {
+    "stationId": "948",
+    "name": "D0948-CEVRE YOLU TURKUAZ YAPI",
+    "latitude": 37.981408,
+    "longitude": 40.126362
+  },
+  {
+    "stationId": "949",
+    "name": "D0949-CEVRE YOLU POZİTİVE OTO GALERİ",
+    "latitude": 37.977063,
+    "longitude": 40.125623
+  },
+  {
+    "stationId": "950",
+    "name": "D0950-CEVRE YOLU LİVİA YAPI KARŞISI",
+    "latitude": 37.972872,
+    "longitude": 40.124948
+  },
+  {
+    "stationId": "951",
+    "name": "D0951-CNG KAVŞAĞI",
+    "latitude": 37.968832,
+    "longitude": 40.124192
+  },
+  {
+    "stationId": "952",
+    "name": "D0952-CNG KARŞISI",
+    "latitude": 37.968803,
+    "longitude": 40.12458
+  },
+  {
+    "stationId": "953",
+    "name": "D0953-CEVRE YOLU LİVİA YAPI",
+    "latitude": 37.972277,
+    "longitude": 40.125113
+  },
+  {
+    "stationId": "954",
+    "name": "D0954-OTO GALERİ KARŞISI",
+    "latitude": 37.976875,
+    "longitude": 40.12588
+  },
+  {
+    "stationId": "955",
+    "name": "D0955-TURKUAZ YAPI KARŞISI",
+    "latitude": 37.981317,
+    "longitude": 40.126722
+  },
+  {
+    "stationId": "956",
+    "name": "D0956-HASHAVAR CADDESİ ŞİRİN EVLER SİTESİ",
+    "latitude": 37.913097,
+    "longitude": 40.128372
+  },
+  {
+    "stationId": "957",
+    "name": "D0957-HASHAVAR CADDESİ PİYALEPARK SİTESİ",
+    "latitude": 37.906748,
+    "longitude": 40.140463
+  },
+  {
+    "stationId": "958",
+    "name": "D0958-HESKİV CADDESİ 31 NOLU SAĞLIK OCAĞI",
+    "latitude": 37.914815,
+    "longitude": 40.128227
+  },
+  {
+    "stationId": "959",
+    "name": "D0959-AYDIN DİYARKENT SİTESİ",
+    "latitude": 37.906602,
+    "longitude": 40.140865
+  },
+  {
+    "stationId": "960",
+    "name": "D0960-HASVAR ALAŞEHİR SİTESİ",
+    "latitude": 37.913602,
+    "longitude": 40.128772
+  },
+  {
+    "stationId": "961",
+    "name": "D0961-PLAZA ÖNÜ",
+    "latitude": 37.915543,
+    "longitude": 40.128623
+  },
+  {
+    "stationId": "962",
+    "name": "D0962-SİVEREK CADDESİ KILIÇ10 SİTE KARŞISI",
+    "latitude": 37.905072,
+    "longitude": 40.145215
+  },
+  {
+    "stationId": "963",
+    "name": "D0963-SİVEREK CADDESİ BULVARI",
+    "latitude": 37.905263,
+    "longitude": 40.149877
+  },
+  {
+    "stationId": "964",
+    "name": "D0964-NURKA ENC PARK EVLERİ KARŞISI",
+    "latitude": 37.905356,
+    "longitude": 40.153447
+  },
+  {
+    "stationId": "965",
+    "name": "D0965-ÖZ AFM YAPI KARŞISI",
+    "latitude": 37.906077,
+    "longitude": 40.16879
+  },
+  {
+    "stationId": "966",
+    "name": "D0966-KARAKOÇ YAPI",
+    "latitude": 37.90646,
+    "longitude": 40.172907
+  },
+  {
+    "stationId": "967",
+    "name": "D0967-HAVA ALANI DÖNÜŞ",
+    "latitude": 37.901083,
+    "longitude": 40.181537
+  },
+  {
+    "stationId": "968",
+    "name": "D0968-MEGA MADENCİLİK",
+    "latitude": 37.9128056280274,
+    "longitude": 40.10199960120092
+  },
+  {
+    "stationId": "969",
+    "name": "D0969-VOLVO",
+    "latitude": 37.912529,
+    "longitude": 40.097313
+  },
+  {
+    "stationId": "970",
+    "name": "D0970-GÜNEYDOĞU OTOMOTİV",
+    "latitude": 37.9121667,
+    "longitude": 40.0904722
+  },
+  {
+    "stationId": "971",
+    "name": "D0971-UN FABRİKASI",
+    "latitude": 37.911919,
+    "longitude": 40.086673
+  },
+  {
+    "stationId": "972",
+    "name": "D0972-GÖZELİ KÖY YOLU",
+    "latitude": 37.911255,
+    "longitude": 40.080151
+  },
+  {
+    "stationId": "973",
+    "name": "D0973-GÖZELİ PETROL",
+    "latitude": 37.906845,
+    "longitude": 40.063744
+  },
+  {
+    "stationId": "974",
+    "name": "D0974-YENİ ÇEVRE YOLU GİRİŞİ",
+    "latitude": 37.904728,
+    "longitude": 40.056328
+  },
+  {
+    "stationId": "975",
+    "name": "D0975-PİRİNÇLİK ESKİ YOL",
+    "latitude": 37.90289793897955,
+    "longitude": 40.05002838141944
+  },
+  {
+    "stationId": "976",
+    "name": "D0976-MES YAĞ",
+    "latitude": 37.90062,
+    "longitude": 40.041878
+  },
+  {
+    "stationId": "977",
+    "name": "D0977-GÖMMETAŞ DURAĞI",
+    "latitude": 37.89941,
+    "longitude": 40.037453
+  },
+  {
+    "stationId": "978",
+    "name": "D0978-GÖMME TAŞ DURAĞI 2",
+    "latitude": 37.89574947044149,
+    "longitude": 40.0247769997996
+  },
+  {
+    "stationId": "979",
+    "name": "D0979-KARGO KARŞISI",
+    "latitude": 37.894341,
+    "longitude": 40.019627
+  },
+  {
+    "stationId": "980",
+    "name": "D0980-OĞLAKLI YOLU GİRİŞ",
+    "latitude": 37.891312,
+    "longitude": 40.012207
+  },
+  {
+    "stationId": "981",
+    "name": "D0981-OĞLAKLI GİRİŞ",
+    "latitude": 37.875916,
+    "longitude": 40.011711
+  },
+  {
+    "stationId": "982",
+    "name": "D0982-OĞLAKLI GİRİŞ 2",
+    "latitude": 37.873623,
+    "longitude": 40.010201
+  },
+  {
+    "stationId": "983",
+    "name": "D0983-OĞLAKLI GİRİŞ 3",
+    "latitude": 37.870704,
+    "longitude": 40.008215
+  },
+  {
+    "stationId": "984",
+    "name": "D0984-OĞLAKLI GİRİŞ 4",
+    "latitude": 37.86802,
+    "longitude": 40.00763
+  },
+  {
+    "stationId": "985",
+    "name": "D0985-OĞLAKLI GİRİŞ 5",
+    "latitude": 37.86792,
+    "longitude": 40.012737
+  },
+  {
+    "stationId": "986",
+    "name": "D0986-OĞLAKLI GİRİŞ SON DURAK",
+    "latitude": 37.86814,
+    "longitude": 40.016268
+  },
+  {
+    "stationId": "987",
+    "name": "D0987-OĞLAKLI DÖNÜŞ",
+    "latitude": 37.868307,
+    "longitude": 40.015844
+  },
+  {
+    "stationId": "988",
+    "name": "D0988-OĞLAKLI DÖNÜŞ 1",
+    "latitude": 37.868078,
+    "longitude": 40.012472
+  },
+  {
+    "stationId": "989",
+    "name": "D0989-OĞLAKLI DÖNÜŞ 2",
+    "latitude": 37.868113,
+    "longitude": 40.007812
+  },
+  {
+    "stationId": "990",
+    "name": "D0990-OĞLAKLI DÖNÜŞ 3",
+    "latitude": 37.870116,
+    "longitude": 40.008089
+  },
+  {
+    "stationId": "991",
+    "name": "D0991-OĞLAKLI DÖNÜŞ 4",
+    "latitude": 37.873553,
+    "longitude": 40.010376
+  },
+  {
+    "stationId": "992",
+    "name": "D0992OĞLAKLI ÇIKIŞ",
+    "latitude": 37.875648,
+    "longitude": 40.011797
+  },
+  {
+    "stationId": "993",
+    "name": "D0993-OĞLAKLI ÇIKIŞ ARA DURAK",
+    "latitude": 37.882961,
+    "longitude": 40.014893
+  },
+  {
+    "stationId": "994",
+    "name": "D0994-OĞLAKLI YOLU ÇIKIŞ",
+    "latitude": 37.89208880063515,
+    "longitude": 40.01280160044248
+  },
+  {
+    "stationId": "995",
+    "name": "D0995-KARGO DURAĞI",
+    "latitude": 37.894169,
+    "longitude": 40.020103
+  },
+  {
+    "stationId": "996",
+    "name": "D0996-KARAVİL DURAĞI",
+    "latitude": 37.895807,
+    "longitude": 40.025876
+  },
+  {
+    "stationId": "997",
+    "name": "D0997-ÖZ LİCE",
+    "latitude": 37.897163,
+    "longitude": 40.030605
+  },
+  {
+    "stationId": "998",
+    "name": "D0998-SOİL PETROL",
+    "latitude": 37.899136,
+    "longitude": 40.037678
+  },
+  {
+    "stationId": "999",
+    "name": "D0999-FORD-ISUZU",
+    "latitude": 37.900804,
+    "longitude": 40.043586
+  },
+  {
+    "stationId": "1000",
+    "name": "D1000-ÇEVRE YOLU GİRİŞ",
+    "latitude": 37.902874,
+    "longitude": 40.05072
+  },
+  {
+    "stationId": "1001",
+    "name": "D1001-CEVRE YOLU ÇIKIŞ",
+    "latitude": 37.90437,
+    "longitude": 40.056156
+  },
+  {
+    "stationId": "1002",
+    "name": "D1002-KADOİL",
+    "latitude": 37.907734,
+    "longitude": 40.068104
+  },
+  {
+    "stationId": "1003",
+    "name": "D1003-SERAP GÖZELİ",
+    "latitude": 37.911453,
+    "longitude": 40.085018
+  },
+  {
+    "stationId": "1004",
+    "name": "D1004-OTO TİCARET",
+    "latitude": 37.912148,
+    "longitude": 40.096485
+  },
+  {
+    "stationId": "1005",
+    "name": "D1005-ÖZ KILIC",
+    "latitude": 37.912506,
+    "longitude": 40.101925
+  },
+  {
+    "stationId": "1006",
+    "name": "D1006-SİVEREK CAD.4.DURAK",
+    "latitude": 37.905949,
+    "longitude": 40.160912
+  },
+  {
+    "stationId": "1007",
+    "name": "D1007-SİVEREK CAD.5.DURAK",
+    "latitude": 37.90559,
+    "longitude": 40.154297
+  },
+  {
+    "stationId": "1008",
+    "name": "D1008-SİVEREK CAD.6.DURAK",
+    "latitude": 37.905457,
+    "longitude": 40.150341
+  },
+  {
+    "stationId": "1009",
+    "name": "D1009-SİVEREK CAD.7.DURAK",
+    "latitude": 37.905285,
+    "longitude": 40.144939
+  },
+  {
+    "stationId": "1010",
+    "name": "D1010-SİVEREK CAD.DÖNÜŞ 1",
+    "latitude": 37.905106,
+    "longitude": 40.145332
+  },
+  {
+    "stationId": "1011",
+    "name": "D1011-SİVEREK CAD.DÖNÜŞ 2",
+    "latitude": 37.905285,
+    "longitude": 40.149971
+  },
+  {
+    "stationId": "1012",
+    "name": "D1012-SİVEREK CAD.DÖNÜŞ 3",
+    "latitude": 37.905356,
+    "longitude": 40.153447
+  },
+  {
+    "stationId": "1013",
+    "name": "D1013-SİVEREK CAD.DÖNÜŞ 4",
+    "latitude": 37.90575,
+    "longitude": 40.160938
+  },
+  {
+    "stationId": "1014",
+    "name": "D1014-SİVEREK CAD.DÖNÜŞ 5",
+    "latitude": 37.906116,
+    "longitude": 40.168835
+  },
+  {
+    "stationId": "1015",
+    "name": "D1015-SİVEREK CAD.DÖNÜŞ 6",
+    "latitude": 37.906452,
+    "longitude": 40.173168
+  },
+  {
+    "stationId": "1016",
+    "name": "D1016-D TİPİ GİDİŞ SON DURAK",
+    "latitude": 37.968739,
+    "longitude": 40.121674
+  },
+  {
+    "stationId": "1017",
+    "name": "D1017-METALCİLER KARŞISI",
+    "latitude": 37.909389,
+    "longitude": 40.111206
+  },
+  {
+    "stationId": "1018",
+    "name": "D1018-GRAND GALERİ KARŞISI",
+    "latitude": 37.909721,
+    "longitude": 40.108326
+  },
+  {
+    "stationId": "1019",
+    "name": "D1019-ÇELTİK FABRİKASI KARŞISI",
+    "latitude": 37.910606,
+    "longitude": 40.100105
+  },
+  {
+    "stationId": "1020",
+    "name": "D1020-OTO TİCARET MERKEZİ ARKASI",
+    "latitude": 37.910767,
+    "longitude": 40.096718
+  },
+  {
+    "stationId": "1021",
+    "name": "D1021-SİVEREK CADDESİ ARA DURAK",
+    "latitude": 37.910618,
+    "longitude": 40.091671
+  },
+  {
+    "stationId": "1022",
+    "name": "D1022-SİVEREK CADDESİ ARA DURAK2",
+    "latitude": 37.909546,
+    "longitude": 40.086018
+  },
+  {
+    "stationId": "1023",
+    "name": "D1023-SİVEREK CADDESİ ARA DURAK3",
+    "latitude": 37.908997,
+    "longitude": 40.083199
+  },
+  {
+    "stationId": "1024",
+    "name": "D1024-SİVEREK CADDESİ BAŞLANGIÇ",
+    "latitude": 37.908886,
+    "longitude": 40.083519
+  },
+  {
+    "stationId": "1025",
+    "name": "D1025-SİVEREK CADDESİ BAŞLANGIÇ2",
+    "latitude": 37.909348,
+    "longitude": 40.086006
+  },
+  {
+    "stationId": "1026",
+    "name": "D1026-SİVEREK CADDESİ BAŞLANGIÇ3",
+    "latitude": 37.910366,
+    "longitude": 40.091064
+  },
+  {
+    "stationId": "1027",
+    "name": "D1027-AMED OTO CENTER",
+    "latitude": 37.910568,
+    "longitude": 40.097111
+  },
+  {
+    "stationId": "1028",
+    "name": "D1028-ÇELTİK FABRİKASI",
+    "latitude": 37.910343,
+    "longitude": 40.10051
+  },
+  {
+    "stationId": "1029",
+    "name": "D1029-GRAND OTO CENTEER",
+    "latitude": 37.90971,
+    "longitude": 40.106754
+  },
+  {
+    "stationId": "1030",
+    "name": "D1030-SİVEREK CADDASİ URFA YOLU BAĞLANTI",
+    "latitude": 37.910397,
+    "longitude": 40.1077
+  },
+  {
+    "stationId": "1031",
+    "name": "D1031-500 EVLER AKTARMA",
+    "latitude": 37.913243,
+    "longitude": 40.11049
+  },
+  {
+    "stationId": "1032",
+    "name": "D1032-HÜKÜMET KONAĞI",
+    "latitude": 38.26940770679284,
+    "longitude": 39.75857843389425
+  },
+  {
+    "stationId": "1033",
+    "name": "D1033-OTOGAR",
+    "latitude": 38.270100837416,
+    "longitude": 39.75246368519995
+  },
+  {
+    "stationId": "1034",
+    "name": "D1034-BOTANİK PARK DURAĞI",
+    "latitude": 38.26918709249964,
+    "longitude": 39.76044443476301
+  },
+  {
+    "stationId": "1035",
+    "name": "D1035-TURKCELL DURAĞI",
+    "latitude": 38.26767835306955,
+    "longitude": 39.76194919745113
+  },
+  {
+    "stationId": "1036",
+    "name": "D1036-SAMUR YAPI DURAĞI",
+    "latitude": 38.25846786674347,
+    "longitude": 39.770975999860674
+  },
+  {
+    "stationId": "1037",
+    "name": "D1037-YENİŞEHİR SAAT KULESİ",
+    "latitude": 38.25056224014717,
+    "longitude": 39.784783389513905
+  },
+  {
+    "stationId": "1038",
+    "name": "D1038-HASTANE SONDURAK",
+    "latitude": 38.26304263247399,
+    "longitude": 39.78250036238551
+  },
+  {
+    "stationId": "1039",
+    "name": "D1039-DOĞAŞEHİR 7. ETAP",
+    "latitude": 38.269670674780635,
+    "longitude": 39.78995893411208
+  },
+  {
+    "stationId": "1040",
+    "name": "D1040-VİLLALAR DURAĞI",
+    "latitude": 38.28103696608675,
+    "longitude": 39.77983852857407
+  },
+  {
+    "stationId": "1041",
+    "name": "D1041-ERGANİ ADLİYE",
+    "latitude": 38.26819753151792,
+    "longitude": 39.78114818100981
+  },
+  {
+    "stationId": "1042",
+    "name": "D1042-ERGANİ MÜFTÜLÜK",
+    "latitude": 38.267304170848085,
+    "longitude": 39.7708621335942
+  },
+  {
+    "stationId": "1043",
+    "name": "D1043-ŞEYHSAİD TAZİYE EVİ",
+    "latitude": 38.2669603366525,
+    "longitude": 39.76710957755831
+  },
+  {
+    "stationId": "1044",
+    "name": "D1044-KALE MAHALLESİ",
+    "latitude": 38.13311077894426,
+    "longitude": 39.444661035510386
+  },
+  {
+    "stationId": "1045",
+    "name": "D1045-ÇERMİK KALE DURAĞI BAŞLANGIÇ",
+    "latitude": 38.13311,
+    "longitude": 39.44466
+  },
+  {
+    "stationId": "1046",
+    "name": "D1046-ÇERMİK SİVEREK CADDESİ GİDİŞ",
+    "latitude": 38.139282,
+    "longitude": 39.471626
+  },
+  {
+    "stationId": "1047",
+    "name": "D1047-ÇERMİK TOKİLER",
+    "latitude": 38.153996,
+    "longitude": 39.479935
+  },
+  {
+    "stationId": "1048",
+    "name": "D1048-500 EVLER GİDİŞ SON DURAK",
+    "latitude": 37.913349,
+    "longitude": 40.111412
+  },
+  {
+    "stationId": "1049",
+    "name": "D1049-TOPLU KONUT SON DURAK",
+    "latitude": 37.953506,
+    "longitude": 40.212957
+  },
+  {
+    "stationId": "1050",
+    "name": "D1050-ALABAL KÖYÜ",
+    "latitude": 38.05312,
+    "longitude": 40.555013
+  },
+  {
+    "stationId": "1051",
+    "name": "D1051-ALABAL KÖYÜ DÖNÜŞ",
+    "latitude": 38.051653,
+    "longitude": 40.556161
+  },
+  {
+    "stationId": "1052",
+    "name": "D1052-DÖNÜMLÜ MAHALLESİ",
+    "latitude": 37.956715,
+    "longitude": 40.22407
+  },
+  {
+    "stationId": "1053",
+    "name": "D1053-DÖNÜMLÜ MAHALLESİ DÖNÜŞ",
+    "latitude": 37.956516,
+    "longitude": 40.223844
+  },
+  {
+    "stationId": "1054",
+    "name": "D1054-OĞLAKLI RİNG ALANI",
+    "latitude": 37.522,
+    "longitude": 40.02965
+  },
+  {
+    "stationId": "57495",
+    "name": "D1062-PİRİNÇLİK KAVŞAĞI",
+    "latitude": 37.8922174887269,
+    "longitude": 40.0121769871389
+  },
+  {
+    "stationId": "57496",
+    "name": "D1063-OĞLAKLI RİNG ALANI",
+    "latitude": 37.86742528513534,
+    "longitude": 40.00835080336089
+  },
+  {
+    "stationId": "57497",
+    "name": "D1064-500 EVLER KILİSESİZ MESLEK",
+    "latitude": 37.9192407642518,
+    "longitude": 40.1072305445152
+  },
+  {
+    "stationId": "57498",
+    "name": "D1065-N.ERBAKAN BULVARI",
+    "latitude": 37.9256333877974,
+    "longitude": 40.1071879981656
+  },
+  {
+    "stationId": "57499",
+    "name": "1066-SİLVAN YOLU",
+    "latitude": 37.9368134160224,
+    "longitude": 40.2675095757891
+  },
+  {
+    "stationId": "57500",
+    "name": "D1067-GALERİA İŞ MERKEZİ",
+    "latitude": 37.9180248922203,
+    "longitude": 40.2342925081834
+  },
+  {
+    "stationId": "57501",
+    "name": "D1068-ÇOCUK HASTANESİ",
+    "latitude": 37.9201360228176,
+    "longitude": 40.2376501092125
+  }
+]

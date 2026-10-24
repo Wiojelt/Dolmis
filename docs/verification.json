@@ -1,0 +1,51 @@
+{
+  "package": "org.dolmis.diyarbakir",
+  "version": "0.2.1",
+  "versionCode": 3,
+  "apkSha256": "7784e361e8da1592a3d557e45de91f4721875890957a3c59ad42531535a73e9d",
+  "onDeviceApkSha256": "7784e361e8da1592a3d557e45de91f4721875890957a3c59ad42531535a73e9d",
+  "installedHashMatches": true,
+  "bytes": 7772699,
+  "signerCertificateSha256": "5208a345a95addbf82cd90404cdc3c76a8685d332a5df57f0235d9a4af10a57a",
+  "sameSignerAs0_1": true,
+  "uiImplementation": "Native Jetpack Compose Material 3 1.4.0; shadcn M3E design reference; map-only Leaflet WebView",
+  "dependencies": {
+    "agp": "8.10.1",
+    "kotlin": "2.2.21",
+    "gradle": "8.13",
+    "composeBom": "2025.11.01",
+    "material3": "1.4.0"
+  },
+  "checks": [
+    "Release build and lintVital passed",
+    "APK v2/v3 signature and 16KB ZIP alignment verified",
+    "Exact installed APK hash matches deliverable",
+    "Final Z7 map and list show four fresh buses",
+    "Native search Z7 returns one matching route",
+    "Native direction D filters to honest empty state; restored all",
+    "Legacy Z7 and station717 favorites imported and preserved after restart",
+    "Native station717 sheet displays VIP1 Z2 Z3 Z7",
+    "ARTEMIS read-only hierarchy and direct ADB interactions with inspected screenshots",
+    "Packaged map assets exactly match current source",
+    "Token/appkey scan of native source clean",
+    "GitHub repository source rebuilt, signed, installed and launched as v0.2.1"
+  ],
+  "environment": {
+    "android": 15,
+    "deviceClass": "unrooted x86_64 emulator",
+    "screen": "1080x1920",
+    "densityDpi": 280,
+    "fontScale": 1.0
+  },
+  "limits": [
+    "Physical phone and small-screen/large-font testing outstanding",
+    "Soft IME visibility not verified on hardware-keyboard emulator",
+    "Payment/account QR NFC integrations remain outside preview",
+    "Schedule service lacks verified usable schedule rows",
+    "Native0.2 location flow carried over but not revalidated with physical location",
+    "All115 routes not exhaustively tested"
+  ],
+  "releaseBuild": "Clean checkout layout build passed in 39s with same distribution signer",
+  "releasePage": "https://github.com/Wiojelt/Dolmis/releases/tag/v0.2.1",
+  "releaseAsset": "https://github.com/Wiojelt/Dolmis/releases/download/v0.2.1/Dolmis.apk"
+}

@@ -1,0 +1,692 @@
+[
+  {
+    "lineCode": "A 7",
+    "routeCode": "A 7",
+    "name": "A7-DEVLET HASTANESİ - DOĞUM HASTANESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "A1",
+    "routeCode": "A1",
+    "name": "A1- 500 EVLER - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "A1R",
+    "routeCode": "A1R",
+    "name": "A1R- 500 EVLER RİNG",
+    "direction": null
+  },
+  {
+    "lineCode": "A2",
+    "routeCode": "A2",
+    "name": "A2- STADYUM - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "A2R",
+    "routeCode": "A2R",
+    "name": "A 2 R- ÜNİVERSİTE RİNG",
+    "direction": null
+  },
+  {
+    "lineCode": "A3",
+    "routeCode": "A3",
+    "name": "A3- ARAŞTIRMA - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "A3R",
+    "routeCode": "A3R",
+    "name": "A3R- MALİYE-MEMURSEN-CEZAEVİ RİNG",
+    "direction": null
+  },
+  {
+    "lineCode": "A4",
+    "routeCode": "A4",
+    "name": "A4- ARAŞTIRMA - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "A4R",
+    "routeCode": "A4R",
+    "name": "A4R- ÜÇKUYU RİNG",
+    "direction": null
+  },
+  {
+    "lineCode": "A5",
+    "routeCode": "A5",
+    "name": "A5- DAĞKAPI - 500 EVLER",
+    "direction": null
+  },
+  {
+    "lineCode": "A5R",
+    "routeCode": "A5R",
+    "name": "A5R- TEKSTİLKENT RİNG",
+    "direction": null
+  },
+  {
+    "lineCode": "A6",
+    "routeCode": "A6",
+    "name": "A6- BALIKÇILARBAŞI - 500 EVLER",
+    "direction": null
+  },
+  {
+    "lineCode": "AFD",
+    "routeCode": "AFD",
+    "name": "AFD-ÇADIRKENT-BATI İLÇE OTOTGARI",
+    "direction": null
+  },
+  {
+    "lineCode": "AY",
+    "routeCode": "AY",
+    "name": "AY-500 EVLER - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "AZ",
+    "routeCode": "AZ",
+    "name": "AZ-500 EVLER - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "B2",
+    "routeCode": "B2",
+    "name": "B2-FIRAT BULVARI - HASTANE",
+    "direction": null
+  },
+  {
+    "lineCode": "B3",
+    "routeCode": "B3",
+    "name": "B3- TALAYTEPE - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "B4",
+    "routeCode": "B4",
+    "name": "B4-BALIKÇILARBAŞI-OĞLAKLI",
+    "direction": null
+  },
+  {
+    "lineCode": "B6",
+    "routeCode": "B6",
+    "name": "B6-TALAYTEPE - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "B8",
+    "routeCode": "B8",
+    "name": "B8- STADYUM - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "BİSMİL-DİYARBAKIR",
+    "routeCode": "BİSMİL-DİYARBAKIR",
+    "name": "BISMIL-DIYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "Bismil-Salat",
+    "routeCode": "Bismil-Salat",
+    "name": "Bismil-Salat",
+    "direction": null
+  },
+  {
+    "lineCode": "BS1",
+    "routeCode": "BS1",
+    "name": "BS1- CANLI HAYVAN BORSASI - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "BT1-BT2",
+    "routeCode": "BT1-BT2",
+    "name": "BT1-BT2-KÜME EVLER-  BATI İLÇE OTOGARI",
+    "direction": null
+  },
+  {
+    "lineCode": "C10",
+    "routeCode": "C10",
+    "name": "C10-TEPEŞEHİR - DEVLET HASTANESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "C11",
+    "routeCode": "C11",
+    "name": "C11 - DAĞKAPI - OTOGAR",
+    "direction": null
+  },
+  {
+    "lineCode": "C4",
+    "routeCode": "C4",
+    "name": "C4- ÜNİVERSİTE - TEKEL",
+    "direction": null
+  },
+  {
+    "lineCode": "C5",
+    "routeCode": "C5",
+    "name": "C5- ÜNİVERSİTE - TEKEL",
+    "direction": null
+  },
+  {
+    "lineCode": "C9",
+    "routeCode": "C9",
+    "name": "C9 - DAĞKAPI - ŞEHİR HASTANESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "CE1",
+    "routeCode": "CE1",
+    "name": "CE1 - B.BAŞI - D.TİPİ",
+    "direction": null
+  },
+  {
+    "lineCode": "CE2",
+    "routeCode": "CE2",
+    "name": "CE2- ARAŞTIRMA HASTANESİ - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "CE3",
+    "routeCode": "CE3",
+    "name": "CE3- D TİPİ CEZAEVİ - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "CE4",
+    "routeCode": "CE4",
+    "name": "CE4- MEMURSEN TOKİ - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "CM",
+    "routeCode": "CM",
+    "name": "CM-DOĞU İLÇE OTOGARI-MEYDAN KÖY MAH.",
+    "direction": null
+  },
+  {
+    "lineCode": "ÇERMİK SEHİRİÇİ",
+    "routeCode": "ÇERMİK SEHİRİÇİ",
+    "name": "CERMİK SEHIRICI",
+    "direction": null
+  },
+  {
+    "lineCode": "ÇERMİK-ÇÜNGÜŞ",
+    "routeCode": "ÇERMİK-ÇÜNGÜŞ",
+    "name": "ÇERMİK-ÇÜNGÜŞ",
+    "direction": null
+  },
+  {
+    "lineCode": "ÇERMİK-DİYARBAKIR",
+    "routeCode": "ÇERMİK-DİYARBAKIR",
+    "name": "CERMIK-DIYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "ÇINAR-DİYARBAKIR",
+    "routeCode": "ÇINAR-DİYARBAKIR",
+    "name": "CINAR-DIYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "ÇÜNGÜŞ-DİYARBAKIR",
+    "routeCode": "ÇÜNGÜŞ-DİYARBAKIR",
+    "name": "CUNGUS-DIYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "D3-B. BAŞI - H.EVLERİ",
+    "routeCode": "D3-B. BAŞI - H.EVLERİ",
+    "name": "D3-B. BASI - H.EVLERI",
+    "direction": null
+  },
+  {
+    "lineCode": "DE",
+    "routeCode": "DE",
+    "name": "DE - DİYARBAKIR - BİSMİL ELİAÇIK",
+    "direction": null
+  },
+  {
+    "lineCode": "DİCLE-DİYARBAKIR",
+    "routeCode": "DİCLE-DİYARBAKIR",
+    "name": "DİCLE-DİYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "DS",
+    "routeCode": "DS",
+    "name": "DS-DİYARBAKIR-DİCLE SUMAK",
+    "direction": null
+  },
+  {
+    "lineCode": "DÜ",
+    "routeCode": "DÜ",
+    "name": "DÜ-Diyarbakır-Dicle Üzümlü",
+    "direction": null
+  },
+  {
+    "lineCode": "E1",
+    "routeCode": "E1",
+    "name": "E1- OTOGAR - ARAŞTIRMA HASTANESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "E10",
+    "routeCode": "E10",
+    "name": "E10- ÜÇ KUYULAR-500 EVLER",
+    "direction": null
+  },
+  {
+    "lineCode": "E11",
+    "routeCode": "E11",
+    "name": "E11-ÜÇ KUYU TOKİLER-HAVAALANI",
+    "direction": null
+  },
+  {
+    "lineCode": "E2",
+    "routeCode": "E2",
+    "name": "E2- DEVLET HASTANESİ - ARAŞTIRMA HASTANESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "E4-ARAŞT.HASTANE-ÜNV.",
+    "routeCode": "E4-ARAŞT.HASTANE-ÜNV.",
+    "name": "E4-ARAŞT.ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "E6",
+    "routeCode": "E6",
+    "name": "E6-OĞLAKLI-ARAŞTIRMA HASTANESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "E7",
+    "routeCode": "E7",
+    "name": "E7- İLÇE OTOGARI - ARAŞTIRMA HASTANESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "E8",
+    "routeCode": "E8",
+    "name": "E8- ARAŞTIRMA HASTANESİ - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "E9",
+    "routeCode": "E9",
+    "name": "E9- 500 EVLER - ARAŞTIRMA HASTANESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "EA",
+    "routeCode": "EA",
+    "name": "EA-ERGANİ-ARMUTOVA MAH.",
+    "direction": null
+  },
+  {
+    "lineCode": "EĞİL-DİYARBAKIR",
+    "routeCode": "EĞİL-DİYARBAKIR",
+    "name": "EGIL-DIYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "ERGANİ KOOP.",
+    "routeCode": "ERGANİ KOOP.",
+    "name": "ERGANİ KOOP.",
+    "direction": null
+  },
+  {
+    "lineCode": "ERGANİ ŞEHİRİÇİ",
+    "routeCode": "ERGANİ ŞEHİRİÇİ",
+    "name": "ERGANI ŞEHİRİÇİ",
+    "direction": null
+  },
+  {
+    "lineCode": "ERGANİ-DİCLE",
+    "routeCode": "ERGANİ-DİCLE",
+    "name": "ERGANİ-DİCLE",
+    "direction": null
+  },
+  {
+    "lineCode": "ERGANİ-DİYARBAKIR",
+    "routeCode": "ERGANİ-DİYARBAKIR",
+    "name": "ERGANİ-DİYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "ERGANİ-HANİ",
+    "routeCode": "ERGANİ-HANİ",
+    "name": "ERGANİ-HANİ",
+    "direction": null
+  },
+  {
+    "lineCode": "ERGANİ-HANKÖY",
+    "routeCode": "ERGANİ-HANKÖY",
+    "name": "ERGANİ-HANKÖY",
+    "direction": null
+  },
+  {
+    "lineCode": "ERGANİ-KESENTAŞ",
+    "routeCode": "ERGANİ-KESENTAŞ",
+    "name": "ERGANİ-KESENTAŞ",
+    "direction": null
+  },
+  {
+    "lineCode": "F2",
+    "routeCode": "F2",
+    "name": "F2-SEYRANTEPE TOPLU KONUT - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "F7",
+    "routeCode": "F7",
+    "name": "F7- SEYRANTEPE TOPLU KONUT - OTOGAR",
+    "direction": null
+  },
+  {
+    "lineCode": "FE1",
+    "routeCode": "FE1",
+    "name": "FE1-SEYRANTEPE TOPLU KONUT-ARASTIRMA HASTANESI",
+    "direction": null
+  },
+  {
+    "lineCode": "FERİBOT",
+    "routeCode": "FERİBOT",
+    "name": "FERİBOT",
+    "direction": null
+  },
+  {
+    "lineCode": "G1",
+    "routeCode": "G1",
+    "name": "G1- 88 EVLER - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "G2",
+    "routeCode": "G2",
+    "name": "G2 - DAĞKAPI - FARÊ KÖYÜ",
+    "direction": null
+  },
+  {
+    "lineCode": "G3",
+    "routeCode": "G3",
+    "name": "G3 - ARAŞTIRMA - 450 EVLER",
+    "direction": null
+  },
+  {
+    "lineCode": "GR1",
+    "routeCode": "GR1",
+    "name": "GR1-GÜRBÜZ MAHALLESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "H2-KOPERTİF EVLRİ - ÜNİVERSİTE",
+    "routeCode": "H2-KOPERTİF EVLRİ - ÜNİVERSİTE",
+    "name": "H2- KOOPERATİF EVLERİ - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "H3",
+    "routeCode": "H3",
+    "name": "H3-Doğu İlçe Otogarı-Belek Mah.",
+    "direction": null
+  },
+  {
+    "lineCode": "H6",
+    "routeCode": "H6",
+    "name": "H6-DİYARBAKIR-YUKARI ORTA VİRAN",
+    "direction": null
+  },
+  {
+    "lineCode": "HANİ-DİYARBAKIR",
+    "routeCode": "HANİ-DİYARBAKIR",
+    "name": "HANİ-DİYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "HAZRO-DİYARBAKIR",
+    "routeCode": "HAZRO-DİYARBAKIR",
+    "name": "HAZRO-DIYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "HD",
+    "routeCode": "HD",
+    "name": "HD-Diyarbakır-HANTEPE",
+    "direction": null
+  },
+  {
+    "lineCode": "K1",
+    "routeCode": "K1",
+    "name": "K1 - KARPUZLU - ZİRAAT FAKÜLTESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "K2",
+    "routeCode": "K2",
+    "name": "K2-KARABAS KOYU-DAGKAPI-HASTANE",
+    "direction": null
+  },
+  {
+    "lineCode": "K4",
+    "routeCode": "K4",
+    "name": "K4-HASTANE-BISMIL GRUP YOLU",
+    "direction": null
+  },
+  {
+    "lineCode": "KOCAKÖY-DİYARBAKIR",
+    "routeCode": "KOCAKÖY-DİYARBAKIR",
+    "name": "KOCAKÖY-DİYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "KR3",
+    "routeCode": "KR3",
+    "name": "KR3-HASTANE-DAGKAPI-DERVIS HASAN MAHALLESI",
+    "direction": null
+  },
+  {
+    "lineCode": "KR-DAĞKAPI-ZİYARET MAH.",
+    "routeCode": "KR-DAĞKAPI-ZİYARET MAH.",
+    "name": "KR -DAĞKAPI-ZİYARET MAH.",
+    "direction": null
+  },
+  {
+    "lineCode": "KULP-DİYARBAKIR",
+    "routeCode": "KULP-DİYARBAKIR",
+    "name": "KULP-DIYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "LİCE-DİYARBAKIR",
+    "routeCode": "LİCE-DİYARBAKIR",
+    "name": "LICE-DIYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "M3",
+    "routeCode": "M3",
+    "name": "M3-BALIKÇILARBAŞI - ARAŞTIRMA HASTAHANESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "O1",
+    "routeCode": "O1",
+    "name": "O1- ORGANİZE SANAYİ - FERİT KÖŞK",
+    "direction": null
+  },
+  {
+    "lineCode": "O2",
+    "routeCode": "O2",
+    "name": "O2- ORGANİZE SANAYİ - 500 EVLER",
+    "direction": null
+  },
+  {
+    "lineCode": "OĞLAKLI - TESİSLER",
+    "routeCode": "OĞLAKLI - TESİSLER",
+    "name": "OĞLAKLI - TESİSLER",
+    "direction": null
+  },
+  {
+    "lineCode": "OZEKLI-DIYARBAKIR",
+    "routeCode": "OZEKLI-DIYARBAKIR",
+    "name": "OZEKLI MAHALLESI-ILCE GARAJI",
+    "direction": null
+  },
+  {
+    "lineCode": "P1",
+    "routeCode": "P1",
+    "name": "P1- PİRİNÇLİK - FERİT KÖŞK",
+    "direction": null
+  },
+  {
+    "lineCode": "P3",
+    "routeCode": "P3",
+    "name": "P3-ILCE GARAJI-GOMMMET AS MAHALLESI",
+    "direction": null
+  },
+  {
+    "lineCode": "P6",
+    "routeCode": "P6",
+    "name": "P6-CUMHURIYET MAHALLESI-DAG KAPI-HASTANE",
+    "direction": null
+  },
+  {
+    "lineCode": "P7",
+    "routeCode": "P7",
+    "name": "P7-DİYARBAKIR-AKDİBEK MAH.",
+    "direction": null
+  },
+  {
+    "lineCode": "S1",
+    "routeCode": "S1",
+    "name": "S1 - ZOZINÇ - DAĞKAPI",
+    "direction": null
+  },
+  {
+    "lineCode": "SİLVAN-DİYARBAKIR",
+    "routeCode": "SİLVAN-DİYARBAKIR",
+    "name": "SİLVAN-DİYARBAKIR",
+    "direction": null
+  },
+  {
+    "lineCode": "SİLVAN-MALABADİ",
+    "routeCode": "SİLVAN-MALABADİ",
+    "name": "SİLVAN-MALABADİ",
+    "direction": null
+  },
+  {
+    "lineCode": "ŞEHİRİÇİ MİNİBÜS KOOPERATİFLER",
+    "routeCode": "ŞEHİRİÇİ MİNİBÜS KOOPERATİFLER",
+    "name": "ŞEHİRİÇİ MİNİBÜS KOOPERATİFLERİ",
+    "direction": null
+  },
+  {
+    "lineCode": "T1",
+    "routeCode": "T1",
+    "name": "T1- DAGKAPI - TALAYTEPE",
+    "direction": null
+  },
+  {
+    "lineCode": "T2",
+    "routeCode": "T2",
+    "name": "T2-ARAŞTIRMA HASTANESI - 500 EVLER",
+    "direction": null
+  },
+  {
+    "lineCode": "TEPE-BİSMİL",
+    "routeCode": "TEPE-BİSMİL",
+    "name": "TEPE-BISMIL",
+    "direction": null
+  },
+  {
+    "lineCode": "TK",
+    "routeCode": "TK",
+    "name": "Teknokent-500 Evler",
+    "direction": null
+  },
+  {
+    "lineCode": "VİP1",
+    "routeCode": "VİP1",
+    "name": "VİP1 - DAĞKAPI - HAVAALANI",
+    "direction": null
+  },
+  {
+    "lineCode": "Y1",
+    "routeCode": "Y1",
+    "name": "Y1 - ARAŞTIRMA  - OĞLAKLI",
+    "direction": null
+  },
+  {
+    "lineCode": "Y2",
+    "routeCode": "Y2",
+    "name": "Y2 - ARAŞTIRMA  - OĞLAKLI",
+    "direction": null
+  },
+  {
+    "lineCode": "Y3",
+    "routeCode": "Y3",
+    "name": "Y3 - DAĞKAPI - OĞLAKLI",
+    "direction": null
+  },
+  {
+    "lineCode": "Y4",
+    "routeCode": "Y4",
+    "name": "Y4-BATIKENT-OĞLAKLI",
+    "direction": null
+  },
+  {
+    "lineCode": "Y5",
+    "routeCode": "Y5",
+    "name": "Y5-ARAŞTIRMA-OĞLAKLI",
+    "direction": null
+  },
+  {
+    "lineCode": "Z1",
+    "routeCode": "Z1",
+    "name": "Z1-MAHABAT BULVARI - DEVLET HASTANESİ",
+    "direction": null
+  },
+  {
+    "lineCode": "Z2",
+    "routeCode": "Z2",
+    "name": "Z2- HAVALİMANI - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "Z3",
+    "routeCode": "Z3",
+    "name": "Z3- HAVAALANI- DAĞKAPI",
+    "direction": null
+  },
+  {
+    "lineCode": "Z4",
+    "routeCode": "Z4",
+    "name": "Z4-ÜNİVERSİTE-AHMET KAYA CAD.",
+    "direction": null
+  },
+  {
+    "lineCode": "Z5",
+    "routeCode": "Z5",
+    "name": "Z5- AHMET KAYA CADDESİ - ÜNİVERSİTE",
+    "direction": null
+  },
+  {
+    "lineCode": "Z6",
+    "routeCode": "Z6",
+    "name": "Z6-DEVLET HASTAHANESİ - BAĞCILAR",
+    "direction": null
+  },
+  {
+    "lineCode": "Z7",
+    "routeCode": "Z7",
+    "name": "Z7- HAVAALANI - ÜÇKUYU TOKİ",
+    "direction": null
+  },
+  {
+    "lineCode": "ZE1",
+    "routeCode": "ZE1",
+    "name": "ZE1-ARAŞTIRMA HASTANESİ - OTOGAR",
+    "direction": null
+  }
+]
