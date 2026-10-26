@@ -10,8 +10,8 @@ android {
         applicationId = "org.dolmis.diyarbakir"
         minSdk = 26
         targetSdk = 35
-        versionCode = 3
-        versionName = "0.2.1"
+        versionCode = 4
+        versionName = "0.3.0"
     }
     buildFeatures { compose = true }
     compileOptions {
@@ -29,3 +29,4 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.4")
 }
+

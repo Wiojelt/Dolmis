@@ -19,19 +19,23 @@ Android 8 veya üzeri ve güncel Android System WebView gerekir. Root, bilgisaya
 ## Neler var?
 
 - Gerçek canlı otobüs konumları, plaka, hız ve veri zamanı
-- Gidiş/dönüş filtresi ve güzergâh haritası
+- Gidiş/dönüş filtresi ve görünür güzergâh haritası; yakınlaştırma ve açıklama katmanı
 - 115 hat ve 1060 durakta arama; katalog 24 Ekim 2026 tarihli
 - Hat durakları ve duraktan geçen hatlar
-- Yerel favoriler ve isteğe bağlı yakındaki duraklar
+- Yerel favoriler, yakındaki durak ve 1–6 duraklık canlı tahmini varış kartı
+- Diyarkart bakiye/yükleme yönlendirmesi; kart numarası cihazda tutulmaz
+- Sefer saati servisi bulunduğunda saat tablosu, yoksa resmî ulaşım sayfası
+- PiP mini harita ve ana ekran widget’ı
+- Aydınlık/karanlık/sistem teması, yazı boyutu, yaşlı/büyük yazı ve refakatçi yardım modu
 - Yerel Jetpack Compose Material 3 bileşenleri; shadcn M3E tasarım referansı
 
-Canlı ekran ön plandayken yaklaşık 30 saniyede bir yenilenir. Eski konumlar işaretlenir; veri gelmediğinde hayalî araç veya varış süresi üretilmez.
+Canlı ekran ön plandayken yaklaşık 30 saniyede bir yenilenir. Eski konumlar işaretlenir; veri gelmediğinde hayalî araç veya varış süresi üretilmez. Tahmini varış, canlı araç + durak koordinatı + hız verisinden hesaplanır ve resmî garanti değildir.
 
 ## Önizleme sınırı
 
-Bu sürüm Android 15 emülatöründe doğrulandı; kendi telefonunda test etmek için yayımlanıyor. Bütün cihazlar ve hatlar doğrulanmadı. Canlı veri belediyenin servisine bağlıdır.
+0.3.0 Android 15 emülatöründe derlenip kuruldu; fiziksel telefon ve bütün hatlar doğrulanmadı. Canlı veri belediyenin servisine bağlıdır.
 
-Kart/bakiye, ödeme, QR/NFC ve hesap işlemleri bu sürümde bulunmaz; resmî işletmeci entegrasyonu gerektirir. Sefer saati servisi kullanılabilir saat tablosu vermediğinde resmî sayfaya yönlendirilir. Bu uygulama belediyenin veya mevcut uygulama sağlayıcısının resmî ürünü değildir.
+Kart/bakiye ekranı gerçek ödeme verisini toplamaz; güvenli son adımı belediyenin/işletmecinin resmî sayfasına veya uygulamasına bırakır. QR/NFC ve hesap işlemleri için işletmeci entegrasyonu gerekir. Sefer saati servisi kullanılabilir saat tablosu vermediğinde resmî sayfaya yönlendirilir. Bu uygulama belediyenin veya mevcut uygulama sağlayıcısının resmî ürünü değildir.
 
 ## Kaynak ve derleme
 

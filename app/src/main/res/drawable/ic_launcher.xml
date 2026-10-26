@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
-    <path android:fillColor="#DEECD9" android:pathData="M0,0h108v108h-108z" />
-    <path android:fillColor="#287C56" android:pathData="M30,22h48q8,0 8,8v48q0,8 -8,8h-48q-8,0 -8,-8v-48q0,-8 8,-8z" />
-    <path android:fillColor="#F8FBEF" android:pathData="M37,32h22c16,0 24,10 24,22s-8,22 -24,22h-22zM48,42v24h10c10,0 14,-5 14,-12s-4,-12 -14,-12z" android:fillType="evenOdd" />
-    <path android:fillColor="#B9D0A9" android:pathData="M29,43h5v22h-5z" />
+    <path android:fillColor="#F4E7D4" android:pathData="M0,0h108v108h-108z" />
+    <path android:fillColor="#7A3F25" android:pathData="M13,61h82v28h-82z" />
+    <path android:fillColor="#9C5932" android:pathData="M18,29h18v60h-18zM45,19h18v70h-18zM72,29h18v60h-18z" />
+    <path android:fillColor="#F4E7D4" android:pathData="M24,39h6v14h-6zM51,29h6v14h-6zM78,39h6v14h-6z" />
+    <path android:fillColor="#F4E7D4" android:pathData="M42,89v-13c0,-7 5,-12 12,-12s12,5 12,12v13z" />
 </vector>

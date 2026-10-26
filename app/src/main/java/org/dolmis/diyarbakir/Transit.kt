@@ -39,6 +39,8 @@ data class Point(val latitude: Double, val longitude: Double) {
 }
 data class Stop(val id: String, val name: String, val point: Point?)
 data class DirectionStop(val direction: String, val id: String, val name: String, val order: Int)
+data class ScheduleItem(val time: String, val direction: String, val label: String)
+data class ArrivalEstimate(val stop: Stop, val minutes: Int, val stopsAway: Int, val direction: String)
 data class Bus(val id: String, val label: String, val point: Point, val speed: Double?, val direction: String, val updatedAt: String, val timestamp: Long) {
     fun age(now: Long) = (now - timestamp) / 1000.0
     fun fresh(now: Long) = timestamp > 0 && age(now) in -60.0..120.0
@@ -124,19 +126,22 @@ object TransitApi {
                     "station-routes" -> {
                         listOf("lineCode","routeCode","name").forEach { copy(item,it) }; copy(raw,"routeLongName","name")
                     }
-                    // A nonempty schedule schema has not been verified; never display guessed times.
-                    "schedules" -> Unit
+                    "schedules" -> {
+                        listOf("time","departureTime","arrivalTime","direction","label","day","days").forEach { copy(item,it) }
+                        if (raw != null) listOf("time","departureTime","arrivalTime","direction","label","day","days").forEach { copy(raw,it) }
+                    }
                 }
-                if (endpoint != "schedules") result.put(safe)
+                result.put(safe)
             }
-            if (endpoint != "schedules") cache[address] = Cached(SystemClock.elapsedRealtime(), result.toString())
+            cache[address] = Cached(SystemClock.elapsedRealtime(), result.toString())
             result
         } finally { connection.disconnect() }
     }
 }
 
 class TransitState(context: Context, private val scope: CoroutineScope) {
-    private val prefs = context.getSharedPreferences("dolmis", Context.MODE_PRIVATE)
+    private val appContext=context.applicationContext
+    private val prefs = appContext.getSharedPreferences("dolmis", Context.MODE_PRIVATE)
     val lines = JSONArray(context.assets.open("data/lines.json").bufferedReader().use { it.readText() }).objects().map(::routeFromJson).sortedWith(compareBy { it.displayCode })
     val stations = JSONArray(context.assets.open("data/stations.json").bufferedReader().use { it.readText() }).objects().map(::stopFromJson)
     var route by mutableStateOf(runCatching { routeFromJson(JSONObject(prefs.getString("route", "")!!)) }.getOrElse { lines.first { it.code == "Z7" } })
@@ -161,11 +166,16 @@ class TransitState(context: Context, private val scope: CoroutineScope) {
     var stationError by mutableStateOf(false)
     var scheduleLoading by mutableStateOf(false)
     var scheduleMessage by mutableStateOf("")
+    var schedules by mutableStateOf(emptyList<ScheduleItem>())
     var selectedBus by mutableStateOf<String?>(null)
+    var themeMode by mutableStateOf(prefs.getString("themeMode", "system") ?: "system")
+    var fontScale by androidx.compose.runtime.mutableFloatStateOf(prefs.getFloat("fontScale", 1f))
+    var elderlyMode by mutableStateOf(prefs.getBoolean("elderlyMode", false))
+    var companionMode by mutableStateOf(prefs.getBoolean("companionMode", false))
     private var generation = 0
     fun selectRoute(next: Route) {
         generation++; route=next; tab=0; buses=emptyList(); routeStops=emptyList(); directionStops=emptyList(); coordinates=emptyMap()
-        error=false; lastUpdate=null; selectedBus=null; sheet=null; loading=false; geometryLoading=false
+        error=false; lastUpdate=null; selectedBus=null; selectedStop=null; sheet=null; loading=false; geometryLoading=false
         prefs.edit().putString("route",next.json().toString()).apply()
         loadGeometry()
         scope.launch { refresh() }
@@ -181,6 +191,10 @@ class TransitState(context: Context, private val scope: CoroutineScope) {
         }
         prefs.edit().putBoolean("migrated",true).apply()
     }
+    fun setTheme(mode: String) { themeMode=mode; prefs.edit().putString("themeMode",mode).apply() }
+    fun updateFontScale(value: Float) { fontScale=value.coerceIn(0.9f,1.35f); prefs.edit().putFloat("fontScale",fontScale).apply() }
+    fun updateElderlyMode(value: Boolean) { elderlyMode=value; if(value && fontScale<1.15f) fontScale=1.15f; prefs.edit().putBoolean("elderlyMode",value).putFloat("fontScale",fontScale).apply() }
+    fun updateCompanionMode(value: Boolean) { companionMode=value; prefs.edit().putBoolean("companionMode",value).apply() }
     fun favoriteLine(code: String) { favoriteLines = if (code in favoriteLines) favoriteLines-code else favoriteLines+code; saveFavorites() }
     fun favoriteStop(id: String) { favoriteStops = if (id in favoriteStops) favoriteStops-id else favoriteStops+id; saveFavorites() }
     private fun saveFavorites() { prefs.edit().putStringSet("favoriteLines", favoriteLines).putStringSet("favoriteStops",favoriteStops).apply() }
@@ -202,6 +216,7 @@ class TransitState(context: Context, private val scope: CoroutineScope) {
                 Bus(j.optString("id").ifBlank { plate }, plate.ifBlank { "${selected.displayCode} · Otobüs" },point,j.optDouble("speed",Double.NaN).takeIf(Double::isFinite),j.optString("routeDirection"),j.optString("updatedAt"), timestamp(j.optString("updatedAt")))
             }
             lastUpdate=System.currentTimeMillis(); error=false
+            DolmisWidgetProvider.updateAll(appContext, route.displayCode, buses.size, lastUpdate)
         } catch (cancel: CancellationException) { throw cancel }
         catch (_: Exception) { if (requestGeneration==generation) error=true }
         finally { if (requestGeneration==generation) { loading=false; if (routeStops.isEmpty() && !geometryLoading) loadGeometry() } }
@@ -237,13 +252,40 @@ class TransitState(context: Context, private val scope: CoroutineScope) {
         }
     }
     fun showSchedule() {
-        val selected=route; sheet="schedule"; scheduleLoading=true
+        val selected=route; sheet="schedule"; scheduleLoading=true; schedules=emptyList()
         scope.launch {
-            scheduleMessage=try {
-                TransitApi.get("schedules",mapOf("lineCode" to selected.line,"scheduleDate" to LocalDate.now(ZoneId.of("Europe/Istanbul")).toString()+"T00:00:00.000Z"))
-                "Bu hat için doğrulanmış saat verisi alınamadı. Bu, sefer olmadığı anlamına gelmez."
-            } catch(c: CancellationException){throw c} catch(_: Exception){"Sefer saati servisine şu anda ulaşılamıyor."}
+            try {
+                val data=TransitApi.get("schedules",mapOf("lineCode" to selected.line,"scheduleDate" to LocalDate.now(ZoneId.of("Europe/Istanbul")).toString()+"T00:00:00.000Z"))
+                schedules=data.objects().mapNotNull { j ->
+                    val time=listOf("time","departureTime","arrivalTime").firstNotNullOfOrNull { j.optString(it).takeIf(String::isNotBlank) } ?: return@mapNotNull null
+                    ScheduleItem(time,j.optString("direction"),j.optString("label").ifBlank { "Planlanan sefer" })
+                }.sortedBy { it.time }
+                scheduleMessage=if(schedules.isEmpty()) "Bu hat için canlı servisten doğrulanmış saat tablosu gelmedi." else "Canlı servisten alınan planlı seferler"
+            } catch(c: CancellationException){throw c} catch(_: Exception){scheduleMessage="Sefer saati servisine şu anda ulaşılamıyor."}
             scheduleLoading=false
         }
     }
+    fun arrivalEstimates(now: Long): List<ArrivalEstimate> {
+        val targets=when {
+            selectedStop!=null -> listOf(selectedStop!!)
+            favoriteStops.isNotEmpty() -> stations.filter { it.id in favoriteStops }.take(1)
+            location!=null -> stations.filter { it.point!=null }.sortedBy { meters(location!!,it.point!!) }.take(1)
+            else -> visibleStops().take(1)
+        }.filter { it.point!=null }
+        if(targets.isEmpty() || directionStops.isEmpty()) return emptyList()
+        val byId=routeStops.associateBy { it.id }
+        val ordered=directionStops.filter { direction=="all"||it.direction==direction }.sortedBy { it.order }
+        return targets.mapNotNull { target ->
+            val targetIndex=ordered.indexOfFirst { it.id==target.id }
+            if(targetIndex<0) return@mapNotNull null
+            val bus=buses.filter { it.usable(now) && (direction=="all"||it.direction==direction) }.minByOrNull { meters(it.point,target.point!!) } ?: return@mapNotNull null
+            val busIndex=ordered.mapIndexedNotNull { i,s -> byId[s.id]?.point?.let { i to meters(bus.point,it) } }.minByOrNull { it.second }?.first ?: return@mapNotNull null
+            val delta=(targetIndex-busIndex+ordered.size)%ordered.size
+            if(delta>6) return@mapNotNull null
+            val distance=(bus.point.let { start -> byId[ordered[busIndex].id]?.point?.let { meters(start,it) } ?: 0.0 }) + (busIndex until targetIndex.coerceAtLeast(busIndex)).sumOf { i -> val a=byId[ordered[i%ordered.size].id]?.point; val b=byId[ordered[(i+1)%ordered.size].id]?.point; if(a!=null&&b!=null)meters(a,b) else 0.0 }
+            val speed=bus.speed?.takeIf { it>2 } ?: 18.0
+            ArrivalEstimate(target,(distance/1000.0/speed*60).roundToInt().coerceAtLeast(1),delta,bus.direction)
+        }
+    }
+
 }

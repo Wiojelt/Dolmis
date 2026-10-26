@@ -22,7 +22,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--sdk',type=Path,default=Path(os.environ.get('ANDROID_HOME',str(Path(os.environ.get('LOCALAPPDATA',''))/'Android'/'Sdk'))))
     parser.add_argument('--signing-directory',type=Path,default=ROOT/'.signing')
-    parser.add_argument('--output',type=Path,default=ROOT/'dist'/'Dolmis-0.2.1.apk')
+    parser.add_argument('--output',type=Path,default=ROOT/'dist'/'Dolmis-0.3.0.apk')
     args=parser.parse_args()
     sdk=args.sdk.resolve();tools=sdk/'build-tools'/'35.0.0'
     env=os.environ.copy();env['ANDROID_HOME']=str(sdk)
@@ -45,7 +45,7 @@ def main():
     run(['java','-jar',signer,'sign','--ks',key,'--ks-key-alias','dolmis','--ks-pass','env:DOLMIS_SIGN_PASSWORD','--key-pass','env:DOLMIS_SIGN_PASSWORD','--v4-signing-enabled','false','--out',output,aligned],env)
     print(run(['java','-jar',signer,'verify','--verbose','--print-certs',output],env))
     run([align,'-c','-P','16','4',output],env)
-    print(json.dumps({'apk':str(output),'sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'bytes':output.stat().st_size,'package':'org.dolmis.diyarbakir','version':'0.2.1'},ensure_ascii=False,indent=2))
+    print(json.dumps({'apk':str(output),'sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'bytes':output.stat().st_size,'package':'org.dolmis.diyarbakir','version':'0.3.0'},ensure_ascii=False,indent=2))
     print('RESULT=signed')
 
 if __name__=='__main__':

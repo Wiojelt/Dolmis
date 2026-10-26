@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" android:background="#EAF3EB">
+    <TextView android:id="@+id/widget_route" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Dolmiş · Z7" android:textColor="#153C2D" android:textSize="18sp" android:textStyle="bold" />
+    <TextView android:id="@+id/widget_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="Canlı veri bekleniyor" android:textColor="#28634F" android:textSize="14sp" />
+    <TextView android:id="@+id/widget_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Uygulamayı açıp yenile" android:textColor="#465448" android:textSize="12sp" />
+</LinearLayout>

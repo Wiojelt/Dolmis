@@ -24,7 +24,7 @@ import java.io.ByteArrayInputStream
     val payload=JSONObject().put("fitKey",state.route.code+state.direction+fit).put("selected",state.selectedBus?:"")
         .put("stops",JSONArray(stops.map { it.point!!.json().put("id",it.id) }))
         .put("buses",JSONArray(state.visibleBuses(now).map { it.point.json().put("id",it.id).put("label",it.label).put("direction",it.direction).put("fresh",it.fresh(now)).put("ageLabel",it.ageLabel(now)) }))
-        .put("paths",JSONArray(state.coordinates.filterKeys { state.direction=="all"||it==state.direction }.map { (dir,points)->JSONObject().put("direction",dir).put("points",JSONArray(points.map(Point::json))) }))
+        .put("paths",JSONArray((state.coordinates.filterKeys { state.direction=="all"||it==state.direction }.map { (dir,points)->JSONObject().put("direction",dir).put("points",JSONArray(points.map(Point::json))) } + if(state.coordinates.isEmpty()) state.visibleStops().mapNotNull { it.point }.let { points -> if(points.size>1) listOf(JSONObject().put("direction",state.direction).put("points",JSONArray(points.map(Point::json)))) else emptyList() } else emptyList())))
         .put("locate",locate).put("user",state.location?.json()?:JSONObject.NULL).toString()
     val web=remember {
         WebView(context).apply {

@@ -2,11 +2,12 @@
 const mapElement=document.getElementById('map');
 function sizeMap(){mapElement.style.height=window.innerHeight+'px';mapElement.style.width=window.innerWidth+'px';}
 sizeMap();
-const map=L.map('map',{zoomControl:false}).setView([37.94,40.16],12);
+const map=L.map('map',{zoomControl:true,zoomControlPosition:'bottomleft',touchZoom:true,scrollWheelZoom:true}).setView([37.94,40.16],12);
 window.addEventListener('resize',()=>{sizeMap();map.invalidateSize();});
 map.attributionControl.setPrefix(false);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',updateWhenIdle:true,keepBuffer:1}).addTo(map);
 const routeLayer=L.layerGroup().addTo(map),stopLayer=L.layerGroup().addTo(map),busLayer=L.layerGroup().addTo(map);
+const legend=L.control({position:'topright'});legend.onAdd=()=>{const e=L.DomUtil.create('div','map-legend');e.innerHTML='<b>Güzergâh</b><span><i class=\"legend-g\"></i> Gidiş</span><span><i class=\"legend-d\"></i> Dönüş</span><span><i class=\"legend-stop\"></i> Durak</span>';return e};legend.addTo(map);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const busIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14v12H5z M7 3h10v3 M5 12h14 M8 15h.01 M16 15h.01 M7 18v3 M17 18v3 M8 9h8"/></svg>';
 let data=null,fitKey='',selected='',userMarker=null,locateToken=0;
