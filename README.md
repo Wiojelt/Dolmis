@@ -4,7 +4,7 @@ Diyarbakır için bağımsız, reklamsız Android otobüs takip uygulaması. Tü
 
 ## Telefona yükle
 
-**[Dolmiş APK’yi indir](https://github.com/Wiojelt/Dolmis/releases/latest/download/Dolmis.apk)**
+**[Dolmiş APK’yi indir](https://github.com/Wiojelt/Dolmis/releases/latest/download/Dolmis.apk?download=1)**
 
 [Sürüm sayfası ve doğrulama dosyaları](https://github.com/Wiojelt/Dolmis/releases/latest)
 

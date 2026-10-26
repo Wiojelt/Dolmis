@@ -50,5 +50,5 @@
   ],
   "releaseBuild": "Clean checkout layout build passed; signed 0.4.0 installed on emulator-5554",
   "releasePage": "https://github.com/Wiojelt/Dolmis/releases/tag/v0.4.0",
-  "releaseAsset": "https://github.com/Wiojelt/Dolmis/releases/download/v0.4.0/Dolmis.apk"
+  "releaseAsset": "https://github.com/Wiojelt/Dolmis/releases/download/v0.4.0/Dolmis.apk?download=1"
 }
