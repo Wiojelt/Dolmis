@@ -8,6 +8,11 @@ import android.net.Uri
 import android.os.Bundle
 import android.os.Build
 import android.app.PictureInPictureParams
+import android.webkit.CookieManager
+import android.webkit.WebChromeClient
+import android.webkit.WebResourceRequest
+import android.webkit.WebView
+import android.webkit.WebViewClient
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -39,6 +44,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.compose.ui.window.DialogProperties
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.repeatOnLifecycle
@@ -164,7 +171,7 @@ private val icons=listOf(R.drawable.ic_map,R.drawable.ic_bus,R.drawable.ic_stop,
                 items(lines,key={"line"+it.code}){route->RouteRow(route,true,{state.selectRoute(route)},{state.favoriteLine(route.line)})}
                 items(stops,key={"stop"+it.id}){stop->StopRow(stop,state,state.location,{state.showStop(stop)})}
             }
-            4->PaymentScreen(content,openExternal,state)
+            4->PaymentScreen(content,state)
             5->InfoScreen(content,openExternal,state)
         }
     }
@@ -211,18 +218,61 @@ private val icons=listOf(R.drawable.ic_map,R.drawable.ic_bus,R.drawable.ic_stop,
     }
 }
 
-@Composable private fun PaymentScreen(modifier:Modifier, open:(String)->Unit, state:TransitState){
-    var card by rememberSaveable{mutableStateOf("")}; var amount by rememberSaveable{mutableIntStateOf(100)}
+@Composable private fun PaymentScreen(modifier:Modifier, state:TransitState){
+    var amount by rememberSaveable{mutableIntStateOf(100)}
+    var paymentOpen by rememberSaveable{mutableStateOf(false)}
+    var paymentUrl by rememberSaveable{mutableStateOf("https://www.diyarbakir.bel.tr/hizmetler/diyarkart-hizmetleri")}
     LazyColumn(modifier,contentPadding=PaddingValues(20.dp),verticalArrangement=Arrangement.spacedBy(14.dp)){
         item{PageTitle("Diyarkart","Kartını hazır tut")}
-        item{Card(colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.primaryContainer),shape=RoundedCornerShape(28.dp),modifier=Modifier.fillMaxWidth()){Column(Modifier.padding(20.dp),verticalArrangement=Arrangement.spacedBy(10.dp)){Row(verticalAlignment=Alignment.CenterVertically){DiyarbakirMark(Modifier.size(52.dp));Spacer(Modifier.width(12.dp));Column{Text("Diyarkart",style=MaterialTheme.typography.headlineMedium);Text("Bakiye ve güvenli yükleme",style=MaterialTheme.typography.bodyMedium)}};Text("Kart numarası cihazda saklanmaz; Dolmiş ödeme verisini görmez.",style=MaterialTheme.typography.bodySmall)}}}
-        item{OutlinedTextField(value=card,onValueChange={card=it.filter(Char::isDigit).take(16)},modifier=Modifier.fillMaxWidth(),label={Text("Diyarkart numarası (isteğe bağlı)")},singleLine=true,supportingText={Text("Hesap açmadan da resmî yükleme akışına geçebilirsin.")})}
+        item{Card(colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.primaryContainer),shape=RoundedCornerShape(28.dp),modifier=Modifier.fillMaxWidth()){Column(Modifier.padding(20.dp),verticalArrangement=Arrangement.spacedBy(10.dp)){Row(verticalAlignment=Alignment.CenterVertically){DiyarbakirMark(Modifier.size(52.dp));Spacer(Modifier.width(12.dp));Column{Text("Diyarkart",style=MaterialTheme.typography.headlineMedium);Text("Bakiye ve güvenli yükleme",style=MaterialTheme.typography.bodyMedium)}};Text("Kart numarası ve 3D doğrulama bilgileri Dolmiş'te saklanmaz.",style=MaterialTheme.typography.bodySmall)}}}
+        item{Card(Modifier.fillMaxWidth(),colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.surfaceContainerLow)){Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(8.dp)){Text("Uygulama içi güvenli ödeme",style=MaterialTheme.typography.titleMedium);Text("Ödeme penceresi resmî Diyarkart hizmetini açar. Kart numarası, CVV ve SMS/3D kodu Dolmiş'e gönderilmez.",style=MaterialTheme.typography.bodyMedium,color=MaterialTheme.colorScheme.onSurfaceVariant);Text("Gerçek yükleme için işletmecinin ödeme oturumu gerekir; Dolmiş sahte bakiye göstermez.",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)}}}
         item{Text("Yüklenecek tutar",style=MaterialTheme.typography.titleMedium)}
         item{FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp)){listOf(50,100,200,500).forEach{value->FilterChip(selected=amount==value,onClick={amount=value},label={Text("$value TL")})}}}
-        item{Button(onClick={open("https://www.diyarbakir.bel.tr/hizmetler/diyarkart-hizmetleri")},modifier=Modifier.fillMaxWidth()){Text("Güvenli yükleme adımını aç")}}
-        item{OutlinedButton(onClick={open("https://play.google.com/store/apps/details?id=com.asis.diyarbakirakillibiletim2")},modifier=Modifier.fillMaxWidth()){Text("Resmî Diyarbakır Ulaşım uygulamasını aç")}}
-        item{EmptyCard("Neden burada kart bilgisi istemiyorum?","Gerçek ödeme, belediyenin/işletmecinin PCI uyumlu ödeme ekranında tamamlanmalı. Bu bağımsız uygulama kart numaranı veya hesabını saklamaz." )}
-        item{CatalogMeta("Diyarbakır’da kartlı sisteme geçiş ve dolum noktaları belediyenin resmî duyurularında yayınlanır.")}
+        item{Button(onClick={paymentUrl="https://www.diyarbakir.bel.tr/hizmetler/diyarkart-hizmetleri";paymentOpen=true},modifier=Modifier.fillMaxWidth()){Text("$amount TL için ödeme penceresini aç")}}
+        item{OutlinedButton(onClick={paymentUrl="https://www.diyarbakir.bel.tr/hizmetler/diyarkart-hizmetleri";paymentOpen=true},modifier=Modifier.fillMaxWidth()){Text("Bakiye / kart işlemlerini aç")}}
+        item{Text("Kart hizmetleri",style=MaterialTheme.typography.titleMedium)}
+        item{PaymentActionRow("Bakiye sorgulama","Kart bakiyesi ve yükleme seçenekleri",R.drawable.ic_card){paymentUrl="https://www.diyarbakir.bel.tr/hizmetler/diyarkart-hizmetleri";paymentOpen=true}}
+        item{PaymentActionRow("Kart başvurusu","Kişiselleştirilmiş kart ve dolum noktaları",R.drawable.ic_info){paymentUrl="https://www.diyarbakir.bel.tr/hizmetler/diyarkart-hizmetleri";paymentOpen=true}}
+        item{PaymentActionRow("Ücret ve duyurular","Resmî tarife ve işletmeci açıklamaları",R.drawable.ic_external){paymentUrl="https://www.diyarbakir.bel.tr/haberler";paymentOpen=true}}
+        item{EmptyCard("3D Secure nasıl çalışır?","Ödeme sağlayıcısı bankanın doğrulama sayfasına yönlendirirse bu pencere içinde açılır. İşlem tamamlanınca pencereyi kapatabilir, sonucu yalnızca resmî ödeme ekranından kontrol edebilirsin.")}
+        item{CatalogMeta("Diyarkart hizmetleri belediyenin resmî sayfasından sunulur. Dolmiş ödeme sonucu, bakiye veya kart bilgisini değiştirmez.")}
+    }
+    if(paymentOpen) PaymentWebViewDialog(paymentUrl,{paymentOpen=false})
+}
+
+@Composable private fun PaymentActionRow(title:String,subtitle:String,icon:Int,onClick:()->Unit){
+    OutlinedCard(onClick=onClick,modifier=Modifier.fillMaxWidth(),colors=CardDefaults.outlinedCardColors(containerColor=MaterialTheme.colorScheme.surfaceContainerLowest)){
+        ListItem(headlineContent={Text(title)},supportingContent={Text(subtitle)},leadingContent={AppIcon(icon)},trailingContent={AppIcon(R.drawable.ic_chevron)},colors=ListItemDefaults.colors(containerColor=androidx.compose.ui.graphics.Color.Transparent))
+    }
+}
+
+@Composable private fun PaymentWebViewDialog(url:String,onDismiss:()->Unit){
+    androidx.compose.ui.window.Dialog(onDismissRequest=onDismiss,properties=DialogProperties(usePlatformDefaultWidth=false,dismissOnBackPress=true,dismissOnClickOutside=false)){
+        Surface(Modifier.fillMaxWidth().fillMaxHeight(.94f),shape=RoundedCornerShape(26.dp),color=MaterialTheme.colorScheme.surface){
+            Column(Modifier.fillMaxSize()){
+                Row(Modifier.fillMaxWidth().padding(start=18.dp,end=8.dp,top=8.dp,bottom=8.dp),verticalAlignment=Alignment.CenterVertically){
+                    Column(Modifier.weight(1f)){Text("Güvenli ödeme penceresi",style=MaterialTheme.typography.titleLarge);Text("Resmî Diyarkart hizmeti · 3D Secure aynı pencerede",style=MaterialTheme.typography.bodySmall,color=MaterialTheme.colorScheme.onSurfaceVariant)}
+                    IconButton(onClick=onDismiss){AppIcon(R.drawable.ic_close,"Kapat")}
+                }
+                HorizontalDivider()
+                AndroidView(factory={context->
+                    WebView(context).apply{
+                        settings.javaScriptEnabled=true
+                        settings.domStorageEnabled=true
+                        settings.allowFileAccess=false
+                        settings.allowContentAccess=false
+                        settings.setSupportMultipleWindows(false)
+                        settings.javaScriptCanOpenWindowsAutomatically=false
+                        CookieManager.getInstance().setAcceptCookie(true)
+                        webViewClient=object:WebViewClient(){
+                            override fun shouldOverrideUrlLoading(view:WebView,request:WebResourceRequest):Boolean{return request.url.scheme!="https"}
+                        }
+                        webChromeClient=WebChromeClient()
+                        loadUrl(url)
+                    }
+                },modifier=Modifier.fillMaxSize())
+            }
+        }
     }
 }
 

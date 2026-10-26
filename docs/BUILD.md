@@ -1,4 +1,4 @@
-# Dolmiş 0.3.0 — Material 3 + erişilebilirlik
+# Dolmiş 0.4.0 — Material 3 + erişilebilirlik
 
 Android arayüzü Jetpack Compose ve gerçek `androidx.compose.material3` bileşenleriyle yeniden yazıldı. shadcn M3E’nin Material 3 renk rolleri, yüzeyleri ve bileşen düzenleri tasarım referansı olarak kullanıldı. React/shadcn paketi Android uygulamasına eklenmez.
 
@@ -30,3 +30,4 @@ Kaynak yalnız bağımsız istemci kodu ve arındırılmış halka açık katalo
 - [Bottom sheets](https://developer.android.com/develop/ui/compose/components/bottom-sheets)
 - [shadcn M3E kaynakları](https://github.com/Crysta1221/shadcn-m3e) — button, card, chip ve navigation örnekleri incelendi; web bileşenlerinin yerine Android karşılıkları kullanıldı.
 - [Leaflet](https://leafletjs.com/) — BSD-2-Clause lisansı assets/vendor içinde.
+

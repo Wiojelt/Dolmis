@@ -1,11 +1,11 @@
 {
   "package": "org.dolmis.diyarbakir",
-  "version": "0.3.0",
-  "versionCode": 4,
-  "apkSha256": "4c9df2978eedf9794b5611f37c60e8855c78f1d1529ed68057b1f664f45cf203",
-  "onDeviceApkSha256": "4c9df2978eedf9794b5611f37c60e8855c78f1d1529ed68057b1f664f45cf203",
+  "version": "0.4.0",
+  "versionCode": 5,
+  "apkSha256": "05fa8563ca60fbd51b67cc8806649e2ae47773b3d3941dabe1db5fd4a6879245",
+  "onDeviceApkSha256": "05fa8563ca60fbd51b67cc8806649e2ae47773b3d3941dabe1db5fd4a6879245",
   "installedHashMatches": true,
-  "bytes": 7789195,
+  "bytes": 7805579,
   "signerCertificateSha256": "5208a345a95addbf82cd90404cdc3c76a8685d332a5df57f0235d9a4af10a57a",
   "sameSignerAs0_1": true,
   "uiImplementation": "Native Jetpack Compose Material 3 1.4.0; shadcn M3E design reference; map-only Leaflet WebView",
@@ -29,7 +29,8 @@
     "Packaged map assets exactly match current source",
     "Token/appkey scan of native source clean",
     "Payment/accessibility/PiP/widget manifest present in the rebuilt package",
-    "GitHub repository source rebuilt, signed, installed and launched as v0.3.0"
+    "In-app payment dialog opens official Diyarkart page and keeps 3D Secure navigation in WebView",
+    "Signed v0.4.0 installed and versionCode 5 verified with adb"
   ],
   "environment": {
     "android": 15,
@@ -44,10 +45,10 @@
     "Schedule service lacks verified usable schedule rows",
     "Native0.2 location flow carried over but not revalidated with physical location",
     "All115 routes not exhaustively tested",
-    "Real payment completion remains on the official operator page; no card data is stored",
-    "PiP and widget manifest/build verified; launcher/widget behavior on a physical OEM launcher remains unverified"
+    "PiP and widget manifest/build verified; launcher/widget behavior on a physical OEM launcher remains unverified",
+    "Real payment completion still depends on an official operator payment session; no card data is stored"
   ],
-  "releaseBuild": "Clean checkout layout build passed in 39s with same distribution signer",
-  "releasePage": "https://github.com/Wiojelt/Dolmis/releases/tag/v0.3.0",
-  "releaseAsset": "https://github.com/Wiojelt/Dolmis/releases/download/v0.3.0/Dolmis.apk"
+  "releaseBuild": "Clean checkout layout build passed; signed 0.4.0 installed on emulator-5554",
+  "releasePage": "https://github.com/Wiojelt/Dolmis/releases/tag/v0.4.0",
+  "releaseAsset": "https://github.com/Wiojelt/Dolmis/releases/download/v0.4.0/Dolmis.apk"
 }

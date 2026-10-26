@@ -33,7 +33,7 @@ Canlı ekran ön plandayken yaklaşık 30 saniyede bir yenilenir. Eski konumlar 
 
 ## Önizleme sınırı
 
-0.3.0 Android 15 emülatöründe derlenip kuruldu; fiziksel telefon ve bütün hatlar doğrulanmadı. Canlı veri belediyenin servisine bağlıdır.
+0.4.0 Android 15 emülatöründe derlenip kuruldu; fiziksel telefon ve bütün hatlar doğrulanmadı. Canlı veri belediyenin servisine bağlıdır. Diyarkart ödeme penceresi artık uygulama içinde açılır; 3D Secure yönlendirmeleri WebView içinde kalır ve kart verisi saklanmaz.
 
 Kart/bakiye ekranı gerçek ödeme verisini toplamaz; güvenli son adımı belediyenin/işletmecinin resmî sayfasına veya uygulamasına bırakır. QR/NFC ve hesap işlemleri için işletmeci entegrasyonu gerekir. Sefer saati servisi kullanılabilir saat tablosu vermediğinde resmî sayfaya yönlendirilir. Bu uygulama belediyenin veya mevcut uygulama sağlayıcısının resmî ürünü değildir.
 
