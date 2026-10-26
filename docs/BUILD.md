@@ -1,4 +1,4 @@
-# Dolmiş 0.2.1 — Material 3
+# Dolmiş 0.3.0 — Material 3 + erişilebilirlik
 
 Android arayüzü Jetpack Compose ve gerçek `androidx.compose.material3` bileşenleriyle yeniden yazıldı. shadcn M3E’nin Material 3 renk rolleri, yüzeyleri ve bileşen düzenleri tasarım referansı olarak kullanıldı. React/shadcn paketi Android uygulamasına eklenmez.
 

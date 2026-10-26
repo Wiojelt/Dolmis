@@ -1,11 +1,11 @@
 {
   "package": "org.dolmis.diyarbakir",
-  "version": "0.2.1",
-  "versionCode": 3,
-  "apkSha256": "7784e361e8da1592a3d557e45de91f4721875890957a3c59ad42531535a73e9d",
-  "onDeviceApkSha256": "7784e361e8da1592a3d557e45de91f4721875890957a3c59ad42531535a73e9d",
+  "version": "0.3.0",
+  "versionCode": 4,
+  "apkSha256": "4c9df2978eedf9794b5611f37c60e8855c78f1d1529ed68057b1f664f45cf203",
+  "onDeviceApkSha256": "4c9df2978eedf9794b5611f37c60e8855c78f1d1529ed68057b1f664f45cf203",
   "installedHashMatches": true,
-  "bytes": 7772699,
+  "bytes": 7789195,
   "signerCertificateSha256": "5208a345a95addbf82cd90404cdc3c76a8685d332a5df57f0235d9a4af10a57a",
   "sameSignerAs0_1": true,
   "uiImplementation": "Native Jetpack Compose Material 3 1.4.0; shadcn M3E design reference; map-only Leaflet WebView",
@@ -28,7 +28,8 @@
     "ARTEMIS read-only hierarchy and direct ADB interactions with inspected screenshots",
     "Packaged map assets exactly match current source",
     "Token/appkey scan of native source clean",
-    "GitHub repository source rebuilt, signed, installed and launched as v0.2.1"
+    "Payment/accessibility/PiP/widget manifest present in the rebuilt package",
+    "GitHub repository source rebuilt, signed, installed and launched as v0.3.0"
   ],
   "environment": {
     "android": 15,
@@ -40,12 +41,13 @@
   "limits": [
     "Physical phone and small-screen/large-font testing outstanding",
     "Soft IME visibility not verified on hardware-keyboard emulator",
-    "Payment/account QR NFC integrations remain outside preview",
     "Schedule service lacks verified usable schedule rows",
     "Native0.2 location flow carried over but not revalidated with physical location",
-    "All115 routes not exhaustively tested"
+    "All115 routes not exhaustively tested",
+    "Real payment completion remains on the official operator page; no card data is stored",
+    "PiP and widget manifest/build verified; launcher/widget behavior on a physical OEM launcher remains unverified"
   ],
   "releaseBuild": "Clean checkout layout build passed in 39s with same distribution signer",
-  "releasePage": "https://github.com/Wiojelt/Dolmis/releases/tag/v0.2.1",
-  "releaseAsset": "https://github.com/Wiojelt/Dolmis/releases/download/v0.2.1/Dolmis.apk"
+  "releasePage": "https://github.com/Wiojelt/Dolmis/releases/tag/v0.3.0",
+  "releaseAsset": "https://github.com/Wiojelt/Dolmis/releases/download/v0.3.0/Dolmis.apk"
 }
